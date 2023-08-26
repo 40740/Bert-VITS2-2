@@ -1,9 +1,9 @@
 import torch
 from torch.utils.data import DataLoader
 
-import commons
-import utils
-from data_utils import TextAudioSpeakerLoader, TextAudioSpeakerCollate
+import modules.commons as commons
+import modules.utils as utils
+from modules.data_utils import TextAudioSpeakerLoader, TextAudioSpeakerCollate
 from tqdm import tqdm
 from multiprocessing import Pool
 
@@ -43,6 +43,6 @@ def process_line(line):
 with open(hps.data.training_files) as f:
     lines = f.readlines()
 
-with Pool(processes=12) as pool: #A100 suitable config,if coom,please decrease the processess number.
+with Pool(processes=4) as pool: #A100 suitable config,if coom,please decrease the processess number.
     for _ in tqdm(pool.imap_unordered(process_line, lines)):
         pass

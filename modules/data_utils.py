@@ -5,9 +5,9 @@ import numpy as np
 import torch
 import torch.utils.data
 
-import commons
-from mel_processing import spectrogram_torch, mel_spectrogram_torch, spec_to_mel_torch
-from utils import load_wav_to_torch, load_filepaths_and_text
+import modules.commons as commons
+from modules.mel_processing import spectrogram_torch, mel_spectrogram_torch, spec_to_mel_torch
+from modules.utils import load_wav_to_torch, load_filepaths_and_text
 from text import cleaned_text_to_sequence
 
 """Multi speaker version"""

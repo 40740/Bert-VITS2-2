@@ -12,9 +12,9 @@ from torch.nn import functional as F
 from torch.utils.data import DataLoader
 
 import time
-import commons
-import utils
-from models import SynthesizerTrn
+import modules.commons as commons
+import modules.utils as utils
+from modules.models import SynthesizerTrn
 from text.symbols import symbols
 from text import cleaned_text_to_sequence,_symbol_to_id, get_bert
 from text.cleaner import clean_text

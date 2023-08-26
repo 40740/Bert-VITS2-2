@@ -9,3 +9,6 @@ torch
 torchvision
 Unidecode==1.1.1
 amfm_decompy
+openai-whisper
+# flask
+gradio

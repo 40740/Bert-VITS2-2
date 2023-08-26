@@ -1,14 +1,16 @@
 import json
-from random import shuffle
+import os
 
-import tqdm
+# download url: "https://github.com/r9y9/open_jtalk/releases/download/v1.11.1/open_jtalk_dic_utf_8-1.11.tar.gz"
+os.environ['OPEN_JTALK_DICT_DIR'] = "./download/open_jtalk_dic_utf_8-1.11"
 from text.cleaner import clean_text
 from collections import defaultdict
+import tqdm
 stage = [1,2,3]
 
-transcription_path = 'filelists/genshin.list'
-train_path = 'filelists/train.list'
-val_path = 'filelists/val.list'
+transcription_path = 'annotations/genshin.list'
+train_path = 'annotations/train.list'
+val_path = 'annotations/val.list'
 config_path = "configs/config.json"
 val_per_spk = 4
 max_val_total = 8
