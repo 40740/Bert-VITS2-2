@@ -48,9 +48,9 @@ _MODELS = {
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--languages", default="CJE")
-    parser.add_argument("--whisper_size", default="small")
-    parser.add_argument("--overwrite", default=True)
+    parser.add_argument("-l", "--languages", default="CJE")
+    parser.add_argument("-w", "--whisper_size", default="small")
+    parser.add_argument("-o", "--overwrite", default=True)
     args = parser.parse_args()
     if args.languages == "CJE":
         lang2token = {
@@ -108,8 +108,7 @@ if __name__ == "__main__":
                     tqdm.write(f"{langs[i]} not supported, ignoring\n")
                     continue
                 lang, text = langs[i], texts[i]
-                text = lang2token[lang] + text + lang2token[lang] + "\n"
-                speaker_annos.append(wav_paths[i] + "|" + speaker + "|" + text)
+                speaker_annos.append(wav_paths[i] + "|" + speaker + "|" + lang +  "|" + text + "\n")
 
         # write into annotation
         if len(speaker_annos) == 0:

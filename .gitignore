@@ -174,3 +174,5 @@ cython_debug/
 !/download/download_file_here
 !/logs/log_here
 !/pretrained_models/pretrained_model_here
+/bert/chinese-roberta-wwm-ext-large/pytorch_model.bin
+/dev

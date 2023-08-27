@@ -68,7 +68,7 @@ def run(rank, n_gpus, hps):
         #writer = wandb.summary.create_file_writer()
         writer_eval = SummaryWriter(log_dir=os.path.join(hps.model_dir, "eval"))
 
-    dist.init_process_group(backend='nccl', init_method='env://', world_size=n_gpus, rank=rank)
+    dist.init_process_group(backend="gloo" if os.name == "nt" else "nccl", init_method='env://', world_size=n_gpus, rank=rank)
     torch.manual_seed(hps.train.seed)
     torch.cuda.set_device(rank)
 
@@ -81,7 +81,7 @@ def run(rank, n_gpus, hps):
         rank=rank,
         shuffle=True)
     collate_fn = TextAudioSpeakerCollate()
-    train_loader = DataLoader(train_dataset, num_workers=24, shuffle=False, pin_memory=True,
+    train_loader = DataLoader(train_dataset, num_workers=1, shuffle=False, pin_memory=True,
                               collate_fn=collate_fn, batch_sampler=train_sampler, persistent_workers=True,prefetch_factor=4)
     if rank == 0:
         eval_dataset = TextAudioSpeakerLoader(hps.data.validation_files, hps.data)
@@ -155,29 +155,31 @@ def run(rank, n_gpus, hps):
     if net_dur_disc is not None:
         net_dur_disc = DDP(net_dur_disc, device_ids=[rank], find_unused_parameters=True)
 
-    pretrain_dir = None
-    if pretrain_dir is None:
+    pretrain_dir = "./pretrained_models"
+    try:
+        if net_dur_disc is not None:
+            _, _, _, epoch_str = utils.load_checkpoint(utils.latest_checkpoint_path(hps.model_dir, "DUR_*.pth"), net_dur_disc, optim_dur_disc, skip_optimizer=True)
+        _, _, _, epoch_str = utils.load_checkpoint(utils.latest_checkpoint_path(hps.model_dir, "G_*.pth"), net_g,
+                                                optim_g, skip_optimizer=True)
+        _, _, _, epoch_str = utils.load_checkpoint(utils.latest_checkpoint_path(hps.model_dir, "D_*.pth"), net_d,
+                                                optim_d, skip_optimizer=True)
+        epoch_str = max(epoch_str, 1)
+        global_step = (epoch_str - 1) * len(train_loader)
+    except Exception as e:
+        print(f"load model from {hps.model_dir} failed. Try to load model from {pretrain_dir}.")
         try:
             if net_dur_disc is not None:
-                _, _, _, epoch_str = utils.load_checkpoint(utils.latest_checkpoint_path(hps.model_dir, "DUR_*.pth"), net_dur_disc, optim_dur_disc, skip_optimizer=True)
-            _, _, _, epoch_str = utils.load_checkpoint(utils.latest_checkpoint_path(hps.model_dir, "G_*.pth"), net_g,
-                                                   optim_g, skip_optimizer=True)
-            _, _, _, epoch_str = utils.load_checkpoint(utils.latest_checkpoint_path(hps.model_dir, "D_*.pth"), net_d,
-                                                   optim_d, skip_optimizer=True)
-            
+                _, _, _, epoch_str = utils.load_checkpoint(utils.latest_checkpoint_path(pretrain_dir, "DUR_*.pth"), net_dur_disc, optim_dur_disc, skip_optimizer=True)
+            _, _, _, epoch_str = utils.load_checkpoint(utils.latest_checkpoint_path(pretrain_dir, "G_*.pth"), net_g,
+                                                    optim_g, True)
+            _, _, _, epoch_str = utils.load_checkpoint(utils.latest_checkpoint_path(pretrain_dir, "D_*.pth"), net_d,
+                                                    optim_d, True)
             epoch_str = max(epoch_str, 1)
             global_step = (epoch_str - 1) * len(train_loader)
         except Exception as e:
-            print(e)
+            print(f"load model from {pretrain_dir} failed. Start from scratch.")    
             epoch_str = 1
             global_step = 0
-    else:
-        _, _, _, epoch_str = utils.load_checkpoint(utils.latest_checkpoint_path(pretrain_dir, "G_*.pth"), net_g,
-                                                   optim_g, True)
-        _, _, _, epoch_str = utils.load_checkpoint(utils.latest_checkpoint_path(pretrain_dir, "D_*.pth"), net_d,
-                                                   optim_d, True)
-
-
 
     scheduler_g = torch.optim.lr_scheduler.ExponentialLR(optim_g, gamma=hps.train.lr_decay, last_epoch=epoch_str - 2)
     scheduler_d = torch.optim.lr_scheduler.ExponentialLR(optim_d, gamma=hps.train.lr_decay, last_epoch=epoch_str - 2)

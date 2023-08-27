@@ -80,6 +80,8 @@ def summarize(writer, global_step, scalars={}, histograms={}, images={}, audios=
 
 def latest_checkpoint_path(dir_path, regex="G_*.pth"):
     f_list = glob.glob(os.path.join(dir_path, regex))
+    if len(f_list) == 0:
+        raise FileNotFoundError("No checkpoint found in {}".format(dir_path))
     f_list.sort(key=lambda f: int("".join(filter(str.isdigit, f))))
     x = f_list[-1]
     print(x)
@@ -154,13 +156,13 @@ def load_filepaths_and_text(filename, split="|"):
 
 def get_hparams(init=True):
     parser = argparse.ArgumentParser()
-    parser.add_argument('-c', '--config', type=str, default="./configs/config_template.json",
+    parser.add_argument('-c', '--config', type=str, default="./configs/config.json",
                         help='JSON file for configuration')
-    parser.add_argument('-m', '--model', type=str, required=True,
+    parser.add_argument('-m', '--model', type=str, default="44k",
                         help='Model name')
 
     args = parser.parse_args()
-    model_dir = os.path.join("./logs", args.model)
+    model_dir = os.path.join("./OUTPUT_MODEL", args.model)
 
     if not os.path.exists(model_dir):
         os.makedirs(model_dir)
@@ -182,7 +184,7 @@ def get_hparams(init=True):
     return hparams
 
 
-def clean_checkpoints(path_to_models='logs/44k/', n_ckpts_to_keep=2, sort_by_time=True):
+def clean_checkpoints(path_to_models='OUTPUT_MODEL/44k/', n_ckpts_to_keep=2, sort_by_time=True):
     """Freeing up space by deleting saved ckpts
 
   Arguments:
@@ -216,7 +218,7 @@ def get_hparams_from_dir(model_dir):
 
 
 def get_hparams_from_file(config_path):
-    with open(config_path, "r") as f:
+    with open(config_path, "r", encoding="utf-8") as f:
         data = f.read()
     config = json.loads(data)
 

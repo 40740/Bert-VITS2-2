@@ -1,15 +1,14 @@
+import logging
+logging.basicConfig(level=logging.WARNING)
+
 import torch
-from torch.utils.data import DataLoader
 
 import modules.commons as commons
 import modules.utils as utils
-from modules.data_utils import TextAudioSpeakerLoader, TextAudioSpeakerCollate
-from tqdm import tqdm
-from multiprocessing import Pool
 
 from text import cleaned_text_to_sequence, get_bert
 
-config_path = 'configs/config.json'
+config_path = 'configs/config_template.json'
 hps = utils.get_hparams_from_file(config_path)
 
 def process_line(line):
@@ -40,9 +39,14 @@ def process_line(line):
         assert bert.shape[-1] == len(phone)
         torch.save(bert, bert_path)
 
-with open(hps.data.training_files) as f:
+with open(hps.data.training_files, encoding='utf-8') as f:
     lines = f.readlines()
 
-with Pool(processes=4) as pool: #A100 suitable config,if coom,please decrease the processess number.
-    for _ in tqdm(pool.imap_unordered(process_line, lines)):
-        pass
+# TODO: 目前是单线程，可以改成多线程，不过多线程还没测试
+
+for line in lines:
+    process_line(line)
+
+# with Pool(processes=4) as pool: #A100 suitable config,if coom,please decrease the processess number.
+#     for _ in tqdm(pool.imap_unordered(process_line, lines)):
+#         pass
