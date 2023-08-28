@@ -70,7 +70,7 @@ if 2 in stage:
         val_list = val_list[:max_val_total]
         
     # TODO: 测试代码，需要删除
-    train_list = val_list
+    # train_list = val_list
 
     with open(train_path, "w", encoding="utf-8") as f:
         for line in train_list:

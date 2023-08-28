@@ -18,3 +18,4 @@ jieba
 cn2an
 transformers
 pypinyin
+pyopenjtalk

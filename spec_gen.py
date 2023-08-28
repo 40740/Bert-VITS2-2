@@ -6,7 +6,7 @@ import torch
 import modules.commons as commons
 import modules.utils as utils
 
-from text import cleaned_text_to_sequence, get_bert
+from text import get_bert
 
 config_path = 'configs/config_template.json'
 hps = utils.get_hparams_from_file(config_path)
@@ -16,15 +16,10 @@ def process_line(line):
     phone = phones.split(" ")
     tone = [int(i) for i in tone.split(" ")]
     word2ph = [int(i) for i in word2ph.split(" ")]
-    # print(text, word2ph,phone, tone, language_str)
-    w2pho = [i for i in word2ph]
     word2ph = [i for i in word2ph]
-    phone, tone, language = cleaned_text_to_sequence(phone, tone, language_str)
 
     if hps.data.add_blank:
         phone = commons.intersperse(phone, 0)
-        tone = commons.intersperse(tone, 0)
-        language = commons.intersperse(language, 0)
         for i in range(len(word2ph)):
             word2ph[i] = word2ph[i] * 2
         word2ph[0] += 1
@@ -43,10 +38,9 @@ with open(hps.data.training_files, encoding='utf-8') as f:
     lines = f.readlines()
 
 # TODO: 目前是单线程，可以改成多线程，不过多线程还没测试
-
 for line in lines:
     process_line(line)
 
-# with Pool(processes=4) as pool: #A100 suitable config,if coom,please decrease the processess number.
+# with Pool(processes=16) as pool: #A100 suitable config,if coom,please decrease the processess number.
 #     for _ in tqdm(pool.imap_unordered(process_line, lines)):
 #         pass
