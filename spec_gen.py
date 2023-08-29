@@ -1,8 +1,9 @@
 import logging
 logging.basicConfig(level=logging.WARNING)
+from multiprocessing import Pool
 
 import torch
-
+from tqdm import tqdm
 import modules.commons as commons
 import modules.utils as utils
 
@@ -36,11 +37,14 @@ def process_line(line):
 
 with open(hps.data.training_files, encoding='utf-8') as f:
     lines = f.readlines()
+with open(hps.data.validation_files, encoding='utf-8') as f:
+    lines = lines + f.readlines()
 
 # TODO: 目前是单线程，可以改成多线程，不过多线程还没测试
-for line in lines:
+for line in tqdm(lines):
     process_line(line)
 
-# with Pool(processes=16) as pool: #A100 suitable config,if coom,please decrease the processess number.
-#     for _ in tqdm(pool.imap_unordered(process_line, lines)):
-#         pass
+# if __name__ == '__main__':
+#     with Pool(processes=4) as pool: #A100 suitable config,if coom,please decrease the processess number.
+#         for _ in tqdm(pool.imap_unordered(process_line, lines)):
+#             pass
