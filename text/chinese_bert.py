@@ -3,8 +3,8 @@ from transformers import AutoTokenizer, AutoModelForMaskedLM
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-tokenizer = AutoTokenizer.from_pretrained("./bert/chinese-roberta-wwm-ext-large")
-model = AutoModelForMaskedLM.from_pretrained("./bert/chinese-roberta-wwm-ext-large").to(device)
+tokenizer = AutoTokenizer.from_pretrained("./bert/bert-base-multilingual-cased")
+model = AutoModelForMaskedLM.from_pretrained("./bert/bert-base-multilingual-cased").to(device)
 
 def get_bert_feature(text, word2ph):
     with torch.no_grad():

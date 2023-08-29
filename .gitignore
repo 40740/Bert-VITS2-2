@@ -176,3 +176,5 @@ cython_debug/
 !/pretrained_models/pretrained_model_here
 /bert/chinese-roberta-wwm-ext-large/pytorch_model.bin
 /dev
+/bert/bert-base-multilingual-cased
+/测试.py

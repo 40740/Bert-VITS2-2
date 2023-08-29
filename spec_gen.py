@@ -12,7 +12,7 @@ from text import get_bert
 config_path = 'configs/config_template.json'
 hps = utils.get_hparams_from_file(config_path)
 
-def process_line(line):
+def process_line(line, overwrite=False):
     _id, spk, language_str, text, phones, tone, word2ph = line.strip().split("|")
     phone = phones.split(" ")
     tone = [int(i) for i in tone.split(" ")]
@@ -28,6 +28,8 @@ def process_line(line):
 
     bert_path = wav_path.replace(".wav", ".bert.pt")
     try:
+        if overwrite:
+            raise Exception
         bert = torch.load(bert_path)
         assert bert.shape[-1] == len(phone)
     except:
@@ -42,7 +44,7 @@ with open(hps.data.validation_files, encoding='utf-8') as f:
 
 # TODO: 目前是单线程，可以改成多线程，不过多线程还没测试
 for line in tqdm(lines):
-    process_line(line)
+    process_line(line, False)
 
 # if __name__ == '__main__':
 #     with Pool(processes=4) as pool: #A100 suitable config,if coom,please decrease the processess number.

@@ -35,12 +35,23 @@ def load_checkpoint(checkpoint_path, model, optimizer=None, skip_optimizer=False
     else:
         state_dict = model.state_dict()
     new_state_dict = {}
+    tem = list(state_dict.items())
     for k, v in state_dict.items():
         try:
             #assert "emb_g" not in k
             # print("load", k)
-            new_state_dict[k] = saved_state_dict[k]
-            assert saved_state_dict[k].shape == v.shape, (saved_state_dict[k].shape, v.shape)
+            saved_state = saved_state_dict[k]
+            if 'emb' in k:
+                if saved_state_dict[k].shape != v.shape:
+                    assert saved_state.shape[-1] == v.shape[-1]
+                    if v.shape[0] < saved_state.shape[0]:
+                        saved_state = saved_state[:v.shape[0]]
+                    else:
+                        saved_state[:v.shape[0]] = v
+                new_state_dict[k] = saved_state 
+            else:
+                new_state_dict[k] = saved_state
+                assert saved_state_dict[k].shape == v.shape, (saved_state_dict[k].shape, v.shape)
         except:
             print("error, %s is not in the checkpoint" % k)
             new_state_dict[k] = v
