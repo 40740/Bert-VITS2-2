@@ -149,7 +149,7 @@ if __name__ == "__main__":
                         sdp_ratio_slider = gr.Slider(
                             minimum=0.0,
                             maximum=1.0,
-                            value=0.667,
+                            value=0.0,
                             step=0.01,
                             label="SDP Ratio",
                         )
