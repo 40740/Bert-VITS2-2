@@ -158,18 +158,18 @@ def run(rank, n_gpus, hps):
     pretrain_dir = "./pretrained_models"
     try:
         if net_dur_disc is not None:
-            _, _, _, epoch_str = utils.load_checkpoint(utils.latest_checkpoint_path(hps.model_dir, "DUR_*.pth"), net_dur_disc, optim_dur_disc, skip_optimizer=False)
+            _, _, _, epoch_str = utils.load_checkpoint(utils.latest_checkpoint_path(hps.model_dir, "DUR_*.pth"), net_dur_disc, optim_dur_disc, skip_optimizer=True)
         _, _, _, epoch_str = utils.load_checkpoint(utils.latest_checkpoint_path(hps.model_dir, "G_*.pth"), net_g,
-                                                optim_g, skip_optimizer=False)
+                                                optim_g, skip_optimizer=True)
         _, _, _, epoch_str = utils.load_checkpoint(utils.latest_checkpoint_path(hps.model_dir, "D_*.pth"), net_d,
-                                                optim_d, skip_optimizer=False)
+                                                optim_d, skip_optimizer=True)
         epoch_str = max(epoch_str, 1)
         global_step = (epoch_str - 1) * len(train_loader)
     except Exception as e:
         print(f"load model from {hps.model_dir} failed. Try to load model from {pretrain_dir}.")
         try:
             if net_dur_disc is not None:
-                _, _, _, epoch_str = utils.load_checkpoint(utils.latest_checkpoint_path(pretrain_dir, "DUR_*.pth"), net_dur_disc, optim_dur_disc, skip_optimizer=False)
+                _, _, _, epoch_str = utils.load_checkpoint(utils.latest_checkpoint_path(pretrain_dir, "DUR_*.pth"), net_dur_disc, optim_dur_disc, skip_optimizer=True)
             _, _, _, epoch_str = utils.load_checkpoint(utils.latest_checkpoint_path(pretrain_dir, "G_*.pth"), net_g,
                                                     optim_g, skip_optimizer=False)
             _, _, _, epoch_str = utils.load_checkpoint(utils.latest_checkpoint_path(pretrain_dir, "D_*.pth"), net_d,
