@@ -57,6 +57,8 @@ def load_checkpoint(checkpoint_path, model, optimizer=None, skip_optimizer=False
 def save_checkpoint(model, optimizer, learning_rate, iteration, checkpoint_path):
     logger.info("Saving model and optimizer state at iteration {} to {}".format(
         iteration, checkpoint_path))
+    print("Saving model and optimizer state at iteration {} to {}".format(
+        iteration, checkpoint_path))
     if hasattr(model, 'module'):
         state_dict = model.module.state_dict()
     else:
@@ -183,7 +185,7 @@ def get_hparams(init=True):
     hparams.model_dir = model_dir
     return hparams
 
-
+'''
 def clean_checkpoints(path_to_models='OUTPUT_MODEL/44k/', n_ckpts_to_keep=2, sort_by_time=True):
     """Freeing up space by deleting saved ckpts
 
@@ -200,6 +202,42 @@ def clean_checkpoints(path_to_models='OUTPUT_MODEL/44k/', n_ckpts_to_keep=2, sor
     sort_key = time_key if sort_by_time else name_key
     x_sorted = lambda _x: sorted([f for f in ckpts_files if f.startswith(_x) and not f.endswith('_0.pth')],
                                  key=sort_key)
+    to_del = [os.path.join(path_to_models, fn) for fn in
+              (x_sorted('G')[:-n_ckpts_to_keep] + x_sorted('D')[:-n_ckpts_to_keep])]
+    del_info = lambda fn: logger.info(f".. Free up space by deleting ckpt {fn}")
+    del_routine = lambda x: [os.remove(x), del_info(x)]
+    rs = [del_routine(fn) for fn in to_del]
+'''
+def clean_checkpoints(path_to_models='OUTPUT_MODEL/44k/', n_ckpts_to_keep=2, sort_by_time=True):
+    """Freeing up space by deleting saved ckpts
+
+  Arguments:
+  path_to_models    --  Path to the model directory
+  n_ckpts_to_keep   --  Number of ckpts to keep, excluding G_0.pth and D_0.pth
+  sort_by_time      --  True -> chronologically delete ckpts
+                        False -> lexicographically delete ckpts
+  """
+    import re
+    ckpts_files = [f for f in os.listdir(path_to_models) if os.path.isfile(os.path.join(path_to_models, f))]
+    name_key = (lambda _f: int(re.compile('._(\d+)\.pth').match(_f).group(1)))
+    time_key = (lambda _f: os.path.getmtime(os.path.join(path_to_models, _f)))
+    sort_key = time_key if sort_by_time else name_key
+
+     # Modify the x_sorted lambda function to exclude files in the specified list
+    exclude_files = [
+        'G_10000.pth', 'G_20000.pth', 'G_30000.pth', 'G_40000.pth', 'G_50000.pth', 'G_60000.pth',
+        'G_70000.pth', 'G_80000.pth', 'G_90000.pth', 'G_100000.pth', 'G_110000.pth', 'G_120000.pth',
+        'G_130000.pth', 'G_140000.pth', 'G_160000.pth', 'G_170000.pth', 'G_180000.pth', 'G_190000.pth',
+        'G_200000.pth', 'G_210000.pth', 'G_220000.pth'
+    ]
+
+    #x_sorted = lambda _x: sorted([f for f in ckpts_files if f.startswith(_x) and not f.endswith('_0.pth')],
+                                # key=sort_key)
+
+    x_sorted = lambda _x: sorted([f for f in ckpts_files if f.startswith(_x) and not f.endswith('_0.pth') and f not in exclude_files],
+                                 key=sort_key)
+
+    print("当前文件：",x_sorted('G'))  # Print the sorted 'G' model files
     to_del = [os.path.join(path_to_models, fn) for fn in
               (x_sorted('G')[:-n_ckpts_to_keep] + x_sorted('D')[:-n_ckpts_to_keep])]
     del_info = lambda fn: logger.info(f".. Free up space by deleting ckpt {fn}")
