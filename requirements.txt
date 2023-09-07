@@ -7,15 +7,10 @@ numpy
 phonemizer
 scipy
 tensorboard
-torch        
-torchaudio  
+torch         
 Unidecode
 amfm_decompy
-openai-whisper
-rich
-gradio
 jieba
 cn2an
 transformers
 pypinyin
-pyopenjtalk

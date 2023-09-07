@@ -1,0 +1,1049 @@
+2023-08-30 23:35:58,489	44k	INFO	{'train': {'log_interval': 200, 'eval_interval': 200, 'seed': 52, 'epochs': 10000, 'learning_rate': 0.0003, 'betas': [0.8, 0.99], 'eps': 1e-09, 'batch_size': 8, 'fp16_run': False, 'lr_decay': 0.999875, 'segment_size': 16384, 'init_lr_ratio': 1, 'warmup_epochs': 0, 'c_mel': 45, 'c_kl': 1.0}, 'data': {'use_mel_posterior_encoder': False, 'training_files': 'annotations/train.list', 'validation_files': 'annotations/val.list', 'max_wav_value': 32768.0, 'sampling_rate': 44100, 'filter_length': 2048, 'hop_length': 512, 'win_length': 2048, 'n_mel_channels': 128, 'mel_fmin': 0.0, 'mel_fmax': None, 'add_blank': True, 'n_speakers': 256, 'cleaned_text': True, 'spk2id': {'one': 0, 'bannite': 1}}, 'model': {'use_spk_conditioned_encoder': True, 'use_noise_scaled_mas': True, 'use_mel_posterior_encoder': False, 'use_duration_discriminator': True, 'inter_channels': 192, 'hidden_channels': 192, 'filter_channels': 768, 'n_heads': 2, 'n_layers': 6, 'kernel_size': 3, 'p_dropout': 0.1, 'resblock': '1', 'resblock_kernel_sizes': [3, 7, 11], 'resblock_dilation_sizes': [[1, 3, 5], [1, 3, 5], [1, 3, 5]], 'upsample_rates': [8, 8, 2, 2, 2], 'upsample_initial_channel': 512, 'upsample_kernel_sizes': [16, 16, 8, 2, 2], 'n_layers_q': 3, 'use_spectral_norm': False, 'gin_channels': 256}, 'model_dir': '/content/drive/MyDrive/VITS2/44k'}
+2023-08-30 23:35:58,490	44k	WARNING	/content/Bert-VITS2/modules is not a git repository, therefore hash value comparison will be ignored.
+2023-08-30 23:36:08,257	44k	INFO	Loaded checkpoint '/content/drive/MyDrive/VITS2/44k/DUR_400.pth' (iteration 3)
+2023-08-30 23:36:10,090	44k	INFO	Loaded checkpoint '/content/drive/MyDrive/VITS2/44k/G_400.pth' (iteration 3)
+2023-08-30 23:36:11,294	44k	INFO	Loaded checkpoint '/content/drive/MyDrive/VITS2/44k/D_400.pth' (iteration 3)
+2023-08-30 23:39:26,869	44k	INFO	{'train': {'log_interval': 200, 'eval_interval': 200, 'seed': 52, 'epochs': 10000, 'learning_rate': 0.0003, 'betas': [0.8, 0.99], 'eps': 1e-09, 'batch_size': 8, 'fp16_run': False, 'lr_decay': 0.999875, 'segment_size': 16384, 'init_lr_ratio': 1, 'warmup_epochs': 0, 'c_mel': 45, 'c_kl': 1.0}, 'data': {'use_mel_posterior_encoder': False, 'training_files': 'annotations/train.list', 'validation_files': 'annotations/val.list', 'max_wav_value': 32768.0, 'sampling_rate': 44100, 'filter_length': 2048, 'hop_length': 512, 'win_length': 2048, 'n_mel_channels': 128, 'mel_fmin': 0.0, 'mel_fmax': None, 'add_blank': True, 'n_speakers': 256, 'cleaned_text': True, 'spk2id': {'one': 0, 'bannite': 1}}, 'model': {'use_spk_conditioned_encoder': True, 'use_noise_scaled_mas': True, 'use_mel_posterior_encoder': False, 'use_duration_discriminator': True, 'inter_channels': 192, 'hidden_channels': 192, 'filter_channels': 768, 'n_heads': 2, 'n_layers': 6, 'kernel_size': 3, 'p_dropout': 0.1, 'resblock': '1', 'resblock_kernel_sizes': [3, 7, 11], 'resblock_dilation_sizes': [[1, 3, 5], [1, 3, 5], [1, 3, 5]], 'upsample_rates': [8, 8, 2, 2, 2], 'upsample_initial_channel': 512, 'upsample_kernel_sizes': [16, 16, 8, 2, 2], 'n_layers_q': 3, 'use_spectral_norm': False, 'gin_channels': 256}, 'model_dir': '/content/drive/MyDrive/VITS2/44k'}
+2023-08-30 23:39:26,870	44k	WARNING	/content/Bert-VITS2/modules is not a git repository, therefore hash value comparison will be ignored.
+2023-08-30 23:39:31,789	44k	INFO	Loaded checkpoint '/content/drive/MyDrive/VITS2/44k/DUR_400.pth' (iteration 3)
+2023-08-30 23:39:33,499	44k	INFO	Loaded checkpoint '/content/drive/MyDrive/VITS2/44k/G_400.pth' (iteration 3)
+2023-08-30 23:39:39,699	44k	INFO	Loaded checkpoint '/content/drive/MyDrive/VITS2/44k/D_400.pth' (iteration 3)
+2023-08-30 23:41:34,858	44k	INFO	Train Epoch: 3 [22%]
+2023-08-30 23:41:34,859	44k	INFO	[2.4374775886535645, 2.1995584964752197, 7.9997663497924805, 23.65825653076172, 2.2663323879241943, 2.0749197006225586, 400, 0.00029988751406191406]
+2023-08-30 23:44:41,996	44k	INFO	Saving model and optimizer state at iteration 3 to /content/drive/MyDrive/VITS2/44k/G_400.pth
+2023-08-30 23:44:45,509	44k	INFO	Saving model and optimizer state at iteration 3 to /content/drive/MyDrive/VITS2/44k/D_400.pth
+2023-08-30 23:44:51,671	44k	INFO	Saving model and optimizer state at iteration 3 to /content/drive/MyDrive/VITS2/44k/DUR_400.pth
+2023-08-30 23:49:09,613	44k	INFO	====> Epoch: 3
+2023-08-30 23:50:42,402	44k	INFO	Train Epoch: 4 [33%]
+2023-08-30 23:50:42,403	44k	INFO	[2.5082826614379883, 2.467468500137329, 7.820610046386719, 22.76474380493164, 2.481755256652832, 1.6688580513000488, 600, 0.00029985002812265633]
+2023-08-30 23:53:04,934	44k	INFO	Saving model and optimizer state at iteration 4 to /content/drive/MyDrive/VITS2/44k/G_600.pth
+2023-08-30 23:53:13,819	44k	INFO	Saving model and optimizer state at iteration 4 to /content/drive/MyDrive/VITS2/44k/D_600.pth
+2023-08-30 23:53:16,363	44k	INFO	Saving model and optimizer state at iteration 4 to /content/drive/MyDrive/VITS2/44k/DUR_600.pth
+2023-08-30 23:53:16,496	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/DUR_200.pth
+2023-08-30 23:56:12,541	44k	INFO	====> Epoch: 4
+2023-08-30 23:58:05,084	44k	INFO	Train Epoch: 5 [44%]
+2023-08-30 23:58:05,085	44k	INFO	[2.3810455799102783, 2.547633647918701, 7.114521026611328, 23.08229637145996, 2.4056224822998047, 2.233733892440796, 800, 0.000299812546869141]
+2023-08-31 00:00:21,520	44k	INFO	Saving model and optimizer state at iteration 5 to /content/drive/MyDrive/VITS2/44k/G_800.pth
+2023-08-31 00:00:32,283	44k	INFO	Saving model and optimizer state at iteration 5 to /content/drive/MyDrive/VITS2/44k/D_800.pth
+2023-08-31 00:00:42,976	44k	INFO	Saving model and optimizer state at iteration 5 to /content/drive/MyDrive/VITS2/44k/DUR_800.pth
+2023-08-31 00:03:02,129	44k	INFO	====> Epoch: 5
+2023-08-31 00:05:23,013	44k	INFO	Train Epoch: 6 [56%]
+2023-08-31 00:05:23,015	44k	INFO	[2.3778672218322754, 2.438966989517212, 11.912599563598633, 23.988866806030273, 2.339751720428467, 2.4218478202819824, 1000, 0.00029977507030078235]
+2023-08-31 00:07:45,023	44k	INFO	Saving model and optimizer state at iteration 6 to /content/drive/MyDrive/VITS2/44k/G_1000.pth
+2023-08-31 00:07:58,226	44k	INFO	Saving model and optimizer state at iteration 6 to /content/drive/MyDrive/VITS2/44k/D_1000.pth
+2023-08-31 00:08:06,384	44k	INFO	Saving model and optimizer state at iteration 6 to /content/drive/MyDrive/VITS2/44k/DUR_1000.pth
+2023-08-31 00:08:06,496	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_600.pth
+2023-08-31 00:09:57,563	44k	INFO	====> Epoch: 6
+2023-08-31 00:12:41,638	44k	INFO	Train Epoch: 7 [67%]
+2023-08-31 00:12:41,640	44k	INFO	[2.6696841716766357, 2.097820520401001, 9.284443855285645, 22.40571403503418, 2.1846203804016113, 2.3314363956451416, 1200, 0.00029973759841699473]
+2023-08-31 00:14:44,330	44k	INFO	Saving model and optimizer state at iteration 7 to /content/drive/MyDrive/VITS2/44k/G_1200.pth
+2023-08-31 00:14:51,104	44k	INFO	Saving model and optimizer state at iteration 7 to /content/drive/MyDrive/VITS2/44k/D_1200.pth
+2023-08-31 00:14:55,639	44k	INFO	Saving model and optimizer state at iteration 7 to /content/drive/MyDrive/VITS2/44k/DUR_1200.pth
+2023-08-31 00:16:17,162	44k	INFO	====> Epoch: 7
+2023-08-31 00:19:30,611	44k	INFO	Train Epoch: 8 [78%]
+2023-08-31 00:19:30,613	44k	INFO	[2.252591609954834, 2.7495076656341553, 8.486932754516602, 22.220190048217773, 2.3596434593200684, 2.214172840118408, 1400, 0.00029970013121719257]
+2023-08-31 00:21:25,856	44k	INFO	Saving model and optimizer state at iteration 8 to /content/drive/MyDrive/VITS2/44k/G_1400.pth
+2023-08-31 00:21:34,800	44k	INFO	Saving model and optimizer state at iteration 8 to /content/drive/MyDrive/VITS2/44k/D_1400.pth
+2023-08-31 00:21:49,602	44k	INFO	Saving model and optimizer state at iteration 8 to /content/drive/MyDrive/VITS2/44k/DUR_1400.pth
+2023-08-31 00:21:49,750	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_1000.pth
+2023-08-31 00:22:47,018	44k	INFO	====> Epoch: 8
+2023-08-31 00:26:26,623	44k	INFO	Train Epoch: 9 [89%]
+2023-08-31 00:26:26,624	44k	INFO	[2.643618106842041, 2.903447151184082, 7.708125591278076, 23.180761337280273, 2.3551254272460938, 1.7666536569595337, 1600, 0.0002996626687007904]
+2023-08-31 00:28:22,597	44k	INFO	Saving model and optimizer state at iteration 9 to /content/drive/MyDrive/VITS2/44k/G_1600.pth
+2023-08-31 00:28:36,424	44k	INFO	Saving model and optimizer state at iteration 9 to /content/drive/MyDrive/VITS2/44k/D_1600.pth
+2023-08-31 00:28:57,991	44k	INFO	Saving model and optimizer state at iteration 9 to /content/drive/MyDrive/VITS2/44k/DUR_1600.pth
+2023-08-31 00:28:58,155	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/DUR_1000.pth
+2023-08-31 00:28:58,162	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_1200.pth
+2023-08-31 00:29:25,875	44k	INFO	====> Epoch: 9
+2023-08-31 00:33:30,485	44k	INFO	====> Epoch: 10
+2023-08-31 00:33:31,872	44k	INFO	Train Epoch: 11 [0%]
+2023-08-31 00:33:31,873	44k	INFO	[2.4814398288726807, 2.317981004714966, 7.120728492736816, 22.740489959716797, 2.2237486839294434, 1.907362461090088, 1800, 0.00029958775771584436]
+2023-08-31 00:35:20,305	44k	INFO	Saving model and optimizer state at iteration 11 to /content/drive/MyDrive/VITS2/44k/G_1800.pth
+2023-08-31 00:35:52,619	44k	INFO	Saving model and optimizer state at iteration 11 to /content/drive/MyDrive/VITS2/44k/D_1800.pth
+2023-08-31 00:36:16,598	44k	INFO	Saving model and optimizer state at iteration 11 to /content/drive/MyDrive/VITS2/44k/DUR_1800.pth
+2023-08-31 00:36:16,867	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/DUR_1200.pth
+2023-08-31 00:36:16,878	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_1400.pth
+2023-08-31 00:40:21,897	44k	INFO	====> Epoch: 11
+2023-08-31 00:40:51,073	44k	INFO	Train Epoch: 12 [11%]
+2023-08-31 00:40:51,074	44k	INFO	[2.58583927154541, 2.1031579971313477, 9.146048545837402, 22.538436889648438, 2.181727409362793, 2.172776937484741, 2000, 0.0002995503092461299]
+2023-08-31 00:42:39,117	44k	INFO	Saving model and optimizer state at iteration 12 to /content/drive/MyDrive/VITS2/44k/G_2000.pth
+2023-08-31 00:43:13,961	44k	INFO	Saving model and optimizer state at iteration 12 to /content/drive/MyDrive/VITS2/44k/D_2000.pth
+2023-08-31 00:43:38,475	44k	INFO	Saving model and optimizer state at iteration 12 to /content/drive/MyDrive/VITS2/44k/DUR_2000.pth
+2023-08-31 00:43:38,883	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/G_1000.pth
+2023-08-31 00:43:38,888	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/DUR_1400.pth
+2023-08-31 00:43:38,890	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_1600.pth
+2023-08-31 00:47:14,514	44k	INFO	====> Epoch: 12
+2023-08-31 00:48:09,412	44k	INFO	Train Epoch: 13 [22%]
+2023-08-31 00:48:09,414	44k	INFO	[2.4633119106292725, 2.465574264526367, 7.36333703994751, 21.696056365966797, 2.317333459854126, 1.9800388813018799, 2200, 0.0002995128654574741]
+2023-08-31 00:49:53,483	44k	INFO	Saving model and optimizer state at iteration 13 to /content/drive/MyDrive/VITS2/44k/G_2200.pth
+2023-08-31 00:50:24,450	44k	INFO	Saving model and optimizer state at iteration 13 to /content/drive/MyDrive/VITS2/44k/D_2200.pth
+2023-08-31 00:50:54,793	44k	INFO	Saving model and optimizer state at iteration 13 to /content/drive/MyDrive/VITS2/44k/DUR_2200.pth
+2023-08-31 00:50:55,063	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/G_1200.pth
+2023-08-31 00:50:55,065	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/DUR_1600.pth
+2023-08-31 00:50:55,067	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_1800.pth
+2023-08-31 00:54:00,422	44k	INFO	====> Epoch: 13
+2023-08-31 00:55:21,982	44k	INFO	Train Epoch: 14 [33%]
+2023-08-31 00:55:21,984	44k	INFO	[2.354217767715454, 2.6612131595611572, 8.19278621673584, 22.36597442626953, 2.224001407623291, 2.0418052673339844, 2400, 0.0002994754263492919]
+2023-08-31 00:56:54,240	44k	INFO	Saving model and optimizer state at iteration 14 to /content/drive/MyDrive/VITS2/44k/G_2400.pth
+2023-08-31 00:57:26,697	44k	INFO	Saving model and optimizer state at iteration 14 to /content/drive/MyDrive/VITS2/44k/D_2400.pth
+2023-08-31 00:57:58,216	44k	INFO	Saving model and optimizer state at iteration 14 to /content/drive/MyDrive/VITS2/44k/DUR_2400.pth
+2023-08-31 00:57:58,543	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/G_1400.pth
+2023-08-31 00:57:58,547	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/DUR_1800.pth
+2023-08-31 00:57:58,549	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_2000.pth
+2023-08-31 01:00:37,600	44k	INFO	====> Epoch: 14
+2023-08-31 01:02:25,475	44k	INFO	Train Epoch: 15 [44%]
+2023-08-31 01:02:25,477	44k	INFO	[2.610092878341675, 2.1768360137939453, 6.627311706542969, 18.856670379638672, 2.256462574005127, 2.4695558547973633, 2600, 0.00029943799192099825]
+2023-08-31 01:03:48,191	44k	INFO	Saving model and optimizer state at iteration 15 to /content/drive/MyDrive/VITS2/44k/G_2600.pth
+2023-08-31 01:04:26,184	44k	INFO	Saving model and optimizer state at iteration 15 to /content/drive/MyDrive/VITS2/44k/D_2600.pth
+2023-08-31 01:05:01,084	44k	INFO	Saving model and optimizer state at iteration 15 to /content/drive/MyDrive/VITS2/44k/DUR_2600.pth
+2023-08-31 01:05:01,237	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/G_1600.pth
+2023-08-31 01:05:01,245	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/DUR_2000.pth
+2023-08-31 01:05:01,247	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_2200.pth
+2023-08-31 01:07:14,076	44k	INFO	====> Epoch: 15
+2023-08-31 01:09:32,056	44k	INFO	Train Epoch: 16 [56%]
+2023-08-31 01:09:32,058	44k	INFO	[2.5001463890075684, 2.496025562286377, 7.214909553527832, 21.58633041381836, 2.2783913612365723, 2.0552237033843994, 2800, 0.0002994005621720081]
+2023-08-31 01:10:53,893	44k	INFO	Saving model and optimizer state at iteration 16 to /content/drive/MyDrive/VITS2/44k/G_2800.pth
+2023-08-31 01:11:33,574	44k	INFO	Saving model and optimizer state at iteration 16 to /content/drive/MyDrive/VITS2/44k/D_2800.pth
+2023-08-31 01:12:08,842	44k	INFO	Saving model and optimizer state at iteration 16 to /content/drive/MyDrive/VITS2/44k/DUR_2800.pth
+2023-08-31 01:12:13,649	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/G_1800.pth
+2023-08-31 01:12:13,652	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/DUR_2200.pth
+2023-08-31 01:12:13,655	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_2400.pth
+2023-08-31 01:14:02,295	44k	INFO	====> Epoch: 16
+2023-08-31 01:16:45,400	44k	INFO	Train Epoch: 17 [67%]
+2023-08-31 01:16:45,401	44k	INFO	[2.4992988109588623, 2.6260712146759033, 6.402594566345215, 21.058229446411133, 2.2385709285736084, 1.9112257957458496, 3000, 0.0002993631371017366]
+2023-08-31 01:18:16,416	44k	INFO	Saving model and optimizer state at iteration 17 to /content/drive/MyDrive/VITS2/44k/G_3000.pth
+2023-08-31 01:18:59,749	44k	INFO	Saving model and optimizer state at iteration 17 to /content/drive/MyDrive/VITS2/44k/D_3000.pth
+2023-08-31 01:19:39,970	44k	INFO	Saving model and optimizer state at iteration 17 to /content/drive/MyDrive/VITS2/44k/DUR_3000.pth
+2023-08-31 01:19:40,194	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/G_2000.pth
+2023-08-31 01:19:40,199	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/DUR_2400.pth
+2023-08-31 01:19:40,219	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_2600.pth
+2023-08-31 01:21:01,626	44k	INFO	====> Epoch: 17
+2023-08-31 01:24:10,316	44k	INFO	Train Epoch: 18 [78%]
+2023-08-31 01:24:10,318	44k	INFO	[2.33855938911438, 2.6934397220611572, 8.26682186126709, 22.1015682220459, 2.1567182540893555, 2.6586434841156006, 3200, 0.00029932571670959887]
+2023-08-31 01:25:43,091	44k	INFO	Saving model and optimizer state at iteration 18 to /content/drive/MyDrive/VITS2/44k/G_3200.pth
+2023-08-31 01:26:29,290	44k	INFO	Saving model and optimizer state at iteration 18 to /content/drive/MyDrive/VITS2/44k/D_3200.pth
+2023-08-31 01:27:15,774	44k	INFO	Saving model and optimizer state at iteration 18 to /content/drive/MyDrive/VITS2/44k/DUR_3200.pth
+2023-08-31 01:27:16,109	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/G_2200.pth
+2023-08-31 01:27:16,111	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/DUR_2600.pth
+2023-08-31 01:27:16,114	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_2800.pth
+2023-08-31 01:28:13,370	44k	INFO	====> Epoch: 18
+2023-08-31 01:31:48,574	44k	INFO	Train Epoch: 19 [89%]
+2023-08-31 01:31:48,576	44k	INFO	[2.352891445159912, 2.3863964080810547, 8.931965827941895, 22.819381713867188, 2.064164638519287, 2.400454044342041, 3400, 0.00029928830099501015]
+2023-08-31 01:33:17,208	44k	INFO	Saving model and optimizer state at iteration 19 to /content/drive/MyDrive/VITS2/44k/G_3400.pth
+2023-08-31 01:34:14,712	44k	INFO	Saving model and optimizer state at iteration 19 to /content/drive/MyDrive/VITS2/44k/D_3400.pth
+2023-08-31 01:34:59,982	44k	INFO	Saving model and optimizer state at iteration 19 to /content/drive/MyDrive/VITS2/44k/DUR_3400.pth
+2023-08-31 01:35:00,150	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/DUR_2800.pth
+2023-08-31 01:35:00,154	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_3000.pth
+2023-08-31 01:35:27,082	44k	INFO	====> Epoch: 19
+2023-08-31 01:39:24,998	44k	INFO	====> Epoch: 20
+2023-08-31 01:39:26,527	44k	INFO	Train Epoch: 21 [0%]
+2023-08-31 01:39:26,529	44k	INFO	[2.623289108276367, 2.2229039669036865, 7.55573844909668, 20.916458129882812, 2.290513753890991, 2.289170742034912, 3600, 0.0002992134835961411]
+2023-08-31 01:40:46,547	44k	INFO	Saving model and optimizer state at iteration 21 to /content/drive/MyDrive/VITS2/44k/G_3600.pth
+2023-08-31 01:41:54,727	44k	INFO	Saving model and optimizer state at iteration 21 to /content/drive/MyDrive/VITS2/44k/D_3600.pth
+2023-08-31 01:42:54,965	44k	INFO	Saving model and optimizer state at iteration 21 to /content/drive/MyDrive/VITS2/44k/DUR_3600.pth
+2023-08-31 01:46:55,032	44k	INFO	====> Epoch: 21
+2023-08-31 01:47:21,373	44k	INFO	Train Epoch: 22 [11%]
+2023-08-31 01:47:21,374	44k	INFO	[2.3454575538635254, 2.3348402976989746, 7.678046703338623, 21.473413467407227, 2.1501615047454834, 1.8803069591522217, 3800, 0.00029917608191069156]
+2023-08-31 01:48:42,349	44k	INFO	Saving model and optimizer state at iteration 22 to /content/drive/MyDrive/VITS2/44k/G_3800.pth
+2023-08-31 01:50:00,120	44k	INFO	Saving model and optimizer state at iteration 22 to /content/drive/MyDrive/VITS2/44k/D_3800.pth
+2023-08-31 01:51:19,556	44k	INFO	Saving model and optimizer state at iteration 22 to /content/drive/MyDrive/VITS2/44k/DUR_3800.pth
+2023-08-31 01:54:56,305	44k	INFO	====> Epoch: 22
+2023-08-31 01:55:51,030	44k	INFO	Train Epoch: 23 [22%]
+2023-08-31 01:55:51,031	44k	INFO	[2.3423261642456055, 2.548309803009033, 8.787899017333984, 22.304412841796875, 2.221923828125, 2.253323554992676, 4000, 0.0002991386849004527]
+2023-08-31 01:57:05,127	44k	INFO	Saving model and optimizer state at iteration 23 to /content/drive/MyDrive/VITS2/44k/G_4000.pth
+2023-08-31 01:58:38,645	44k	INFO	Saving model and optimizer state at iteration 23 to /content/drive/MyDrive/VITS2/44k/D_4000.pth
+2023-08-31 02:00:15,727	44k	INFO	Saving model and optimizer state at iteration 23 to /content/drive/MyDrive/VITS2/44k/DUR_4000.pth
+2023-08-31 02:00:15,892	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_3600.pth
+2023-08-31 02:03:21,760	44k	INFO	====> Epoch: 23
+2023-08-31 02:04:42,822	44k	INFO	Train Epoch: 24 [33%]
+2023-08-31 02:04:42,824	44k	INFO	[2.452479362487793, 2.4597177505493164, 7.422661781311035, 22.122331619262695, 2.1959664821624756, 2.265686273574829, 4200, 0.00029910129256484016]
+2023-08-31 02:06:02,089	44k	INFO	Saving model and optimizer state at iteration 24 to /content/drive/MyDrive/VITS2/44k/G_4200.pth
+2023-08-31 02:08:15,019	44k	INFO	Saving model and optimizer state at iteration 24 to /content/drive/MyDrive/VITS2/44k/D_4200.pth
+2023-08-31 02:10:23,007	44k	INFO	Saving model and optimizer state at iteration 24 to /content/drive/MyDrive/VITS2/44k/DUR_4200.pth
+2023-08-31 02:10:23,187	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_3800.pth
+2023-08-31 02:13:01,001	44k	INFO	====> Epoch: 24
+2023-08-31 02:14:47,706	44k	INFO	Train Epoch: 25 [44%]
+2023-08-31 02:14:47,708	44k	INFO	[2.6678991317749023, 2.536417245864868, 7.770618915557861, 22.489992141723633, 1.9918292760849, 2.0064589977264404, 4400, 0.0002990639049032695]
+2023-08-31 02:16:00,664	44k	INFO	Saving model and optimizer state at iteration 25 to /content/drive/MyDrive/VITS2/44k/G_4400.pth
+2023-08-31 02:19:12,876	44k	INFO	Saving model and optimizer state at iteration 25 to /content/drive/MyDrive/VITS2/44k/D_4400.pth
+2023-08-31 02:22:30,149	44k	INFO	Saving model and optimizer state at iteration 25 to /content/drive/MyDrive/VITS2/44k/DUR_4400.pth
+2023-08-31 02:24:44,905	44k	INFO	====> Epoch: 25
+2023-08-31 02:27:01,164	44k	INFO	Train Epoch: 26 [56%]
+2023-08-31 02:27:01,165	44k	INFO	[2.527405261993408, 2.194469928741455, 8.2662353515625, 21.12200927734375, 2.4218647480010986, 2.616957902908325, 4600, 0.0002990265219151566]
+2023-08-31 02:28:26,295	44k	INFO	Saving model and optimizer state at iteration 26 to /content/drive/MyDrive/VITS2/44k/G_4600.pth
+2023-08-31 02:33:02,423	44k	INFO	Saving model and optimizer state at iteration 26 to /content/drive/MyDrive/VITS2/44k/D_4600.pth
+2023-08-31 02:37:49,085	44k	INFO	Saving model and optimizer state at iteration 26 to /content/drive/MyDrive/VITS2/44k/DUR_4600.pth
+2023-08-31 02:37:51,837	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_4200.pth
+2023-08-31 02:39:36,982	44k	INFO	====> Epoch: 26
+2023-08-31 02:42:18,825	44k	INFO	Train Epoch: 27 [67%]
+2023-08-31 02:42:18,830	44k	INFO	[2.4085793495178223, 2.4524476528167725, 8.674936294555664, 22.56338119506836, 2.101588726043701, 1.8908265829086304, 4800, 0.00029898914359991716]
+2023-08-31 02:43:36,547	44k	INFO	Saving model and optimizer state at iteration 27 to /content/drive/MyDrive/VITS2/44k/G_4800.pth
+2023-08-31 02:51:03,176	44k	INFO	Saving model and optimizer state at iteration 27 to /content/drive/MyDrive/VITS2/44k/D_4800.pth
+2023-09-01 00:55:32,277	44k	INFO	{'train': {'log_interval': 200, 'eval_interval': 200, 'seed': 52, 'epochs': 10000, 'learning_rate': 0.0003, 'betas': [0.8, 0.99], 'eps': 1e-09, 'batch_size': 8, 'fp16_run': False, 'lr_decay': 0.999875, 'segment_size': 16384, 'init_lr_ratio': 1, 'warmup_epochs': 0, 'c_mel': 45, 'c_kl': 1.0}, 'data': {'use_mel_posterior_encoder': False, 'training_files': 'annotations/train.list', 'validation_files': 'annotations/val.list', 'max_wav_value': 32768.0, 'sampling_rate': 44100, 'filter_length': 2048, 'hop_length': 512, 'win_length': 2048, 'n_mel_channels': 128, 'mel_fmin': 0.0, 'mel_fmax': None, 'add_blank': True, 'n_speakers': 256, 'cleaned_text': True, 'spk2id': {'one': 0, 'bannite': 1}}, 'model': {'use_spk_conditioned_encoder': True, 'use_noise_scaled_mas': True, 'use_mel_posterior_encoder': False, 'use_duration_discriminator': True, 'inter_channels': 192, 'hidden_channels': 192, 'filter_channels': 768, 'n_heads': 2, 'n_layers': 6, 'kernel_size': 3, 'p_dropout': 0.1, 'resblock': '1', 'resblock_kernel_sizes': [3, 7, 11], 'resblock_dilation_sizes': [[1, 3, 5], [1, 3, 5], [1, 3, 5]], 'upsample_rates': [8, 8, 2, 2, 2], 'upsample_initial_channel': 512, 'upsample_kernel_sizes': [16, 16, 8, 2, 2], 'n_layers_q': 3, 'use_spectral_norm': False, 'gin_channels': 256}, 'model_dir': '/content/drive/MyDrive/VITS2/44k'}
+2023-09-01 00:55:32,661	44k	WARNING	/content/Bert-VITS2/modules is not a git repository, therefore hash value comparison will be ignored.
+2023-09-01 00:55:43,587	44k	INFO	Loaded checkpoint '/content/drive/MyDrive/VITS2/44k/DUR_4600.pth' (iteration 26)
+2023-09-01 00:55:51,361	44k	INFO	Loaded checkpoint '/content/drive/MyDrive/VITS2/44k/G_4600.pth' (iteration 26)
+2023-09-01 00:56:02,529	44k	INFO	Loaded checkpoint '/content/drive/MyDrive/VITS2/44k/D_4600.pth' (iteration 26)
+2023-09-01 00:59:54,936	44k	INFO	Train Epoch: 26 [56%]
+2023-09-01 00:59:54,937	44k	INFO	[2.722832679748535, 2.2608864307403564, 7.708921432495117, 21.468597412109375, 2.521491050720215, 2.373701333999634, 4600, 0.00029898914359991716]
+2023-09-01 01:02:42,798	44k	INFO	Saving model and optimizer state at iteration 26 to /content/drive/MyDrive/VITS2/44k/G_4600.pth
+2023-09-01 01:02:48,322	44k	INFO	Saving model and optimizer state at iteration 26 to /content/drive/MyDrive/VITS2/44k/D_4600.pth
+2023-09-01 01:02:57,907	44k	INFO	Saving model and optimizer state at iteration 26 to /content/drive/MyDrive/VITS2/44k/DUR_4600.pth
+2023-09-01 01:05:07,923	44k	INFO	====> Epoch: 26
+2023-09-01 01:08:01,514	44k	INFO	Train Epoch: 27 [67%]
+2023-09-01 01:08:01,515	44k	INFO	[2.1264352798461914, 2.8562188148498535, 9.37497615814209, 22.420684814453125, 2.1521196365356445, 2.029158115386963, 4800, 0.00029895176995696715]
+2023-09-01 01:10:21,924	44k	INFO	Saving model and optimizer state at iteration 27 to /content/drive/MyDrive/VITS2/44k/G_4800.pth
+2023-09-01 01:10:29,162	44k	INFO	Saving model and optimizer state at iteration 27 to /content/drive/MyDrive/VITS2/44k/D_4800.pth
+2023-09-01 01:10:31,166	44k	INFO	Saving model and optimizer state at iteration 27 to /content/drive/MyDrive/VITS2/44k/DUR_4800.pth
+2023-09-01 01:11:55,759	44k	INFO	====> Epoch: 27
+2023-09-01 01:15:07,135	44k	INFO	Train Epoch: 28 [78%]
+2023-09-01 01:15:07,137	44k	INFO	[2.5351226329803467, 2.428219795227051, 7.751274108886719, 22.43524932861328, 2.0762581825256348, 2.1494414806365967, 5000, 0.0002989144009857225]
+2023-09-01 01:17:24,245	44k	INFO	Saving model and optimizer state at iteration 28 to /content/drive/MyDrive/VITS2/44k/G_5000.pth
+2023-09-01 01:17:31,130	44k	INFO	Saving model and optimizer state at iteration 28 to /content/drive/MyDrive/VITS2/44k/D_5000.pth
+2023-09-01 01:17:33,165	44k	INFO	Saving model and optimizer state at iteration 28 to /content/drive/MyDrive/VITS2/44k/DUR_5000.pth
+2023-09-01 01:17:33,309	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_4600.pth
+2023-09-01 01:18:29,499	44k	INFO	====> Epoch: 28
+2023-09-01 01:22:01,505	44k	INFO	Train Epoch: 29 [89%]
+2023-09-01 01:22:01,507	44k	INFO	[2.352583408355713, 2.573749303817749, 7.469491481781006, 22.583755493164062, 2.0997812747955322, 2.1774349212646484, 5200, 0.0002988770366855993]
+2023-09-01 01:24:17,631	44k	INFO	Saving model and optimizer state at iteration 29 to /content/drive/MyDrive/VITS2/44k/G_5200.pth
+2023-09-01 01:24:24,407	44k	INFO	Saving model and optimizer state at iteration 29 to /content/drive/MyDrive/VITS2/44k/D_5200.pth
+2023-09-01 01:24:26,521	44k	INFO	Saving model and optimizer state at iteration 29 to /content/drive/MyDrive/VITS2/44k/DUR_5200.pth
+2023-09-01 01:24:53,419	44k	INFO	====> Epoch: 29
+2023-09-01 01:28:50,990	44k	INFO	====> Epoch: 30
+2023-09-01 01:28:52,538	44k	INFO	Train Epoch: 31 [0%]
+2023-09-01 01:28:52,540	44k	INFO	[2.391557455062866, 2.3448023796081543, 8.119490623474121, 20.998348236083984, 1.905168890953064, 1.903855800628662, 5400, 0.00029880232209638155]
+2023-09-01 01:30:48,169	44k	INFO	Saving model and optimizer state at iteration 31 to /content/drive/MyDrive/VITS2/44k/G_5400.pth
+2023-09-01 01:30:59,505	44k	INFO	Saving model and optimizer state at iteration 31 to /content/drive/MyDrive/VITS2/44k/D_5400.pth
+2023-09-01 01:31:05,612	44k	INFO	Saving model and optimizer state at iteration 31 to /content/drive/MyDrive/VITS2/44k/DUR_5400.pth
+2023-09-01 01:35:01,265	44k	INFO	====> Epoch: 31
+2023-09-01 01:35:29,240	44k	INFO	Train Epoch: 32 [11%]
+2023-09-01 01:35:29,241	44k	INFO	[2.4276583194732666, 2.562689781188965, 9.144655227661133, 23.27276039123535, 2.1054821014404297, 2.0359325408935547, 5600, 0.0002987649718061195]
+2023-09-01 01:37:31,707	44k	INFO	Saving model and optimizer state at iteration 32 to /content/drive/MyDrive/VITS2/44k/G_5600.pth
+2023-09-01 01:37:48,018	44k	INFO	Saving model and optimizer state at iteration 32 to /content/drive/MyDrive/VITS2/44k/D_5600.pth
+2023-09-01 01:37:54,335	44k	INFO	Saving model and optimizer state at iteration 32 to /content/drive/MyDrive/VITS2/44k/DUR_5600.pth
+2023-09-01 01:41:24,767	44k	INFO	====> Epoch: 32
+2023-09-01 01:42:18,244	44k	INFO	Train Epoch: 33 [22%]
+2023-09-01 01:42:18,245	44k	INFO	[2.4510488510131836, 2.5927531719207764, 6.645325660705566, 21.186534881591797, 2.127408742904663, 1.7484936714172363, 5800, 0.00029872762618464373]
+2023-09-01 01:44:00,268	44k	INFO	Saving model and optimizer state at iteration 33 to /content/drive/MyDrive/VITS2/44k/G_5800.pth
+2023-09-01 01:44:13,473	44k	INFO	Saving model and optimizer state at iteration 33 to /content/drive/MyDrive/VITS2/44k/D_5800.pth
+2023-09-01 01:44:24,169	44k	INFO	Saving model and optimizer state at iteration 33 to /content/drive/MyDrive/VITS2/44k/DUR_5800.pth
+2023-09-01 01:44:24,297	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_5400.pth
+2023-09-01 01:47:30,140	44k	INFO	====> Epoch: 33
+2023-09-01 01:48:52,660	44k	INFO	Train Epoch: 34 [33%]
+2023-09-01 01:48:52,662	44k	INFO	[2.4595253467559814, 2.2043027877807617, 8.652502059936523, 21.089004516601562, 2.26845121383667, 1.9809194803237915, 6000, 0.00029869028523137064]
+2023-09-01 01:50:34,198	44k	INFO	Saving model and optimizer state at iteration 34 to /content/drive/MyDrive/VITS2/44k/G_6000.pth
+2023-09-01 01:50:49,307	44k	INFO	Saving model and optimizer state at iteration 34 to /content/drive/MyDrive/VITS2/44k/D_6000.pth
+2023-09-01 01:50:54,034	44k	INFO	Saving model and optimizer state at iteration 34 to /content/drive/MyDrive/VITS2/44k/DUR_6000.pth
+2023-09-01 01:53:31,404	44k	INFO	====> Epoch: 34
+2023-09-01 01:55:17,224	44k	INFO	Train Epoch: 35 [44%]
+2023-09-01 01:55:17,226	44k	INFO	[2.4974586963653564, 2.279592752456665, 4.906156539916992, 19.569015502929688, 1.9696711301803589, 1.803566336631775, 6200, 0.0002986529489457167]
+2023-09-01 01:56:51,232	44k	INFO	Saving model and optimizer state at iteration 35 to /content/drive/MyDrive/VITS2/44k/G_6200.pth
+2023-09-01 01:57:00,755	44k	INFO	Saving model and optimizer state at iteration 35 to /content/drive/MyDrive/VITS2/44k/D_6200.pth
+2023-09-01 01:57:07,348	44k	INFO	Saving model and optimizer state at iteration 35 to /content/drive/MyDrive/VITS2/44k/DUR_6200.pth
+2023-09-01 01:59:18,758	44k	INFO	====> Epoch: 35
+2023-09-01 02:01:29,107	44k	INFO	Train Epoch: 36 [56%]
+2023-09-01 02:01:29,109	44k	INFO	[2.4065215587615967, 2.2452313899993896, 8.273845672607422, 21.761892318725586, 2.287309408187866, 2.48008131980896, 6400, 0.00029861561732709847]
+2023-09-01 02:03:14,264	44k	INFO	Saving model and optimizer state at iteration 36 to /content/drive/MyDrive/VITS2/44k/G_6400.pth
+2023-09-01 02:03:29,951	44k	INFO	Saving model and optimizer state at iteration 36 to /content/drive/MyDrive/VITS2/44k/D_6400.pth
+2023-09-01 02:03:50,012	44k	INFO	Saving model and optimizer state at iteration 36 to /content/drive/MyDrive/VITS2/44k/DUR_6400.pth
+2023-09-01 02:05:32,808	44k	INFO	====> Epoch: 36
+2023-09-01 02:08:09,175	44k	INFO	Train Epoch: 37 [67%]
+2023-09-01 02:08:09,177	44k	INFO	[2.4607369899749756, 2.429415702819824, 7.8819899559021, 21.653526306152344, 2.674398899078369, 1.9641916751861572, 6600, 0.00029857829037493257]
+2023-09-01 02:09:44,274	44k	INFO	Saving model and optimizer state at iteration 37 to /content/drive/MyDrive/VITS2/44k/G_6600.pth
+2023-09-01 02:10:08,869	44k	INFO	Saving model and optimizer state at iteration 37 to /content/drive/MyDrive/VITS2/44k/D_6600.pth
+2023-09-01 02:10:33,183	44k	INFO	Saving model and optimizer state at iteration 37 to /content/drive/MyDrive/VITS2/44k/DUR_6600.pth
+2023-09-01 02:11:51,204	44k	INFO	====> Epoch: 37
+2023-09-01 02:14:56,738	44k	INFO	Train Epoch: 38 [78%]
+2023-09-01 02:14:56,740	44k	INFO	[2.3165524005889893, 2.7498321533203125, 9.914228439331055, 22.12093734741211, 2.0077357292175293, 2.4185075759887695, 6800, 0.0002985409680886357]
+2023-09-01 02:16:26,787	44k	INFO	Saving model and optimizer state at iteration 38 to /content/drive/MyDrive/VITS2/44k/G_6800.pth
+2023-09-01 02:16:56,278	44k	INFO	Saving model and optimizer state at iteration 38 to /content/drive/MyDrive/VITS2/44k/D_6800.pth
+2023-09-01 02:17:24,942	44k	INFO	Saving model and optimizer state at iteration 38 to /content/drive/MyDrive/VITS2/44k/DUR_6800.pth
+2023-09-01 02:18:16,170	44k	INFO	====> Epoch: 38
+2023-09-01 02:21:47,013	44k	INFO	Train Epoch: 39 [89%]
+2023-09-01 02:21:47,015	44k	INFO	[2.2056074142456055, 2.535752058029175, 8.950883865356445, 22.17487335205078, 2.2133922576904297, 2.173732042312622, 7000, 0.0002985036504676246]
+2023-09-01 02:23:05,983	44k	INFO	Saving model and optimizer state at iteration 39 to /content/drive/MyDrive/VITS2/44k/G_7000.pth
+2023-09-01 02:23:40,779	44k	INFO	Saving model and optimizer state at iteration 39 to /content/drive/MyDrive/VITS2/44k/D_7000.pth
+2023-09-01 02:24:15,841	44k	INFO	Saving model and optimizer state at iteration 39 to /content/drive/MyDrive/VITS2/44k/DUR_7000.pth
+2023-09-01 02:24:42,058	44k	INFO	====> Epoch: 39
+2023-09-01 02:28:35,084	44k	INFO	====> Epoch: 40
+2023-09-01 02:28:36,420	44k	INFO	Train Epoch: 41 [0%]
+2023-09-01 02:28:36,421	44k	INFO	[2.3717901706695557, 2.4150285720825195, 7.373148441314697, 21.425477981567383, 2.1329329013824463, 1.9650464057922363, 7200, 0.00029842902921912724]
+2023-09-01 02:30:00,829	44k	INFO	Saving model and optimizer state at iteration 41 to /content/drive/MyDrive/VITS2/44k/G_7200.pth
+2023-09-01 02:30:43,007	44k	INFO	Saving model and optimizer state at iteration 41 to /content/drive/MyDrive/VITS2/44k/D_7200.pth
+2023-09-01 02:31:28,171	44k	INFO	Saving model and optimizer state at iteration 41 to /content/drive/MyDrive/VITS2/44k/DUR_7200.pth
+2023-09-01 02:35:21,441	44k	INFO	====> Epoch: 41
+2023-09-01 02:35:48,739	44k	INFO	Train Epoch: 42 [11%]
+2023-09-01 02:35:48,741	44k	INFO	[2.7474935054779053, 2.2063779830932617, 6.674561977386475, 22.290374755859375, 2.1330134868621826, 2.003727436065674, 7400, 0.0002983917255904748]
+2023-09-01 02:37:17,685	44k	INFO	Saving model and optimizer state at iteration 42 to /content/drive/MyDrive/VITS2/44k/G_7400.pth
+2023-09-01 02:38:12,838	44k	INFO	Saving model and optimizer state at iteration 42 to /content/drive/MyDrive/VITS2/44k/D_7400.pth
+2023-09-01 02:39:02,906	44k	INFO	Saving model and optimizer state at iteration 42 to /content/drive/MyDrive/VITS2/44k/DUR_7400.pth
+2023-09-01 02:42:32,792	44k	INFO	====> Epoch: 42
+2023-09-01 02:43:27,150	44k	INFO	Train Epoch: 43 [22%]
+2023-09-01 02:43:27,152	44k	INFO	[2.4460177421569824, 2.5934627056121826, 9.274310111999512, 22.848373413085938, 2.404118537902832, 2.410334587097168, 7600, 0.000298354426624776]
+2023-09-01 02:44:40,089	44k	INFO	Saving model and optimizer state at iteration 43 to /content/drive/MyDrive/VITS2/44k/G_7600.pth
+2023-09-01 02:45:37,913	44k	INFO	Saving model and optimizer state at iteration 43 to /content/drive/MyDrive/VITS2/44k/D_7600.pth
+2023-09-01 02:46:37,831	44k	INFO	Saving model and optimizer state at iteration 43 to /content/drive/MyDrive/VITS2/44k/DUR_7600.pth
+2023-09-01 02:49:37,703	44k	INFO	====> Epoch: 43
+2023-09-01 02:50:56,481	44k	INFO	Train Epoch: 44 [33%]
+2023-09-01 02:50:56,483	44k	INFO	[2.2215967178344727, 2.4743142127990723, 10.660980224609375, 23.465734481811523, 2.2197086811065674, 1.6865040063858032, 7800, 0.0002983171323214479]
+2023-09-01 02:52:12,072	44k	INFO	Saving model and optimizer state at iteration 44 to /content/drive/MyDrive/VITS2/44k/G_7800.pth
+2023-09-01 02:53:22,538	44k	INFO	Saving model and optimizer state at iteration 44 to /content/drive/MyDrive/VITS2/44k/D_7800.pth
+2023-09-01 02:54:27,932	44k	INFO	Saving model and optimizer state at iteration 44 to /content/drive/MyDrive/VITS2/44k/DUR_7800.pth
+2023-09-01 02:57:06,529	44k	INFO	====> Epoch: 44
+2023-09-01 02:58:52,688	44k	INFO	Train Epoch: 45 [44%]
+2023-09-01 02:58:52,689	44k	INFO	[2.1372601985931396, 2.5563669204711914, 7.973878383636475, 21.12618637084961, 2.1206798553466797, 1.9340531826019287, 8000, 0.0002982798426799077]
+2023-09-01 03:00:03,596	44k	INFO	Saving model and optimizer state at iteration 45 to /content/drive/MyDrive/VITS2/44k/G_8000.pth
+2023-09-01 03:01:22,649	44k	INFO	Saving model and optimizer state at iteration 45 to /content/drive/MyDrive/VITS2/44k/D_8000.pth
+2023-09-01 03:02:43,597	44k	INFO	Saving model and optimizer state at iteration 45 to /content/drive/MyDrive/VITS2/44k/DUR_8000.pth
+2023-09-01 03:04:56,806	44k	INFO	====> Epoch: 45
+2023-09-01 03:07:07,665	44k	INFO	Train Epoch: 46 [56%]
+2023-09-01 03:07:07,666	44k	INFO	[2.717651605606079, 2.5380287170410156, 10.6338529586792, 21.57940101623535, 2.263611316680908, 1.9721072912216187, 8200, 0.0002982425576995727]
+2023-09-01 03:08:08,171	44k	INFO	Saving model and optimizer state at iteration 46 to /content/drive/MyDrive/VITS2/44k/G_8200.pth
+2023-09-01 03:09:55,695	44k	INFO	Saving model and optimizer state at iteration 46 to /content/drive/MyDrive/VITS2/44k/D_8200.pth
+2023-09-01 03:11:28,155	44k	INFO	Saving model and optimizer state at iteration 46 to /content/drive/MyDrive/VITS2/44k/DUR_8200.pth
+2023-09-01 03:13:13,537	44k	INFO	====> Epoch: 46
+2023-09-01 03:15:49,605	44k	INFO	Train Epoch: 47 [67%]
+2023-09-01 03:15:49,607	44k	INFO	[2.536115884780884, 2.1689038276672363, 8.691407203674316, 19.886674880981445, 2.251302719116211, 2.255330801010132, 8400, 0.00029820527737986025]
+2023-09-01 03:17:01,660	44k	INFO	Saving model and optimizer state at iteration 47 to /content/drive/MyDrive/VITS2/44k/G_8400.pth
+2023-09-01 03:19:12,581	44k	INFO	Saving model and optimizer state at iteration 47 to /content/drive/MyDrive/VITS2/44k/D_8400.pth
+2023-09-01 03:21:17,677	44k	INFO	Saving model and optimizer state at iteration 47 to /content/drive/MyDrive/VITS2/44k/DUR_8400.pth
+2023-09-01 03:22:34,734	44k	INFO	====> Epoch: 47
+2023-09-01 03:25:37,824	44k	INFO	Train Epoch: 48 [78%]
+2023-09-01 03:25:37,826	44k	INFO	[2.2026491165161133, 3.006958484649658, 9.724224090576172, 21.34913444519043, 2.0212748050689697, 2.341724157333374, 8600, 0.00029816800172018776]
+2023-09-01 03:26:48,976	44k	INFO	Saving model and optimizer state at iteration 48 to /content/drive/MyDrive/VITS2/44k/G_8600.pth
+2023-09-01 03:29:34,312	44k	INFO	Saving model and optimizer state at iteration 48 to /content/drive/MyDrive/VITS2/44k/D_8600.pth
+2023-09-01 03:32:18,742	44k	INFO	Saving model and optimizer state at iteration 48 to /content/drive/MyDrive/VITS2/44k/DUR_8600.pth
+2023-09-01 03:33:09,416	44k	INFO	====> Epoch: 48
+2023-09-01 03:36:36,022	44k	INFO	Train Epoch: 49 [89%]
+2023-09-01 03:36:36,024	44k	INFO	[2.6516757011413574, 2.248591423034668, 6.201944351196289, 20.68354034423828, 2.07373046875, 2.207134246826172, 8800, 0.0002981307307199727]
+2023-09-01 03:37:38,147	44k	INFO	Saving model and optimizer state at iteration 49 to /content/drive/MyDrive/VITS2/44k/G_8800.pth
+2023-09-01 03:41:18,099	44k	INFO	Saving model and optimizer state at iteration 49 to /content/drive/MyDrive/VITS2/44k/D_8800.pth
+2023-09-01 03:44:43,301	44k	INFO	Saving model and optimizer state at iteration 49 to /content/drive/MyDrive/VITS2/44k/DUR_8800.pth
+2023-09-01 03:45:14,773	44k	INFO	====> Epoch: 49
+2023-09-01 03:49:06,425	44k	INFO	====> Epoch: 50
+2023-09-01 03:49:07,969	44k	INFO	Train Epoch: 51 [0%]
+2023-09-01 03:49:07,970	44k	INFO	[2.482114553451538, 2.226679801940918, 7.9002838134765625, 21.027587890625, 2.0167338848114014, 1.9093562364578247, 9000, 0.00029805620269558535]
+2023-09-01 03:50:32,984	44k	INFO	Saving model and optimizer state at iteration 51 to /content/drive/MyDrive/VITS2/44k/G_9000.pth
+2023-09-01 03:56:16,882	44k	INFO	Saving model and optimizer state at iteration 51 to /content/drive/MyDrive/VITS2/44k/D_9000.pth
+2023-09-01 04:02:48,863	44k	INFO	Saving model and optimizer state at iteration 51 to /content/drive/MyDrive/VITS2/44k/DUR_9000.pth
+2023-09-01 07:46:43,623	44k	INFO	{'train': {'log_interval': 200, 'eval_interval': 200, 'seed': 52, 'epochs': 10000, 'learning_rate': 0.0003, 'betas': [0.8, 0.99], 'eps': 1e-09, 'batch_size': 8, 'fp16_run': False, 'lr_decay': 0.999875, 'segment_size': 16384, 'init_lr_ratio': 1, 'warmup_epochs': 0, 'c_mel': 45, 'c_kl': 1.0}, 'data': {'use_mel_posterior_encoder': False, 'training_files': 'annotations/train.list', 'validation_files': 'annotations/val.list', 'max_wav_value': 32768.0, 'sampling_rate': 44100, 'filter_length': 2048, 'hop_length': 512, 'win_length': 2048, 'n_mel_channels': 128, 'mel_fmin': 0.0, 'mel_fmax': None, 'add_blank': True, 'n_speakers': 256, 'cleaned_text': True, 'spk2id': {'one': 0, 'bannite': 1}}, 'model': {'use_spk_conditioned_encoder': True, 'use_noise_scaled_mas': True, 'use_mel_posterior_encoder': False, 'use_duration_discriminator': True, 'inter_channels': 192, 'hidden_channels': 192, 'filter_channels': 768, 'n_heads': 2, 'n_layers': 6, 'kernel_size': 3, 'p_dropout': 0.1, 'resblock': '1', 'resblock_kernel_sizes': [3, 7, 11], 'resblock_dilation_sizes': [[1, 3, 5], [1, 3, 5], [1, 3, 5]], 'upsample_rates': [8, 8, 2, 2, 2], 'upsample_initial_channel': 512, 'upsample_kernel_sizes': [16, 16, 8, 2, 2], 'n_layers_q': 3, 'use_spectral_norm': False, 'gin_channels': 256}, 'model_dir': '/content/drive/MyDrive/VITS2/44k'}
+2023-09-01 07:46:44,156	44k	WARNING	/content/Bert-VITS2/modules is not a git repository, therefore hash value comparison will be ignored.
+2023-09-01 07:46:55,639	44k	INFO	Loaded checkpoint '/content/drive/MyDrive/VITS2/44k/DUR_9000.pth' (iteration 51)
+2023-09-01 07:47:04,507	44k	INFO	Loaded checkpoint '/content/drive/MyDrive/VITS2/44k/G_9000.pth' (iteration 51)
+2023-09-01 07:47:11,635	44k	INFO	Loaded checkpoint '/content/drive/MyDrive/VITS2/44k/D_9000.pth' (iteration 51)
+2023-09-01 07:47:42,938	44k	INFO	Train Epoch: 51 [0%]
+2023-09-01 07:47:42,939	44k	INFO	[2.427764654159546, 2.3973939418792725, 9.197872161865234, 21.714094161987305, 2.0192432403564453, 2.049893379211426, 9000, 0.00029801894567024837]
+2023-09-01 07:50:31,594	44k	INFO	Saving model and optimizer state at iteration 51 to /content/drive/MyDrive/VITS2/44k/G_9000.pth
+2023-09-01 07:50:36,837	44k	INFO	Saving model and optimizer state at iteration 51 to /content/drive/MyDrive/VITS2/44k/D_9000.pth
+2023-09-01 07:50:38,613	44k	INFO	Saving model and optimizer state at iteration 51 to /content/drive/MyDrive/VITS2/44k/DUR_9000.pth
+2023-09-01 07:56:16,046	44k	INFO	====> Epoch: 51
+2023-09-01 07:56:47,559	44k	INFO	Train Epoch: 52 [11%]
+2023-09-01 07:56:47,560	44k	INFO	[2.2611801624298096, 2.6156561374664307, 8.327052116394043, 20.928430557250977, 1.9613085985183716, 1.4856657981872559, 9200, 0.0002979816933020396]
+2023-09-01 07:59:27,739	44k	INFO	Saving model and optimizer state at iteration 52 to /content/drive/MyDrive/VITS2/44k/G_9200.pth
+2023-09-01 07:59:30,347	44k	INFO	Saving model and optimizer state at iteration 52 to /content/drive/MyDrive/VITS2/44k/D_9200.pth
+2023-09-01 07:59:35,869	44k	INFO	Saving model and optimizer state at iteration 52 to /content/drive/MyDrive/VITS2/44k/DUR_9200.pth
+2023-09-01 08:03:26,177	44k	INFO	====> Epoch: 52
+2023-09-01 08:04:24,685	44k	INFO	Train Epoch: 53 [22%]
+2023-09-01 08:04:24,687	44k	INFO	[2.611506700515747, 2.2603819370269775, 8.840431213378906, 20.309694290161133, 2.493842601776123, 2.100621461868286, 9400, 0.00029794444559037684]
+2023-09-01 08:06:41,627	44k	INFO	Saving model and optimizer state at iteration 53 to /content/drive/MyDrive/VITS2/44k/G_9400.pth
+2023-09-01 08:06:48,709	44k	INFO	Saving model and optimizer state at iteration 53 to /content/drive/MyDrive/VITS2/44k/D_9400.pth
+2023-09-01 08:06:50,928	44k	INFO	Saving model and optimizer state at iteration 53 to /content/drive/MyDrive/VITS2/44k/DUR_9400.pth
+2023-09-01 08:10:07,755	44k	INFO	====> Epoch: 53
+2023-09-01 08:11:31,199	44k	INFO	Train Epoch: 54 [33%]
+2023-09-01 08:11:31,200	44k	INFO	[2.437208652496338, 2.474853038787842, 9.748252868652344, 23.84841537475586, 2.459846019744873, 2.7178409099578857, 9600, 0.000297907202534678]
+2023-09-01 08:13:48,644	44k	INFO	Saving model and optimizer state at iteration 54 to /content/drive/MyDrive/VITS2/44k/G_9600.pth
+2023-09-01 08:13:51,889	44k	INFO	Saving model and optimizer state at iteration 54 to /content/drive/MyDrive/VITS2/44k/D_9600.pth
+2023-09-01 08:13:54,034	44k	INFO	Saving model and optimizer state at iteration 54 to /content/drive/MyDrive/VITS2/44k/DUR_9600.pth
+2023-09-01 08:13:54,161	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_9200.pth
+2023-09-01 08:16:36,214	44k	INFO	====> Epoch: 54
+2023-09-01 08:18:27,588	44k	INFO	Train Epoch: 55 [44%]
+2023-09-01 08:18:27,589	44k	INFO	[2.3418123722076416, 2.703739881515503, 6.981571197509766, 20.1334171295166, 2.033229112625122, 1.789363980293274, 9800, 0.0002978699641343612]
+2023-09-01 08:20:28,159	44k	INFO	Saving model and optimizer state at iteration 55 to /content/drive/MyDrive/VITS2/44k/G_9800.pth
+2023-09-01 08:20:31,526	44k	INFO	Saving model and optimizer state at iteration 55 to /content/drive/MyDrive/VITS2/44k/D_9800.pth
+2023-09-01 08:20:35,708	44k	INFO	Saving model and optimizer state at iteration 55 to /content/drive/MyDrive/VITS2/44k/DUR_9800.pth
+2023-09-01 08:22:49,341	44k	INFO	====> Epoch: 55
+2023-09-01 08:25:05,019	44k	INFO	Train Epoch: 56 [56%]
+2023-09-01 08:25:05,021	44k	INFO	[2.5727648735046387, 2.4984664916992188, 6.274308681488037, 19.737321853637695, 2.256058692932129, 2.3413033485412598, 10000, 0.0002978327303888444]
+2023-09-01 08:26:57,324	44k	INFO	Saving model and optimizer state at iteration 56 to /content/drive/MyDrive/VITS2/44k/G_10000.pth
+2023-09-01 08:27:08,184	44k	INFO	Saving model and optimizer state at iteration 56 to /content/drive/MyDrive/VITS2/44k/D_10000.pth
+2023-09-01 08:27:18,204	44k	INFO	Saving model and optimizer state at iteration 56 to /content/drive/MyDrive/VITS2/44k/DUR_10000.pth
+2023-09-01 08:29:04,284	44k	INFO	====> Epoch: 56
+2023-09-01 08:31:46,541	44k	INFO	Train Epoch: 57 [67%]
+2023-09-01 08:31:46,542	44k	INFO	[2.1648991107940674, 2.633629322052002, 9.685328483581543, 21.40594482421875, 2.1270995140075684, 2.16898250579834, 10200, 0.0002977955012975458]
+2023-09-01 08:33:35,671	44k	INFO	Saving model and optimizer state at iteration 57 to /content/drive/MyDrive/VITS2/44k/G_10200.pth
+2023-09-01 08:33:54,159	44k	INFO	Saving model and optimizer state at iteration 57 to /content/drive/MyDrive/VITS2/44k/D_10200.pth
+2023-09-01 08:34:00,703	44k	INFO	Saving model and optimizer state at iteration 57 to /content/drive/MyDrive/VITS2/44k/DUR_10200.pth
+2023-09-01 08:34:00,788	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_9800.pth
+2023-09-01 08:35:19,973	44k	INFO	====> Epoch: 57
+2023-09-01 08:38:28,127	44k	INFO	Train Epoch: 58 [78%]
+2023-09-01 08:38:28,129	44k	INFO	[2.28125, 2.762909412384033, 7.838709831237793, 21.93206024169922, 2.18982195854187, 1.7408390045166016, 10400, 0.0002977582768598836]
+2023-09-01 08:40:25,382	44k	INFO	Saving model and optimizer state at iteration 58 to /content/drive/MyDrive/VITS2/44k/G_10400.pth
+2023-09-01 08:40:38,683	44k	INFO	Saving model and optimizer state at iteration 58 to /content/drive/MyDrive/VITS2/44k/D_10400.pth
+2023-09-01 08:40:59,153	44k	INFO	Saving model and optimizer state at iteration 58 to /content/drive/MyDrive/VITS2/44k/DUR_10400.pth
+2023-09-01 08:40:59,325	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_10000.pth
+2023-09-01 08:41:51,981	44k	INFO	====> Epoch: 58
+2023-09-01 08:45:25,602	44k	INFO	Train Epoch: 59 [89%]
+2023-09-01 08:45:25,604	44k	INFO	[2.473677635192871, 2.153672933578491, 7.560335636138916, 21.464570999145508, 1.9357632398605347, 2.20127534866333, 10600, 0.0002977210570752761]
+2023-09-01 08:47:10,129	44k	INFO	Saving model and optimizer state at iteration 59 to /content/drive/MyDrive/VITS2/44k/G_10600.pth
+2023-09-01 08:47:31,574	44k	INFO	Saving model and optimizer state at iteration 59 to /content/drive/MyDrive/VITS2/44k/D_10600.pth
+2023-09-01 08:47:56,402	44k	INFO	Saving model and optimizer state at iteration 59 to /content/drive/MyDrive/VITS2/44k/DUR_10600.pth
+2023-09-01 08:47:56,557	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_10200.pth
+2023-09-01 08:48:23,379	44k	INFO	====> Epoch: 59
+2023-09-01 08:52:20,508	44k	INFO	====> Epoch: 60
+2023-09-01 08:52:21,788	44k	INFO	Train Epoch: 61 [0%]
+2023-09-01 08:52:21,789	44k	INFO	[2.2516281604766846, 2.559183120727539, 8.439156532287598, 20.350563049316406, 2.0006699562072754, 2.2847111225128174, 10800, 0.0002976466314628988]
+2023-09-01 08:53:55,165	44k	INFO	Saving model and optimizer state at iteration 61 to /content/drive/MyDrive/VITS2/44k/G_10800.pth
+2023-09-01 08:54:19,742	44k	INFO	Saving model and optimizer state at iteration 61 to /content/drive/MyDrive/VITS2/44k/D_10800.pth
+2023-09-01 08:54:45,085	44k	INFO	Saving model and optimizer state at iteration 61 to /content/drive/MyDrive/VITS2/44k/DUR_10800.pth
+2023-09-01 08:58:43,935	44k	INFO	====> Epoch: 61
+2023-09-01 08:59:11,846	44k	INFO	Train Epoch: 62 [11%]
+2023-09-01 08:59:11,848	44k	INFO	[2.589040517807007, 2.4104175567626953, 6.0621337890625, 20.545289993286133, 2.0553641319274902, 1.6319721937179565, 11000, 0.0002976094256339659]
+2023-09-01 09:00:54,652	44k	INFO	Saving model and optimizer state at iteration 62 to /content/drive/MyDrive/VITS2/44k/G_11000.pth
+2023-09-01 09:01:27,354	44k	INFO	Saving model and optimizer state at iteration 62 to /content/drive/MyDrive/VITS2/44k/D_11000.pth
+2023-09-01 09:01:57,695	44k	INFO	Saving model and optimizer state at iteration 62 to /content/drive/MyDrive/VITS2/44k/DUR_11000.pth
+2023-09-01 09:05:29,503	44k	INFO	====> Epoch: 62
+2023-09-01 09:06:26,936	44k	INFO	Train Epoch: 63 [22%]
+2023-09-01 09:06:26,939	44k	INFO	[2.413451910018921, 2.6598286628723145, 9.08163070678711, 21.700037002563477, 1.9998996257781982, 2.0607552528381348, 11200, 0.00029757222445576167]
+2023-09-01 09:07:58,202	44k	INFO	Saving model and optimizer state at iteration 63 to /content/drive/MyDrive/VITS2/44k/G_11200.pth
+2023-09-01 09:08:38,043	44k	INFO	Saving model and optimizer state at iteration 63 to /content/drive/MyDrive/VITS2/44k/D_11200.pth
+2023-09-01 09:09:13,750	44k	INFO	Saving model and optimizer state at iteration 63 to /content/drive/MyDrive/VITS2/44k/DUR_11200.pth
+2023-09-01 09:12:15,292	44k	INFO	====> Epoch: 63
+2023-09-01 09:13:38,350	44k	INFO	Train Epoch: 64 [33%]
+2023-09-01 09:13:38,352	44k	INFO	[2.477857828140259, 2.278933048248291, 7.771210193634033, 21.579879760742188, 2.2710890769958496, 2.235088586807251, 11400, 0.00029753502792770467]
+2023-09-01 09:14:50,101	44k	INFO	Saving model and optimizer state at iteration 64 to /content/drive/MyDrive/VITS2/44k/G_11400.pth
+2023-09-01 09:15:35,538	44k	INFO	Saving model and optimizer state at iteration 64 to /content/drive/MyDrive/VITS2/44k/D_11400.pth
+2023-09-01 09:16:11,197	44k	INFO	Saving model and optimizer state at iteration 64 to /content/drive/MyDrive/VITS2/44k/DUR_11400.pth
+2023-09-01 09:18:50,229	44k	INFO	====> Epoch: 64
+2023-09-01 09:20:36,372	44k	INFO	Train Epoch: 65 [44%]
+2023-09-01 09:20:36,374	44k	INFO	[2.3828036785125732, 2.432343006134033, 10.053186416625977, 22.082630157470703, 2.143087387084961, 2.126352310180664, 11600, 0.00029749783604921367]
+2023-09-01 09:21:51,908	44k	INFO	Saving model and optimizer state at iteration 65 to /content/drive/MyDrive/VITS2/44k/G_11600.pth
+2023-09-01 09:22:39,607	44k	INFO	Saving model and optimizer state at iteration 65 to /content/drive/MyDrive/VITS2/44k/D_11600.pth
+2023-09-01 09:23:24,757	44k	INFO	Saving model and optimizer state at iteration 65 to /content/drive/MyDrive/VITS2/44k/DUR_11600.pth
+2023-09-01 09:25:39,397	44k	INFO	====> Epoch: 65
+2023-09-01 09:27:54,697	44k	INFO	Train Epoch: 66 [56%]
+2023-09-01 09:27:54,698	44k	INFO	[2.02579402923584, 2.8687427043914795, 9.486169815063477, 21.7808837890625, 2.107260227203369, 1.8514318466186523, 11800, 0.0002974606488197075]
+2023-09-01 09:29:31,418	44k	INFO	Saving model and optimizer state at iteration 66 to /content/drive/MyDrive/VITS2/44k/G_11800.pth
+2023-09-01 09:30:41,809	44k	INFO	Saving model and optimizer state at iteration 66 to /content/drive/MyDrive/VITS2/44k/D_11800.pth
+2023-09-01 09:31:41,905	44k	INFO	Saving model and optimizer state at iteration 66 to /content/drive/MyDrive/VITS2/44k/DUR_11800.pth
+2023-09-01 09:33:24,021	44k	INFO	====> Epoch: 66
+2023-09-01 09:36:02,791	44k	INFO	Train Epoch: 67 [67%]
+2023-09-01 09:36:02,793	44k	INFO	[2.680280923843384, 2.264357089996338, 6.865033149719238, 19.474924087524414, 2.1875643730163574, 2.1644649505615234, 12000, 0.000297423466238605]
+2023-09-01 09:37:24,521	44k	INFO	Saving model and optimizer state at iteration 67 to /content/drive/MyDrive/VITS2/44k/G_12000.pth
+2023-09-01 09:38:48,128	44k	INFO	Saving model and optimizer state at iteration 67 to /content/drive/MyDrive/VITS2/44k/D_12000.pth
+2023-09-01 09:40:09,344	44k	INFO	Saving model and optimizer state at iteration 67 to /content/drive/MyDrive/VITS2/44k/DUR_12000.pth
+2023-09-01 09:41:26,086	44k	INFO	====> Epoch: 67
+2023-09-01 09:44:29,809	44k	INFO	Train Epoch: 68 [78%]
+2023-09-01 09:44:29,811	44k	INFO	[2.465139389038086, 2.1620771884918213, 7.331584930419922, 21.288558959960938, 1.958498239517212, 1.9680126905441284, 12200, 0.00029738628830532516]
+2023-09-01 09:45:43,539	44k	INFO	Saving model and optimizer state at iteration 68 to /content/drive/MyDrive/VITS2/44k/G_12200.pth
+2023-09-01 09:47:39,137	44k	INFO	Saving model and optimizer state at iteration 68 to /content/drive/MyDrive/VITS2/44k/D_12200.pth
+2023-09-01 09:49:18,625	44k	INFO	Saving model and optimizer state at iteration 68 to /content/drive/MyDrive/VITS2/44k/DUR_12200.pth
+2023-09-01 09:50:10,060	44k	INFO	====> Epoch: 68
+2023-09-01 09:53:40,431	44k	INFO	Train Epoch: 69 [89%]
+2023-09-01 09:53:40,433	44k	INFO	[2.4631123542785645, 2.8507630825042725, 9.05517578125, 20.736055374145508, 1.925322413444519, 1.5995863676071167, 12400, 0.000297349115019287]
+2023-09-01 09:54:59,296	44k	INFO	Saving model and optimizer state at iteration 69 to /content/drive/MyDrive/VITS2/44k/G_12400.pth
+2023-09-01 09:57:20,757	44k	INFO	Saving model and optimizer state at iteration 69 to /content/drive/MyDrive/VITS2/44k/D_12400.pth
+2023-09-01 09:59:49,265	44k	INFO	Saving model and optimizer state at iteration 69 to /content/drive/MyDrive/VITS2/44k/DUR_12400.pth
+2023-09-01 10:00:16,731	44k	INFO	====> Epoch: 69
+2023-09-01 10:04:09,487	44k	INFO	====> Epoch: 70
+2023-09-01 10:04:10,853	44k	INFO	Train Epoch: 71 [0%]
+2023-09-01 10:04:10,855	44k	INFO	[2.194420337677002, 2.9918763637542725, 9.872047424316406, 22.006738662719727, 1.880100965499878, 1.6132409572601318, 12600, 0.0002972747823866121]
+2023-09-01 10:05:29,857	44k	INFO	Saving model and optimizer state at iteration 71 to /content/drive/MyDrive/VITS2/44k/G_12600.pth
+2023-09-01 10:09:37,028	44k	INFO	Saving model and optimizer state at iteration 71 to /content/drive/MyDrive/VITS2/44k/D_12600.pth
+2023-09-01 10:14:13,633	44k	INFO	Saving model and optimizer state at iteration 71 to /content/drive/MyDrive/VITS2/44k/DUR_12600.pth
+2023-09-01 10:14:18,728	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_12200.pth
+2023-09-01 10:18:10,287	44k	INFO	====> Epoch: 71
+2023-09-01 10:18:39,102	44k	INFO	Train Epoch: 72 [11%]
+2023-09-01 10:18:39,103	44k	INFO	[2.3979830741882324, 2.642346143722534, 8.538129806518555, 20.590843200683594, 1.9791178703308105, 1.921339988708496, 12800, 0.00029723762303881374]
+2023-09-01 10:20:02,233	44k	INFO	Saving model and optimizer state at iteration 72 to /content/drive/MyDrive/VITS2/44k/G_12800.pth
+2023-09-01 10:30:13,521	44k	INFO	Saving model and optimizer state at iteration 72 to /content/drive/MyDrive/VITS2/44k/D_12800.pth
+2023-09-01 23:23:41,916	44k	INFO	{'train': {'log_interval': 200, 'eval_interval': 200, 'seed': 52, 'epochs': 10000, 'learning_rate': 0.0003, 'betas': [0.8, 0.99], 'eps': 1e-09, 'batch_size': 8, 'fp16_run': False, 'lr_decay': 0.999875, 'segment_size': 16384, 'init_lr_ratio': 1, 'warmup_epochs': 0, 'c_mel': 45, 'c_kl': 1.0}, 'data': {'use_mel_posterior_encoder': False, 'training_files': 'annotations/train.list', 'validation_files': 'annotations/val.list', 'max_wav_value': 32768.0, 'sampling_rate': 44100, 'filter_length': 2048, 'hop_length': 512, 'win_length': 2048, 'n_mel_channels': 128, 'mel_fmin': 0.0, 'mel_fmax': None, 'add_blank': True, 'n_speakers': 256, 'cleaned_text': True, 'spk2id': {'one': 0, 'bannite': 1}}, 'model': {'use_spk_conditioned_encoder': True, 'use_noise_scaled_mas': True, 'use_mel_posterior_encoder': False, 'use_duration_discriminator': True, 'inter_channels': 192, 'hidden_channels': 192, 'filter_channels': 768, 'n_heads': 2, 'n_layers': 6, 'kernel_size': 3, 'p_dropout': 0.1, 'resblock': '1', 'resblock_kernel_sizes': [3, 7, 11], 'resblock_dilation_sizes': [[1, 3, 5], [1, 3, 5], [1, 3, 5]], 'upsample_rates': [8, 8, 2, 2, 2], 'upsample_initial_channel': 512, 'upsample_kernel_sizes': [16, 16, 8, 2, 2], 'n_layers_q': 3, 'use_spectral_norm': False, 'gin_channels': 256}, 'model_dir': '/content/drive/MyDrive/VITS2/44k'}
+2023-09-01 23:23:42,707	44k	WARNING	/content/Bert-VITS2/modules is not a git repository, therefore hash value comparison will be ignored.
+2023-09-01 23:23:54,308	44k	INFO	Loaded checkpoint '/content/drive/MyDrive/VITS2/44k/DUR_12600.pth' (iteration 71)
+2023-09-01 23:24:06,607	44k	INFO	Loaded checkpoint '/content/drive/MyDrive/VITS2/44k/G_12600.pth' (iteration 71)
+2023-09-01 23:24:16,090	44k	INFO	Loaded checkpoint '/content/drive/MyDrive/VITS2/44k/D_12600.pth' (iteration 71)
+2023-09-01 23:24:47,964	44k	INFO	Train Epoch: 71 [0%]
+2023-09-01 23:24:47,965	44k	INFO	[2.3804852962493896, 2.7095322608947754, 7.910198211669922, 20.506927490234375, 1.9551045894622803, 1.8224371671676636, 12600, 0.00029723762303881374]
+2023-09-01 23:27:42,321	44k	INFO	Saving model and optimizer state at iteration 71 to /content/drive/MyDrive/VITS2/44k/G_12600.pth
+2023-09-01 23:27:45,116	44k	INFO	Saving model and optimizer state at iteration 71 to /content/drive/MyDrive/VITS2/44k/D_12600.pth
+2023-09-01 23:27:48,984	44k	INFO	Saving model and optimizer state at iteration 71 to /content/drive/MyDrive/VITS2/44k/DUR_12600.pth
+2023-09-01 23:33:41,934	44k	INFO	====> Epoch: 71
+2023-09-01 23:34:15,777	44k	INFO	Train Epoch: 72 [11%]
+2023-09-01 23:34:15,779	44k	INFO	[2.5130717754364014, 2.5966782569885254, 8.356842041015625, 20.79067611694336, 1.9191532135009766, 1.96849524974823, 12800, 0.00029720046833593385]
+2023-09-01 23:36:51,386	44k	INFO	Saving model and optimizer state at iteration 72 to /content/drive/MyDrive/VITS2/44k/G_12800.pth
+2023-09-01 23:37:01,433	44k	INFO	Saving model and optimizer state at iteration 72 to /content/drive/MyDrive/VITS2/44k/D_12800.pth
+2023-09-01 23:37:03,514	44k	INFO	Saving model and optimizer state at iteration 72 to /content/drive/MyDrive/VITS2/44k/DUR_12800.pth
+2023-09-01 23:40:54,203	44k	INFO	====> Epoch: 72
+2023-09-01 23:41:54,024	44k	INFO	Train Epoch: 73 [22%]
+2023-09-01 23:41:54,025	44k	INFO	[2.39603853225708, 2.5024290084838867, 8.344489097595215, 20.449609756469727, 2.0238418579101562, 1.806188702583313, 13000, 0.00029716331827739183]
+2023-09-01 23:44:34,586	44k	INFO	Saving model and optimizer state at iteration 73 to /content/drive/MyDrive/VITS2/44k/G_13000.pth
+2023-09-01 23:44:43,632	44k	INFO	Saving model and optimizer state at iteration 73 to /content/drive/MyDrive/VITS2/44k/D_13000.pth
+2023-09-01 23:44:49,344	44k	INFO	Saving model and optimizer state at iteration 73 to /content/drive/MyDrive/VITS2/44k/DUR_13000.pth
+2023-09-01 23:44:49,998	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_12600.pth
+2023-09-01 23:48:05,324	44k	INFO	====> Epoch: 73
+2023-09-01 23:49:31,786	44k	INFO	Train Epoch: 74 [33%]
+2023-09-01 23:49:31,788	44k	INFO	[2.503284454345703, 2.580521821975708, 7.320919513702393, 21.36515235900879, 1.942489504814148, 1.3053908348083496, 13200, 0.00029712617286260714]
+2023-09-01 23:51:56,090	44k	INFO	Saving model and optimizer state at iteration 74 to /content/drive/MyDrive/VITS2/44k/G_13200.pth
+2023-09-01 23:52:01,762	44k	INFO	Saving model and optimizer state at iteration 74 to /content/drive/MyDrive/VITS2/44k/D_13200.pth
+2023-09-01 23:52:06,799	44k	INFO	Saving model and optimizer state at iteration 74 to /content/drive/MyDrive/VITS2/44k/DUR_13200.pth
+2023-09-01 23:54:53,697	44k	INFO	====> Epoch: 74
+2023-09-01 23:56:46,731	44k	INFO	Train Epoch: 75 [44%]
+2023-09-01 23:56:46,732	44k	INFO	[2.3006131649017334, 2.6787962913513184, 9.36414909362793, 21.579111099243164, 2.0017104148864746, 1.4924451112747192, 13400, 0.0002970890320909993]
+2023-09-01 23:59:11,293	44k	INFO	Saving model and optimizer state at iteration 75 to /content/drive/MyDrive/VITS2/44k/G_13400.pth
+2023-09-01 23:59:19,764	44k	INFO	Saving model and optimizer state at iteration 75 to /content/drive/MyDrive/VITS2/44k/D_13400.pth
+2023-09-01 23:59:29,749	44k	INFO	Saving model and optimizer state at iteration 75 to /content/drive/MyDrive/VITS2/44k/DUR_13400.pth
+2023-09-02 00:01:49,741	44k	INFO	====> Epoch: 75
+2023-09-02 00:04:05,367	44k	INFO	Train Epoch: 76 [56%]
+2023-09-02 00:04:05,369	44k	INFO	[2.592144012451172, 1.9388859272003174, 7.455151081085205, 20.11245346069336, 2.085848808288574, 2.097618818283081, 13600, 0.0002970518959619879]
+2023-09-02 00:05:52,461	44k	INFO	Saving model and optimizer state at iteration 76 to /content/drive/MyDrive/VITS2/44k/G_13600.pth
+2023-09-02 00:06:09,739	44k	INFO	Saving model and optimizer state at iteration 76 to /content/drive/MyDrive/VITS2/44k/D_13600.pth
+2023-09-02 00:06:18,807	44k	INFO	Saving model and optimizer state at iteration 76 to /content/drive/MyDrive/VITS2/44k/DUR_13600.pth
+2023-09-02 00:06:18,936	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_13200.pth
+2023-09-02 00:08:12,769	44k	INFO	====> Epoch: 76
+2023-09-02 00:10:55,334	44k	INFO	Train Epoch: 77 [67%]
+2023-09-02 00:10:55,336	44k	INFO	[2.4587337970733643, 2.4878389835357666, 8.14880657196045, 22.65728187561035, 2.0444445610046387, 2.3804526329040527, 13800, 0.00029701476447499265]
+2023-09-02 00:12:49,119	44k	INFO	Saving model and optimizer state at iteration 77 to /content/drive/MyDrive/VITS2/44k/G_13800.pth
+2023-09-02 00:13:06,729	44k	INFO	Saving model and optimizer state at iteration 77 to /content/drive/MyDrive/VITS2/44k/D_13800.pth
+2023-09-02 00:13:22,702	44k	INFO	Saving model and optimizer state at iteration 77 to /content/drive/MyDrive/VITS2/44k/DUR_13800.pth
+2023-09-02 00:14:47,736	44k	INFO	====> Epoch: 77
+2023-09-02 00:17:59,870	44k	INFO	Train Epoch: 78 [78%]
+2023-09-02 00:17:59,872	44k	INFO	[2.330354690551758, 2.551213502883911, 8.237483978271484, 21.46909523010254, 1.9142554998397827, 1.7742302417755127, 14000, 0.0002969776376294333]
+2023-09-02 00:19:46,259	44k	INFO	Saving model and optimizer state at iteration 78 to /content/drive/MyDrive/VITS2/44k/G_14000.pth
+2023-09-02 00:20:09,786	44k	INFO	Saving model and optimizer state at iteration 78 to /content/drive/MyDrive/VITS2/44k/D_14000.pth
+2023-09-02 00:20:30,044	44k	INFO	Saving model and optimizer state at iteration 78 to /content/drive/MyDrive/VITS2/44k/DUR_14000.pth
+2023-09-02 00:20:30,804	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_13600.pth
+2023-09-02 00:21:26,083	44k	INFO	====> Epoch: 78
+2023-09-02 00:25:05,251	44k	INFO	Train Epoch: 79 [89%]
+2023-09-02 00:25:05,253	44k	INFO	[2.539623260498047, 2.3946659564971924, 9.974224090576172, 21.41029167175293, 2.1040050983428955, 2.019636392593384, 14200, 0.0002969405154247296]
+2023-09-02 00:26:35,265	44k	INFO	Saving model and optimizer state at iteration 79 to /content/drive/MyDrive/VITS2/44k/G_14200.pth
+2023-09-02 00:27:05,048	44k	INFO	Saving model and optimizer state at iteration 79 to /content/drive/MyDrive/VITS2/44k/D_14200.pth
+2023-09-02 00:27:34,319	44k	INFO	Saving model and optimizer state at iteration 79 to /content/drive/MyDrive/VITS2/44k/DUR_14200.pth
+2023-09-02 00:28:02,790	44k	INFO	====> Epoch: 79
+2023-09-02 00:32:07,509	44k	INFO	====> Epoch: 80
+2023-09-02 00:32:08,877	44k	INFO	Train Epoch: 81 [0%]
+2023-09-02 00:32:08,878	44k	INFO	[2.22356915473938, 2.6269092559814453, 8.946579933166504, 20.077890396118164, 1.9321553707122803, 1.7972198724746704, 14400, 0.0002968662849355689]
+2023-09-02 00:33:46,531	44k	INFO	Saving model and optimizer state at iteration 81 to /content/drive/MyDrive/VITS2/44k/G_14400.pth
+2023-09-02 00:34:14,656	44k	INFO	Saving model and optimizer state at iteration 81 to /content/drive/MyDrive/VITS2/44k/D_14400.pth
+2023-09-02 00:34:40,337	44k	INFO	Saving model and optimizer state at iteration 81 to /content/drive/MyDrive/VITS2/44k/DUR_14400.pth
+2023-09-02 00:34:44,914	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_14000.pth
+2023-09-02 00:38:51,898	44k	INFO	====> Epoch: 81
+2023-09-02 00:39:19,446	44k	INFO	Train Epoch: 82 [11%]
+2023-09-02 00:39:19,448	44k	INFO	[2.14852237701416, 2.6101953983306885, 8.70684814453125, 20.891372680664062, 1.8649876117706299, 1.3614938259124756, 14600, 0.00029682917664995196]
+2023-09-02 00:40:51,241	44k	INFO	Saving model and optimizer state at iteration 82 to /content/drive/MyDrive/VITS2/44k/G_14600.pth
+2023-09-02 00:41:28,526	44k	INFO	Saving model and optimizer state at iteration 82 to /content/drive/MyDrive/VITS2/44k/D_14600.pth
+2023-09-02 00:42:03,567	44k	INFO	Saving model and optimizer state at iteration 82 to /content/drive/MyDrive/VITS2/44k/DUR_14600.pth
+2023-09-02 00:45:37,908	44k	INFO	====> Epoch: 82
+2023-09-02 00:46:34,120	44k	INFO	Train Epoch: 83 [22%]
+2023-09-02 00:46:34,122	44k	INFO	[2.625540018081665, 1.9598658084869385, 7.164128303527832, 18.10474395751953, 2.110154867172241, 1.53007173538208, 14800, 0.0002967920730028707]
+2023-09-02 00:47:59,383	44k	INFO	Saving model and optimizer state at iteration 83 to /content/drive/MyDrive/VITS2/44k/G_14800.pth
+2023-09-02 00:48:39,191	44k	INFO	Saving model and optimizer state at iteration 83 to /content/drive/MyDrive/VITS2/44k/D_14800.pth
+2023-09-02 00:49:15,202	44k	INFO	Saving model and optimizer state at iteration 83 to /content/drive/MyDrive/VITS2/44k/DUR_14800.pth
+2023-09-02 00:49:15,350	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_14400.pth
+2023-09-02 00:52:27,696	44k	INFO	====> Epoch: 83
+2023-09-02 00:53:50,496	44k	INFO	Train Epoch: 84 [33%]
+2023-09-02 00:53:50,498	44k	INFO	[2.4418907165527344, 2.109234571456909, 8.62581729888916, 19.993574142456055, 2.2841615676879883, 2.226590156555176, 15000, 0.00029675497399374534]
+2023-09-02 00:55:07,096	44k	INFO	Saving model and optimizer state at iteration 84 to /content/drive/MyDrive/VITS2/44k/G_15000.pth
+2023-09-02 00:55:49,487	44k	INFO	Saving model and optimizer state at iteration 84 to /content/drive/MyDrive/VITS2/44k/D_15000.pth
+2023-09-02 00:56:29,797	44k	INFO	Saving model and optimizer state at iteration 84 to /content/drive/MyDrive/VITS2/44k/DUR_15000.pth
+2023-09-02 00:56:29,937	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_14600.pth
+2023-09-02 00:59:11,463	44k	INFO	====> Epoch: 84
+2023-09-02 01:00:59,038	44k	INFO	Train Epoch: 85 [44%]
+2023-09-02 01:00:59,040	44k	INFO	[2.428563356399536, 2.5666627883911133, 7.64340353012085, 21.175439834594727, 1.9934639930725098, 1.5921050310134888, 15200, 0.0002967178796219961]
+2023-09-02 01:02:44,289	44k	INFO	Saving model and optimizer state at iteration 85 to /content/drive/MyDrive/VITS2/44k/G_15200.pth
+2023-09-02 01:03:37,650	44k	INFO	Saving model and optimizer state at iteration 85 to /content/drive/MyDrive/VITS2/44k/D_15200.pth
+2023-09-02 01:04:27,898	44k	INFO	Saving model and optimizer state at iteration 85 to /content/drive/MyDrive/VITS2/44k/DUR_15200.pth
+2023-09-02 01:04:28,183	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_14800.pth
+2023-09-02 01:06:43,416	44k	INFO	====> Epoch: 85
+2023-09-02 01:09:00,554	44k	INFO	Train Epoch: 86 [56%]
+2023-09-02 01:09:00,556	44k	INFO	[2.1130523681640625, 2.615891933441162, 10.304306030273438, 21.108797073364258, 1.9381299018859863, 1.6738929748535156, 15400, 0.00029668078988704337]
+2023-09-02 01:10:44,569	44k	INFO	Saving model and optimizer state at iteration 86 to /content/drive/MyDrive/VITS2/44k/G_15400.pth
+2023-09-02 01:11:48,530	44k	INFO	Saving model and optimizer state at iteration 86 to /content/drive/MyDrive/VITS2/44k/D_15400.pth
+2023-09-02 01:12:48,686	44k	INFO	Saving model and optimizer state at iteration 86 to /content/drive/MyDrive/VITS2/44k/DUR_15400.pth
+2023-09-02 01:14:35,064	44k	INFO	====> Epoch: 86
+2023-09-02 01:17:17,484	44k	INFO	Train Epoch: 87 [67%]
+2023-09-02 01:17:17,486	44k	INFO	[2.324967861175537, 2.737036943435669, 12.521361351013184, 21.296648025512695, 2.2104837894439697, 2.2845582962036133, 15600, 0.0002966437047883075]
+2023-09-02 01:18:53,766	44k	INFO	Saving model and optimizer state at iteration 87 to /content/drive/MyDrive/VITS2/44k/G_15600.pth
+2023-09-02 01:20:19,826	44k	INFO	Saving model and optimizer state at iteration 87 to /content/drive/MyDrive/VITS2/44k/D_15600.pth
+2023-09-02 01:21:49,602	44k	INFO	Saving model and optimizer state at iteration 87 to /content/drive/MyDrive/VITS2/44k/DUR_15600.pth
+2023-09-02 01:23:12,076	44k	INFO	====> Epoch: 87
+2023-09-02 01:26:22,979	44k	INFO	Train Epoch: 88 [78%]
+2023-09-02 01:26:22,981	44k	INFO	[2.21392822265625, 2.6040871143341064, 8.373695373535156, 20.54109764099121, 1.9309661388397217, 1.7395769357681274, 15800, 0.0002966066243252089]
+2023-09-02 01:28:04,542	44k	INFO	Saving model and optimizer state at iteration 88 to /content/drive/MyDrive/VITS2/44k/G_15800.pth
+2023-09-02 01:30:09,873	44k	INFO	Saving model and optimizer state at iteration 88 to /content/drive/MyDrive/VITS2/44k/D_15800.pth
+2023-09-02 01:32:35,289	44k	INFO	Saving model and optimizer state at iteration 88 to /content/drive/MyDrive/VITS2/44k/DUR_15800.pth
+2023-09-02 01:33:29,838	44k	INFO	====> Epoch: 88
+2023-09-02 01:37:02,513	44k	INFO	Train Epoch: 89 [89%]
+2023-09-02 01:37:02,515	44k	INFO	[2.622969150543213, 2.7100658416748047, 9.750316619873047, 23.397397994995117, 2.1041598320007324, 2.088996648788452, 16000, 0.00029656954849716826]
+2023-09-02 01:38:18,770	44k	INFO	Saving model and optimizer state at iteration 89 to /content/drive/MyDrive/VITS2/44k/G_16000.pth
+2023-09-02 01:42:23,214	44k	INFO	Saving model and optimizer state at iteration 89 to /content/drive/MyDrive/VITS2/44k/D_16000.pth
+2023-09-02 01:46:38,587	44k	INFO	Saving model and optimizer state at iteration 89 to /content/drive/MyDrive/VITS2/44k/DUR_16000.pth
+2023-09-02 01:46:43,748	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_15600.pth
+2023-09-02 01:47:12,385	44k	INFO	====> Epoch: 89
+2023-09-02 01:51:15,733	44k	INFO	====> Epoch: 90
+2023-09-02 01:51:17,399	44k	INFO	Train Epoch: 91 [0%]
+2023-09-02 01:51:17,400	44k	INFO	[2.3071064949035645, 2.466113805770874, 6.586605072021484, 20.263782501220703, 2.0345895290374756, 1.8783318996429443, 16200, 0.0002964954107439431]
+2023-09-02 01:53:10,322	44k	INFO	Saving model and optimizer state at iteration 91 to /content/drive/MyDrive/VITS2/44k/G_16200.pth
+2023-09-02 06:31:13,665	44k	INFO	{'train': {'log_interval': 200, 'eval_interval': 200, 'seed': 52, 'epochs': 10000, 'learning_rate': 0.0003, 'betas': [0.8, 0.99], 'eps': 1e-09, 'batch_size': 8, 'fp16_run': False, 'lr_decay': 0.999875, 'segment_size': 16384, 'init_lr_ratio': 1, 'warmup_epochs': 0, 'c_mel': 45, 'c_kl': 1.0}, 'data': {'use_mel_posterior_encoder': False, 'training_files': 'annotations/train.list', 'validation_files': 'annotations/val.list', 'max_wav_value': 32768.0, 'sampling_rate': 44100, 'filter_length': 2048, 'hop_length': 512, 'win_length': 2048, 'n_mel_channels': 128, 'mel_fmin': 0.0, 'mel_fmax': None, 'add_blank': True, 'n_speakers': 256, 'cleaned_text': True, 'spk2id': {'one': 0, 'bannite': 1}}, 'model': {'use_spk_conditioned_encoder': True, 'use_noise_scaled_mas': True, 'use_mel_posterior_encoder': False, 'use_duration_discriminator': True, 'inter_channels': 192, 'hidden_channels': 192, 'filter_channels': 768, 'n_heads': 2, 'n_layers': 6, 'kernel_size': 3, 'p_dropout': 0.1, 'resblock': '1', 'resblock_kernel_sizes': [3, 7, 11], 'resblock_dilation_sizes': [[1, 3, 5], [1, 3, 5], [1, 3, 5]], 'upsample_rates': [8, 8, 2, 2, 2], 'upsample_initial_channel': 512, 'upsample_kernel_sizes': [16, 16, 8, 2, 2], 'n_layers_q': 3, 'use_spectral_norm': False, 'gin_channels': 256}, 'model_dir': '/content/drive/MyDrive/VITS2/44k'}
+2023-09-02 06:31:14,045	44k	WARNING	/content/Bert-VITS2/modules is not a git repository, therefore hash value comparison will be ignored.
+2023-09-02 06:31:25,647	44k	INFO	Loaded checkpoint '/content/drive/MyDrive/VITS2/44k/DUR_16000.pth' (iteration 89)
+2023-09-02 06:31:37,384	44k	INFO	Loaded checkpoint '/content/drive/MyDrive/VITS2/44k/G_16000.pth' (iteration 89)
+2023-09-02 06:31:48,443	44k	INFO	Loaded checkpoint '/content/drive/MyDrive/VITS2/44k/D_16000.pth' (iteration 89)
+2023-09-02 06:34:04,524	44k	INFO	Train Epoch: 89 [27%]
+2023-09-02 06:34:04,525	44k	INFO	[2.429780960083008, 2.6004996299743652, 7.219130992889404, 20.751283645629883, 1.9381910562515259, 1.731160044670105, 15800, 0.0002965324773036061]
+2023-09-02 06:38:32,209	44k	INFO	Saving model and optimizer state at iteration 89 to /content/drive/MyDrive/VITS2/44k/G_15800.pth
+2023-09-02 06:38:38,573	44k	INFO	Saving model and optimizer state at iteration 89 to /content/drive/MyDrive/VITS2/44k/D_15800.pth
+2023-09-02 06:38:49,224	44k	INFO	Saving model and optimizer state at iteration 89 to /content/drive/MyDrive/VITS2/44k/DUR_15800.pth
+2023-09-02 06:42:35,505	44k	INFO	====> Epoch: 89
+2023-09-02 06:44:13,859	44k	INFO	Train Epoch: 90 [39%]
+2023-09-02 06:44:13,860	44k	INFO	[2.2739479541778564, 2.396557569503784, 7.58009147644043, 20.799943923950195, 1.913436770439148, 2.1270318031311035, 16000, 0.0002964954107439431]
+2023-09-02 06:47:57,332	44k	INFO	Saving model and optimizer state at iteration 90 to /content/drive/MyDrive/VITS2/44k/G_16000.pth
+2023-09-02 06:48:07,479	44k	INFO	Saving model and optimizer state at iteration 90 to /content/drive/MyDrive/VITS2/44k/D_16000.pth
+2023-09-02 06:48:10,180	44k	INFO	Saving model and optimizer state at iteration 90 to /content/drive/MyDrive/VITS2/44k/DUR_16000.pth
+2023-09-02 06:50:49,204	44k	INFO	====> Epoch: 90
+2023-09-02 06:52:49,921	44k	INFO	Train Epoch: 91 [50%]
+2023-09-02 06:52:49,923	44k	INFO	[2.418783187866211, 2.3622512817382812, 7.205407619476318, 20.670692443847656, 1.8728846311569214, 1.556907296180725, 16200, 0.0002964583488176001]
+2023-09-02 06:56:24,099	44k	INFO	Saving model and optimizer state at iteration 91 to /content/drive/MyDrive/VITS2/44k/G_16200.pth
+2023-09-02 06:56:36,023	44k	INFO	Saving model and optimizer state at iteration 91 to /content/drive/MyDrive/VITS2/44k/D_16200.pth
+2023-09-02 06:56:38,220	44k	INFO	Saving model and optimizer state at iteration 91 to /content/drive/MyDrive/VITS2/44k/DUR_16200.pth
+2023-09-02 06:58:38,934	44k	INFO	====> Epoch: 91
+2023-09-02 07:01:09,633	44k	INFO	Train Epoch: 92 [62%]
+2023-09-02 07:01:09,635	44k	INFO	[2.552950620651245, 2.368567943572998, 7.3511061668396, 20.735910415649414, 1.8324731588363647, 1.83746337890625, 16400, 0.0002964212915239979]
+2023-09-02 07:04:22,174	44k	INFO	Saving model and optimizer state at iteration 92 to /content/drive/MyDrive/VITS2/44k/G_16400.pth
+2023-09-02 07:04:31,816	44k	INFO	Saving model and optimizer state at iteration 92 to /content/drive/MyDrive/VITS2/44k/D_16400.pth
+2023-09-02 07:04:38,185	44k	INFO	Saving model and optimizer state at iteration 92 to /content/drive/MyDrive/VITS2/44k/DUR_16400.pth
+2023-09-02 07:04:38,298	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_16000.pth
+2023-09-02 07:06:12,252	44k	INFO	====> Epoch: 92
+2023-09-02 07:09:08,161	44k	INFO	Train Epoch: 93 [74%]
+2023-09-02 07:09:08,162	44k	INFO	[2.490330219268799, 2.423020362854004, 6.517001152038574, 20.397216796875, 2.0054032802581787, 1.4233555793762207, 16600, 0.0002963842388625574]
+2023-09-02 07:12:05,058	44k	INFO	Saving model and optimizer state at iteration 93 to /content/drive/MyDrive/VITS2/44k/G_16600.pth
+2023-09-02 07:12:18,773	44k	INFO	Saving model and optimizer state at iteration 93 to /content/drive/MyDrive/VITS2/44k/D_16600.pth
+2023-09-02 07:12:25,325	44k	INFO	Saving model and optimizer state at iteration 93 to /content/drive/MyDrive/VITS2/44k/DUR_16600.pth
+2023-09-02 07:13:32,455	44k	INFO	====> Epoch: 93
+2023-09-02 07:16:56,084	44k	INFO	Train Epoch: 94 [85%]
+2023-09-02 07:16:56,086	44k	INFO	[2.3014466762542725, 2.4645464420318604, 7.2657060623168945, 20.272159576416016, 1.919116497039795, 1.5371980667114258, 16800, 0.00029634719083269955]
+2023-09-02 07:19:52,792	44k	INFO	Saving model and optimizer state at iteration 94 to /content/drive/MyDrive/VITS2/44k/G_16800.pth
+2023-09-02 07:20:13,852	44k	INFO	Saving model and optimizer state at iteration 94 to /content/drive/MyDrive/VITS2/44k/D_16800.pth
+2023-09-02 07:20:30,971	44k	INFO	Saving model and optimizer state at iteration 94 to /content/drive/MyDrive/VITS2/44k/DUR_16800.pth
+2023-09-02 07:21:07,238	44k	INFO	====> Epoch: 94
+2023-09-02 07:25:00,311	44k	INFO	Train Epoch: 95 [97%]
+2023-09-02 07:25:00,314	44k	INFO	[2.5178451538085938, 2.3637239933013916, 8.714497566223145, 21.877038955688477, 2.2080907821655273, 2.3638710975646973, 17000, 0.00029631014743384545]
+2023-09-02 07:27:48,910	44k	INFO	Saving model and optimizer state at iteration 95 to /content/drive/MyDrive/VITS2/44k/G_17000.pth
+2023-09-02 07:28:18,534	44k	INFO	Saving model and optimizer state at iteration 95 to /content/drive/MyDrive/VITS2/44k/D_17000.pth
+2023-09-02 07:28:44,196	44k	INFO	Saving model and optimizer state at iteration 95 to /content/drive/MyDrive/VITS2/44k/DUR_17000.pth
+2023-09-02 07:28:54,231	44k	INFO	====> Epoch: 95
+2023-09-02 07:32:51,551	44k	INFO	====> Epoch: 96
+2023-09-02 07:33:13,054	44k	INFO	Train Epoch: 97 [9%]
+2023-09-02 07:33:13,055	44k	INFO	[2.4639482498168945, 2.581531047821045, 9.274680137634277, 21.22845458984375, 2.132162094116211, 1.823760747909546, 17200, 0.000296236074526833]
+2023-09-02 07:35:47,166	44k	INFO	Saving model and optimizer state at iteration 97 to /content/drive/MyDrive/VITS2/44k/G_17200.pth
+2023-09-02 07:36:21,011	44k	INFO	Saving model and optimizer state at iteration 97 to /content/drive/MyDrive/VITS2/44k/D_17200.pth
+2023-09-02 07:36:51,262	44k	INFO	Saving model and optimizer state at iteration 97 to /content/drive/MyDrive/VITS2/44k/DUR_17200.pth
+2023-09-02 07:36:51,579	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_16800.pth
+2023-09-02 07:40:27,629	44k	INFO	====> Epoch: 97
+2023-09-02 07:41:19,630	44k	INFO	Train Epoch: 98 [21%]
+2023-09-02 07:41:19,632	44k	INFO	[2.3890585899353027, 2.501474142074585, 7.771880149841309, 19.813777923583984, 2.0580432415008545, 1.9599319696426392, 17400, 0.00029619904501751714]
+2023-09-02 07:43:32,686	44k	INFO	Saving model and optimizer state at iteration 98 to /content/drive/MyDrive/VITS2/44k/G_17400.pth
+2023-09-02 07:44:19,890	44k	INFO	Saving model and optimizer state at iteration 98 to /content/drive/MyDrive/VITS2/44k/D_17400.pth
+2023-09-02 07:45:08,384	44k	INFO	Saving model and optimizer state at iteration 98 to /content/drive/MyDrive/VITS2/44k/DUR_17400.pth
+2023-09-02 07:48:13,707	44k	INFO	====> Epoch: 98
+2023-09-02 07:49:31,014	44k	INFO	Train Epoch: 99 [32%]
+2023-09-02 07:49:31,016	44k	INFO	[2.333434820175171, 2.7227060794830322, 8.406410217285156, 21.60443878173828, 2.103139638900757, 1.9480006694793701, 17600, 0.0002961620201368899]
+2023-09-02 07:51:47,616	44k	INFO	Saving model and optimizer state at iteration 99 to /content/drive/MyDrive/VITS2/44k/G_17600.pth
+2023-09-02 07:52:50,871	44k	INFO	Saving model and optimizer state at iteration 99 to /content/drive/MyDrive/VITS2/44k/D_17600.pth
+2023-09-02 07:53:50,970	44k	INFO	Saving model and optimizer state at iteration 99 to /content/drive/MyDrive/VITS2/44k/DUR_17600.pth
+2023-09-02 07:56:29,672	44k	INFO	====> Epoch: 99
+2023-09-02 07:58:15,783	44k	INFO	Train Epoch: 100 [44%]
+2023-09-02 07:58:15,785	44k	INFO	[2.4308230876922607, 2.67655086517334, 10.426389694213867, 21.790035247802734, 2.1152777671813965, 1.9540339708328247, 17800, 0.0002961249998843728]
+2023-09-02 08:00:14,463	44k	INFO	Saving model and optimizer state at iteration 100 to /content/drive/MyDrive/VITS2/44k/G_17800.pth
+2023-09-02 08:01:45,980	44k	INFO	Saving model and optimizer state at iteration 100 to /content/drive/MyDrive/VITS2/44k/D_17800.pth
+2023-09-02 08:03:08,848	44k	INFO	Saving model and optimizer state at iteration 100 to /content/drive/MyDrive/VITS2/44k/DUR_17800.pth
+2023-09-02 08:03:09,057	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_17400.pth
+2023-09-02 08:05:20,809	44k	INFO	====> Epoch: 100
+2023-09-02 08:07:34,132	44k	INFO	Train Epoch: 101 [56%]
+2023-09-02 08:07:34,134	44k	INFO	[2.251762628555298, 2.5806000232696533, 8.201963424682617, 21.150409698486328, 1.9623607397079468, 2.307201623916626, 18000, 0.00029608798425938726]
+2023-09-02 08:09:51,877	44k	INFO	Saving model and optimizer state at iteration 101 to /content/drive/MyDrive/VITS2/44k/G_18000.pth
+2023-09-02 08:12:20,893	44k	INFO	Saving model and optimizer state at iteration 101 to /content/drive/MyDrive/VITS2/44k/D_18000.pth
+2023-09-02 08:14:56,971	44k	INFO	Saving model and optimizer state at iteration 101 to /content/drive/MyDrive/VITS2/44k/DUR_18000.pth
+2023-09-02 08:16:42,460	44k	INFO	====> Epoch: 101
+2023-09-02 08:19:23,388	44k	INFO	Train Epoch: 102 [68%]
+2023-09-02 08:19:23,390	44k	INFO	[2.458373546600342, 2.4256362915039062, 10.363336563110352, 21.781457901000977, 2.1410205364227295, 2.1703526973724365, 18200, 0.0002960509732613548]
+2023-09-02 08:22:03,467	44k	INFO	Saving model and optimizer state at iteration 102 to /content/drive/MyDrive/VITS2/44k/G_18200.pth
+2023-09-02 08:31:53,121	44k	INFO	Saving model and optimizer state at iteration 102 to /content/drive/MyDrive/VITS2/44k/D_18200.pth
+2023-09-02 08:46:36,630	44k	INFO	{'train': {'log_interval': 200, 'eval_interval': 200, 'seed': 52, 'epochs': 10000, 'learning_rate': 0.0003, 'betas': [0.8, 0.99], 'eps': 1e-09, 'batch_size': 8, 'fp16_run': False, 'lr_decay': 0.999875, 'segment_size': 16384, 'init_lr_ratio': 1, 'warmup_epochs': 0, 'c_mel': 45, 'c_kl': 1.0}, 'data': {'use_mel_posterior_encoder': False, 'training_files': 'annotations/train.list', 'validation_files': 'annotations/val.list', 'max_wav_value': 32768.0, 'sampling_rate': 44100, 'filter_length': 2048, 'hop_length': 512, 'win_length': 2048, 'n_mel_channels': 128, 'mel_fmin': 0.0, 'mel_fmax': None, 'add_blank': True, 'n_speakers': 256, 'cleaned_text': True, 'spk2id': {'one': 0, 'bannite': 1}}, 'model': {'use_spk_conditioned_encoder': True, 'use_noise_scaled_mas': True, 'use_mel_posterior_encoder': False, 'use_duration_discriminator': True, 'inter_channels': 192, 'hidden_channels': 192, 'filter_channels': 768, 'n_heads': 2, 'n_layers': 6, 'kernel_size': 3, 'p_dropout': 0.1, 'resblock': '1', 'resblock_kernel_sizes': [3, 7, 11], 'resblock_dilation_sizes': [[1, 3, 5], [1, 3, 5], [1, 3, 5]], 'upsample_rates': [8, 8, 2, 2, 2], 'upsample_initial_channel': 512, 'upsample_kernel_sizes': [16, 16, 8, 2, 2], 'n_layers_q': 3, 'use_spectral_norm': False, 'gin_channels': 256}, 'model_dir': '/content/drive/MyDrive/VITS2/44k'}
+2023-09-02 08:46:36,631	44k	WARNING	/content/Bert-VITS2/modules is not a git repository, therefore hash value comparison will be ignored.
+2023-09-02 08:46:46,175	44k	INFO	Loaded checkpoint '/content/drive/MyDrive/VITS2/44k/DUR_18000.pth' (iteration 101)
+2023-09-02 08:46:50,279	44k	INFO	Loaded checkpoint '/content/drive/MyDrive/VITS2/44k/G_18200.pth' (iteration 102)
+2023-09-02 08:47:29,406	44k	INFO	{'train': {'log_interval': 200, 'eval_interval': 200, 'seed': 52, 'epochs': 10000, 'learning_rate': 0.0003, 'betas': [0.8, 0.99], 'eps': 1e-09, 'batch_size': 8, 'fp16_run': False, 'lr_decay': 0.999875, 'segment_size': 16384, 'init_lr_ratio': 1, 'warmup_epochs': 0, 'c_mel': 45, 'c_kl': 1.0}, 'data': {'use_mel_posterior_encoder': False, 'training_files': 'annotations/train.list', 'validation_files': 'annotations/val.list', 'max_wav_value': 32768.0, 'sampling_rate': 44100, 'filter_length': 2048, 'hop_length': 512, 'win_length': 2048, 'n_mel_channels': 128, 'mel_fmin': 0.0, 'mel_fmax': None, 'add_blank': True, 'n_speakers': 256, 'cleaned_text': True, 'spk2id': {'one': 0, 'bannite': 1}}, 'model': {'use_spk_conditioned_encoder': True, 'use_noise_scaled_mas': True, 'use_mel_posterior_encoder': False, 'use_duration_discriminator': True, 'inter_channels': 192, 'hidden_channels': 192, 'filter_channels': 768, 'n_heads': 2, 'n_layers': 6, 'kernel_size': 3, 'p_dropout': 0.1, 'resblock': '1', 'resblock_kernel_sizes': [3, 7, 11], 'resblock_dilation_sizes': [[1, 3, 5], [1, 3, 5], [1, 3, 5]], 'upsample_rates': [8, 8, 2, 2, 2], 'upsample_initial_channel': 512, 'upsample_kernel_sizes': [16, 16, 8, 2, 2], 'n_layers_q': 3, 'use_spectral_norm': False, 'gin_channels': 256}, 'model_dir': '/content/drive/MyDrive/VITS2/44k'}
+2023-09-02 08:47:29,407	44k	WARNING	/content/Bert-VITS2/modules is not a git repository, therefore hash value comparison will be ignored.
+2023-09-02 08:47:33,606	44k	INFO	Loaded checkpoint '/content/drive/MyDrive/VITS2/44k/DUR_18000.pth' (iteration 101)
+2023-09-02 08:47:38,326	44k	INFO	Loaded checkpoint '/content/drive/MyDrive/VITS2/44k/G_18000.pth' (iteration 101)
+2023-09-02 08:47:42,190	44k	INFO	Loaded checkpoint '/content/drive/MyDrive/VITS2/44k/D_18000.pth' (iteration 101)
+2023-09-02 08:51:34,633	44k	INFO	Train Epoch: 101 [56%]
+2023-09-02 08:51:34,634	44k	INFO	[2.350187301635742, 2.66731858253479, 8.226181983947754, 20.860187530517578, 1.905858039855957, 2.0940053462982178, 18000, 0.0002960509732613548]
+2023-09-02 08:56:34,202	44k	INFO	Saving model and optimizer state at iteration 101 to /content/drive/MyDrive/VITS2/44k/G_18000.pth
+2023-09-02 08:56:37,483	44k	INFO	Saving model and optimizer state at iteration 101 to /content/drive/MyDrive/VITS2/44k/D_18000.pth
+2023-09-02 08:56:43,212	44k	INFO	Saving model and optimizer state at iteration 101 to /content/drive/MyDrive/VITS2/44k/DUR_18000.pth
+2023-09-02 08:58:56,012	44k	INFO	====> Epoch: 101
+2023-09-02 09:01:52,190	44k	INFO	Train Epoch: 102 [68%]
+2023-09-02 09:01:52,191	44k	INFO	[2.6268539428710938, 1.8680773973464966, 7.0191874504089355, 19.210948944091797, 2.1189160346984863, 1.8301342725753784, 18200, 0.00029601396688969713]
+2023-09-03 01:30:51,031	44k	INFO	{'train': {'log_interval': 200, 'eval_interval': 200, 'seed': 52, 'epochs': 10000, 'learning_rate': 0.0003, 'betas': [0.8, 0.99], 'eps': 1e-09, 'batch_size': 8, 'fp16_run': False, 'lr_decay': 0.999875, 'segment_size': 16384, 'init_lr_ratio': 1, 'warmup_epochs': 0, 'c_mel': 45, 'c_kl': 1.0}, 'data': {'use_mel_posterior_encoder': False, 'training_files': 'annotations/train.list', 'validation_files': 'annotations/val.list', 'max_wav_value': 32768.0, 'sampling_rate': 44100, 'filter_length': 2048, 'hop_length': 512, 'win_length': 2048, 'n_mel_channels': 128, 'mel_fmin': 0.0, 'mel_fmax': None, 'add_blank': True, 'n_speakers': 256, 'cleaned_text': True, 'spk2id': {'one': 0, 'bannite': 1}}, 'model': {'use_spk_conditioned_encoder': True, 'use_noise_scaled_mas': True, 'use_mel_posterior_encoder': False, 'use_duration_discriminator': True, 'inter_channels': 192, 'hidden_channels': 192, 'filter_channels': 768, 'n_heads': 2, 'n_layers': 6, 'kernel_size': 3, 'p_dropout': 0.1, 'resblock': '1', 'resblock_kernel_sizes': [3, 7, 11], 'resblock_dilation_sizes': [[1, 3, 5], [1, 3, 5], [1, 3, 5]], 'upsample_rates': [8, 8, 2, 2, 2], 'upsample_initial_channel': 512, 'upsample_kernel_sizes': [16, 16, 8, 2, 2], 'n_layers_q': 3, 'use_spectral_norm': False, 'gin_channels': 256}, 'model_dir': '/content/drive/MyDrive/VITS2/44k'}
+2023-09-03 01:30:51,985	44k	WARNING	/content/Bert-VITS2/modules is not a git repository, therefore hash value comparison will be ignored.
+2023-09-03 01:31:04,752	44k	INFO	Loaded checkpoint '/content/drive/MyDrive/VITS2/44k/DUR_18000.pth' (iteration 101)
+2023-09-03 01:31:16,806	44k	INFO	Loaded checkpoint '/content/drive/MyDrive/VITS2/44k/G_18000.pth' (iteration 101)
+2023-09-03 01:31:31,214	44k	INFO	Loaded checkpoint '/content/drive/MyDrive/VITS2/44k/D_18000.pth' (iteration 101)
+2023-09-03 01:35:19,219	44k	INFO	Train Epoch: 101 [56%]
+2023-09-03 01:35:19,220	44k	INFO	[2.2214927673339844, 2.412105083465576, 8.244022369384766, 20.51117515563965, 1.7809333801269531, 1.490762710571289, 18000, 0.00029601396688969713]
+2023-09-03 01:39:46,677	44k	INFO	Saving model and optimizer state at iteration 101 to /content/drive/MyDrive/VITS2/44k/G_18000.pth
+2023-09-03 01:39:58,061	44k	INFO	Saving model and optimizer state at iteration 101 to /content/drive/MyDrive/VITS2/44k/D_18000.pth
+2023-09-03 01:40:00,343	44k	INFO	Saving model and optimizer state at iteration 101 to /content/drive/MyDrive/VITS2/44k/DUR_18000.pth
+2023-09-03 01:42:07,812	44k	INFO	====> Epoch: 101
+2023-09-03 01:44:59,526	44k	INFO	Train Epoch: 102 [68%]
+2023-09-03 01:44:59,527	44k	INFO	[2.6057398319244385, 2.0791616439819336, 7.274970531463623, 19.02385139465332, 2.130749464035034, 1.8201097249984741, 18200, 0.00029597696514383593]
+2023-09-03 01:48:47,120	44k	INFO	Saving model and optimizer state at iteration 102 to /content/drive/MyDrive/VITS2/44k/G_18200.pth
+2023-09-03 01:48:50,420	44k	INFO	Saving model and optimizer state at iteration 102 to /content/drive/MyDrive/VITS2/44k/D_18200.pth
+2023-09-03 01:48:52,680	44k	INFO	Saving model and optimizer state at iteration 102 to /content/drive/MyDrive/VITS2/44k/DUR_18200.pth
+2023-09-03 01:50:14,966	44k	INFO	====> Epoch: 102
+2023-09-03 01:53:26,815	44k	INFO	Train Epoch: 103 [79%]
+2023-09-03 01:53:26,817	44k	INFO	[2.2475295066833496, 2.5792527198791504, 7.8786773681640625, 21.158777236938477, 1.9412235021591187, 1.57915461063385, 18400, 0.00029593996802319296]
+2023-09-03 01:56:50,668	44k	INFO	Saving model and optimizer state at iteration 103 to /content/drive/MyDrive/VITS2/44k/G_18400.pth
+2023-09-03 01:56:58,025	44k	INFO	Saving model and optimizer state at iteration 103 to /content/drive/MyDrive/VITS2/44k/D_18400.pth
+2023-09-03 01:57:07,717	44k	INFO	Saving model and optimizer state at iteration 103 to /content/drive/MyDrive/VITS2/44k/DUR_18400.pth
+2023-09-03 01:57:56,760	44k	INFO	====> Epoch: 103
+2023-09-03 02:01:33,443	44k	INFO	Train Epoch: 104 [91%]
+2023-09-03 02:01:33,444	44k	INFO	[2.182223320007324, 2.478194236755371, 7.74461030960083, 21.220731735229492, 1.952109932899475, 2.0789055824279785, 18600, 0.0002959029755271901]
+2023-09-03 02:04:39,373	44k	INFO	Saving model and optimizer state at iteration 104 to /content/drive/MyDrive/VITS2/44k/G_18600.pth
+2023-09-03 02:04:51,946	44k	INFO	Saving model and optimizer state at iteration 104 to /content/drive/MyDrive/VITS2/44k/D_18600.pth
+2023-09-03 02:05:17,476	44k	INFO	Saving model and optimizer state at iteration 104 to /content/drive/MyDrive/VITS2/44k/DUR_18600.pth
+2023-09-03 02:05:17,823	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_18200.pth
+2023-09-03 02:05:37,892	44k	INFO	====> Epoch: 104
+2023-09-03 02:09:31,988	44k	INFO	====> Epoch: 105
+2023-09-03 02:09:40,212	44k	INFO	Train Epoch: 106 [3%]
+2023-09-03 02:09:40,214	44k	INFO	[2.182074785232544, 2.7451093196868896, 10.078621864318848, 22.4625244140625, 1.8627731800079346, 1.713442087173462, 18800, 0.00029582900440679226]
+2023-09-03 02:12:37,750	44k	INFO	Saving model and optimizer state at iteration 106 to /content/drive/MyDrive/VITS2/44k/G_18800.pth
+2023-09-03 02:12:54,955	44k	INFO	Saving model and optimizer state at iteration 106 to /content/drive/MyDrive/VITS2/44k/D_18800.pth
+2023-09-03 02:13:10,440	44k	INFO	Saving model and optimizer state at iteration 106 to /content/drive/MyDrive/VITS2/44k/DUR_18800.pth
+2023-09-03 02:16:57,290	44k	INFO	====> Epoch: 106
+2023-09-03 02:17:33,235	44k	INFO	Train Epoch: 107 [15%]
+2023-09-03 02:17:33,237	44k	INFO	[2.1222424507141113, 2.751544952392578, 10.436342239379883, 21.862844467163086, 1.9278455972671509, 1.754662036895752, 19000, 0.0002957920257812414]
+2023-09-03 02:20:03,664	44k	INFO	Saving model and optimizer state at iteration 107 to /content/drive/MyDrive/VITS2/44k/G_19000.pth
+2023-09-03 02:20:32,717	44k	INFO	Saving model and optimizer state at iteration 107 to /content/drive/MyDrive/VITS2/44k/D_19000.pth
+2023-09-03 02:21:06,032	44k	INFO	Saving model and optimizer state at iteration 107 to /content/drive/MyDrive/VITS2/44k/DUR_19000.pth
+2023-09-03 02:24:20,264	44k	INFO	====> Epoch: 107
+2023-09-03 02:25:22,163	44k	INFO	Train Epoch: 108 [26%]
+2023-09-03 02:25:22,165	44k	INFO	[2.3372910022735596, 2.4769954681396484, 9.664350509643555, 20.475313186645508, 1.9834768772125244, 1.8537828922271729, 19200, 0.00029575505177801875]
+2023-09-03 02:28:00,162	44k	INFO	Saving model and optimizer state at iteration 108 to /content/drive/MyDrive/VITS2/44k/G_19200.pth
+2023-09-03 02:28:36,022	44k	INFO	Saving model and optimizer state at iteration 108 to /content/drive/MyDrive/VITS2/44k/D_19200.pth
+2023-09-03 02:29:12,451	44k	INFO	Saving model and optimizer state at iteration 108 to /content/drive/MyDrive/VITS2/44k/DUR_19200.pth
+2023-09-03 02:32:00,294	44k	INFO	====> Epoch: 108
+2023-09-03 02:33:32,643	44k	INFO	Train Epoch: 109 [38%]
+2023-09-03 02:33:32,644	44k	INFO	[2.473863363265991, 2.5567984580993652, 7.441371917724609, 21.04552459716797, 2.0918967723846436, 2.401796579360962, 19400, 0.0002957180823965465]
+2023-09-03 02:35:50,536	44k	INFO	Saving model and optimizer state at iteration 109 to /content/drive/MyDrive/VITS2/44k/G_19400.pth
+2023-09-03 02:36:36,564	44k	INFO	Saving model and optimizer state at iteration 109 to /content/drive/MyDrive/VITS2/44k/D_19400.pth
+2023-09-03 02:37:17,618	44k	INFO	Saving model and optimizer state at iteration 109 to /content/drive/MyDrive/VITS2/44k/DUR_19400.pth
+2023-09-03 02:39:39,074	44k	INFO	====> Epoch: 109
+2023-09-03 02:41:37,502	44k	INFO	Train Epoch: 110 [50%]
+2023-09-03 02:41:37,504	44k	INFO	[2.6375668048858643, 2.257765054702759, 8.697616577148438, 19.573074340820312, 2.057623863220215, 2.1930620670318604, 19600, 0.00029568111763624694]
+2023-09-03 02:43:47,143	44k	INFO	Saving model and optimizer state at iteration 110 to /content/drive/MyDrive/VITS2/44k/G_19600.pth
+2023-09-03 02:44:52,319	44k	INFO	Saving model and optimizer state at iteration 110 to /content/drive/MyDrive/VITS2/44k/D_19600.pth
+2023-09-03 02:45:52,460	44k	INFO	Saving model and optimizer state at iteration 110 to /content/drive/MyDrive/VITS2/44k/DUR_19600.pth
+2023-09-03 02:47:47,632	44k	INFO	====> Epoch: 110
+2023-09-03 02:50:09,719	44k	INFO	Train Epoch: 111 [61%]
+2023-09-03 02:50:09,721	44k	INFO	[2.550182342529297, 2.4257853031158447, 8.732728004455566, 20.907819747924805, 1.8727588653564453, 1.3404573202133179, 19800, 0.0002956441574965424]
+2023-09-03 02:52:32,895	44k	INFO	Saving model and optimizer state at iteration 111 to /content/drive/MyDrive/VITS2/44k/G_19800.pth
+2023-09-03 02:53:44,497	44k	INFO	Saving model and optimizer state at iteration 111 to /content/drive/MyDrive/VITS2/44k/D_19800.pth
+2023-09-03 02:54:54,512	44k	INFO	Saving model and optimizer state at iteration 111 to /content/drive/MyDrive/VITS2/44k/DUR_19800.pth
+2023-09-03 02:56:24,456	44k	INFO	====> Epoch: 111
+2023-09-03 02:59:13,389	44k	INFO	Train Epoch: 112 [73%]
+2023-09-03 02:59:13,391	44k	INFO	[2.5926225185394287, 2.0711710453033447, 7.4326300621032715, 20.509599685668945, 2.117021083831787, 2.241583824157715, 20000, 0.0002956072019768553]
+2023-09-03 03:01:08,934	44k	INFO	Saving model and optimizer state at iteration 112 to /content/drive/MyDrive/VITS2/44k/G_20000.pth
+2023-09-03 03:02:42,506	44k	INFO	Saving model and optimizer state at iteration 112 to /content/drive/MyDrive/VITS2/44k/D_20000.pth
+2023-09-03 03:04:11,196	44k	INFO	Saving model and optimizer state at iteration 112 to /content/drive/MyDrive/VITS2/44k/DUR_20000.pth
+2023-09-03 03:05:12,235	44k	INFO	====> Epoch: 112
+2023-09-03 03:08:26,890	44k	INFO	Train Epoch: 113 [85%]
+2023-09-03 03:08:26,891	44k	INFO	[2.1934595108032227, 2.7122788429260254, 7.386996746063232, 20.378082275390625, 2.271498203277588, 2.178025245666504, 20200, 0.00029557025107660817]
+2023-09-03 03:10:38,714	44k	INFO	Saving model and optimizer state at iteration 113 to /content/drive/MyDrive/VITS2/44k/G_20200.pth
+2023-09-03 03:13:42,431	44k	INFO	Saving model and optimizer state at iteration 113 to /content/drive/MyDrive/VITS2/44k/D_20200.pth
+2023-09-03 03:17:22,579	44k	INFO	Saving model and optimizer state at iteration 113 to /content/drive/MyDrive/VITS2/44k/DUR_20200.pth
+2023-09-03 03:18:01,481	44k	INFO	====> Epoch: 113
+2023-09-03 03:21:44,814	44k	INFO	Train Epoch: 114 [97%]
+2023-09-03 03:21:44,818	44k	INFO	[2.134355068206787, 2.664249897003174, 7.832371711730957, 20.447891235351562, 2.017913818359375, 1.77653968334198, 20400, 0.00029553330479522357]
+2023-09-03 03:24:17,548	44k	INFO	Saving model and optimizer state at iteration 114 to /content/drive/MyDrive/VITS2/44k/G_20400.pth
+2023-09-03 03:34:12,569	44k	INFO	Saving model and optimizer state at iteration 114 to /content/drive/MyDrive/VITS2/44k/D_20400.pth
+2023-09-03 03:45:50,767	44k	INFO	Saving model and optimizer state at iteration 114 to /content/drive/MyDrive/VITS2/44k/DUR_20400.pth
+2023-09-03 03:46:26,566	44k	INFO	====> Epoch: 114
+2023-09-03 07:57:57,418	44k	INFO	{'train': {'log_interval': 200, 'eval_interval': 200, 'seed': 52, 'epochs': 10000, 'learning_rate': 0.0003, 'betas': [0.8, 0.99], 'eps': 1e-09, 'batch_size': 8, 'fp16_run': False, 'lr_decay': 0.999875, 'segment_size': 16384, 'init_lr_ratio': 1, 'warmup_epochs': 0, 'c_mel': 45, 'c_kl': 1.0}, 'data': {'use_mel_posterior_encoder': False, 'training_files': 'annotations/train.list', 'validation_files': 'annotations/val.list', 'max_wav_value': 32768.0, 'sampling_rate': 44100, 'filter_length': 2048, 'hop_length': 512, 'win_length': 2048, 'n_mel_channels': 128, 'mel_fmin': 0.0, 'mel_fmax': None, 'add_blank': True, 'n_speakers': 256, 'cleaned_text': True, 'spk2id': {'one': 0, 'bannite': 1}}, 'model': {'use_spk_conditioned_encoder': True, 'use_noise_scaled_mas': True, 'use_mel_posterior_encoder': False, 'use_duration_discriminator': True, 'inter_channels': 192, 'hidden_channels': 192, 'filter_channels': 768, 'n_heads': 2, 'n_layers': 6, 'kernel_size': 3, 'p_dropout': 0.1, 'resblock': '1', 'resblock_kernel_sizes': [3, 7, 11], 'resblock_dilation_sizes': [[1, 3, 5], [1, 3, 5], [1, 3, 5]], 'upsample_rates': [8, 8, 2, 2, 2], 'upsample_initial_channel': 512, 'upsample_kernel_sizes': [16, 16, 8, 2, 2], 'n_layers_q': 3, 'use_spectral_norm': False, 'gin_channels': 256}, 'model_dir': '/content/drive/MyDrive/VITS2/44k'}
+2023-09-03 07:57:57,760	44k	WARNING	/content/Bert-VITS2/modules is not a git repository, therefore hash value comparison will be ignored.
+2023-09-03 07:58:08,159	44k	INFO	Loaded checkpoint '/content/drive/MyDrive/VITS2/44k/DUR_20400.pth' (iteration 114)
+2023-09-03 07:58:21,146	44k	INFO	Loaded checkpoint '/content/drive/MyDrive/VITS2/44k/G_20400.pth' (iteration 114)
+2023-09-03 07:58:31,616	44k	INFO	Loaded checkpoint '/content/drive/MyDrive/VITS2/44k/D_20400.pth' (iteration 114)
+2023-09-03 08:04:32,497	44k	INFO	Train Epoch: 114 [97%]
+2023-09-03 08:04:32,498	44k	INFO	[2.326564073562622, 2.9384171962738037, 7.792905807495117, 21.509967803955078, 2.002281665802002, 2.056743621826172, 20400, 0.00029549636313212416]
+2023-09-03 08:09:28,507	44k	INFO	Saving model and optimizer state at iteration 114 to /content/drive/MyDrive/VITS2/44k/G_20400.pth
+2023-09-03 08:09:31,288	44k	INFO	Saving model and optimizer state at iteration 114 to /content/drive/MyDrive/VITS2/44k/D_20400.pth
+2023-09-03 08:09:34,238	44k	INFO	Saving model and optimizer state at iteration 114 to /content/drive/MyDrive/VITS2/44k/DUR_20400.pth
+2023-09-03 08:09:43,824	44k	INFO	====> Epoch: 114
+2023-09-03 08:14:11,763	44k	INFO	====> Epoch: 115
+2023-09-03 08:14:34,136	44k	INFO	Train Epoch: 116 [8%]
+2023-09-03 08:14:34,137	44k	INFO	[2.5688464641571045, 2.3949735164642334, 9.48087215423584, 21.588090896606445, 1.9753944873809814, 1.9412856101989746, 20600, 0.00029542249365847173]
+2023-09-03 08:18:46,058	44k	INFO	Saving model and optimizer state at iteration 116 to /content/drive/MyDrive/VITS2/44k/G_20600.pth
+2023-09-03 08:18:48,705	44k	INFO	Saving model and optimizer state at iteration 116 to /content/drive/MyDrive/VITS2/44k/D_20600.pth
+2023-09-03 08:18:50,937	44k	INFO	Saving model and optimizer state at iteration 116 to /content/drive/MyDrive/VITS2/44k/DUR_20600.pth
+2023-09-03 08:18:51,124	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_20200.pth
+2023-09-03 08:22:42,293	44k	INFO	====> Epoch: 116
+2023-09-03 08:23:34,553	44k	INFO	Train Epoch: 117 [20%]
+2023-09-03 08:23:34,554	44k	INFO	[2.383460760116577, 2.3891000747680664, 9.197431564331055, 21.892702102661133, 1.9620420932769775, 1.9035053253173828, 20800, 0.0002953855658467644]
+2023-09-03 08:26:56,595	44k	INFO	Saving model and optimizer state at iteration 117 to /content/drive/MyDrive/VITS2/44k/G_20800.pth
+2023-09-03 08:26:59,774	44k	INFO	Saving model and optimizer state at iteration 117 to /content/drive/MyDrive/VITS2/44k/D_20800.pth
+2023-09-03 08:27:12,050	44k	INFO	Saving model and optimizer state at iteration 117 to /content/drive/MyDrive/VITS2/44k/DUR_20800.pth
+2023-09-03 08:30:29,578	44k	INFO	====> Epoch: 117
+2023-09-03 08:31:50,565	44k	INFO	Train Epoch: 118 [32%]
+2023-09-03 08:31:50,567	44k	INFO	[2.2386703491210938, 2.686197280883789, 8.37877082824707, 20.611846923828125, 1.8149354457855225, 1.6087645292282104, 21000, 0.00029534864265103354]
+2023-09-03 08:35:00,949	44k	INFO	Saving model and optimizer state at iteration 118 to /content/drive/MyDrive/VITS2/44k/G_21000.pth
+2023-09-03 08:35:04,678	44k	INFO	Saving model and optimizer state at iteration 118 to /content/drive/MyDrive/VITS2/44k/D_21000.pth
+2023-09-03 08:35:13,316	44k	INFO	Saving model and optimizer state at iteration 118 to /content/drive/MyDrive/VITS2/44k/DUR_21000.pth
+2023-09-03 08:35:14,313	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_20600.pth
+2023-09-03 08:38:01,419	44k	INFO	====> Epoch: 118
+2023-09-03 08:39:52,865	44k	INFO	Train Epoch: 119 [44%]
+2023-09-03 08:39:52,867	44k	INFO	[2.463466167449951, 2.209270477294922, 7.946126461029053, 20.791545867919922, 2.0737416744232178, 2.0576891899108887, 21200, 0.00029531172407070214]
+2023-09-03 08:42:36,223	44k	INFO	Saving model and optimizer state at iteration 119 to /content/drive/MyDrive/VITS2/44k/G_21200.pth
+2023-09-03 08:42:55,513	44k	INFO	Saving model and optimizer state at iteration 119 to /content/drive/MyDrive/VITS2/44k/D_21200.pth
+2023-09-03 08:43:19,381	44k	INFO	Saving model and optimizer state at iteration 119 to /content/drive/MyDrive/VITS2/44k/DUR_21200.pth
+2023-09-03 08:45:35,573	44k	INFO	====> Epoch: 119
+2023-09-03 08:47:51,306	44k	INFO	Train Epoch: 120 [55%]
+2023-09-03 08:47:51,308	44k	INFO	[2.0143895149230957, 2.7645480632781982, 9.034146308898926, 21.279909133911133, 1.914791226387024, 2.4470932483673096, 21400, 0.0002952748101051933]
+2023-09-03 08:50:43,745	44k	INFO	Saving model and optimizer state at iteration 120 to /content/drive/MyDrive/VITS2/44k/G_21400.pth
+2023-09-03 08:51:10,003	44k	INFO	Saving model and optimizer state at iteration 120 to /content/drive/MyDrive/VITS2/44k/D_21400.pth
+2023-09-03 08:51:38,590	44k	INFO	Saving model and optimizer state at iteration 120 to /content/drive/MyDrive/VITS2/44k/DUR_21400.pth
+2023-09-03 08:51:39,962	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_21000.pth
+2023-09-03 08:53:29,123	44k	INFO	====> Epoch: 120
+2023-09-03 08:56:13,602	44k	INFO	Train Epoch: 121 [67%]
+2023-09-03 08:56:13,604	44k	INFO	[2.405014991760254, 2.5049726963043213, 6.79915714263916, 19.119104385375977, 1.9087408781051636, 1.8203295469284058, 21600, 0.00029523790075393016]
+2023-09-03 08:58:55,606	44k	INFO	Saving model and optimizer state at iteration 121 to /content/drive/MyDrive/VITS2/44k/G_21600.pth
+2023-09-03 08:59:27,489	44k	INFO	Saving model and optimizer state at iteration 121 to /content/drive/MyDrive/VITS2/44k/D_21600.pth
+2023-09-03 09:00:01,967	44k	INFO	Saving model and optimizer state at iteration 121 to /content/drive/MyDrive/VITS2/44k/DUR_21600.pth
+2023-09-03 09:01:24,860	44k	INFO	====> Epoch: 121
+2023-09-03 09:04:36,771	44k	INFO	Train Epoch: 122 [79%]
+2023-09-03 09:04:36,773	44k	INFO	[2.434532642364502, 2.5248451232910156, 9.741887092590332, 20.83849334716797, 2.000187397003174, 2.0815045833587646, 21800, 0.0002952009960163359]
+2023-09-03 09:06:58,510	44k	INFO	Saving model and optimizer state at iteration 122 to /content/drive/MyDrive/VITS2/44k/G_21800.pth
+2023-09-03 09:07:39,752	44k	INFO	Saving model and optimizer state at iteration 122 to /content/drive/MyDrive/VITS2/44k/D_21800.pth
+2023-09-03 09:08:14,031	44k	INFO	Saving model and optimizer state at iteration 122 to /content/drive/MyDrive/VITS2/44k/DUR_21800.pth
+2023-09-03 09:08:14,225	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_21400.pth
+2023-09-03 09:09:07,606	44k	INFO	====> Epoch: 122
+2023-09-03 09:12:48,446	44k	INFO	Train Epoch: 123 [91%]
+2023-09-03 09:12:48,447	44k	INFO	[1.9661476612091064, 3.3151161670684814, 10.53027057647705, 21.306554794311523, 1.7898614406585693, 1.3611489534378052, 22000, 0.00029516409589183386]
+2023-09-03 09:15:11,811	44k	INFO	Saving model and optimizer state at iteration 123 to /content/drive/MyDrive/VITS2/44k/G_22000.pth
+2023-09-03 09:16:08,982	44k	INFO	Saving model and optimizer state at iteration 123 to /content/drive/MyDrive/VITS2/44k/D_22000.pth
+2023-09-03 09:16:59,161	44k	INFO	Saving model and optimizer state at iteration 123 to /content/drive/MyDrive/VITS2/44k/DUR_22000.pth
+2023-09-03 09:16:59,346	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/DUR_21400.pth
+2023-09-03 09:16:59,349	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_21600.pth
+2023-09-03 09:17:24,431	44k	INFO	====> Epoch: 123
+2023-09-03 09:21:26,276	44k	INFO	====> Epoch: 124
+2023-09-03 09:21:33,455	44k	INFO	Train Epoch: 125 [2%]
+2023-09-03 09:21:33,457	44k	INFO	[2.1261589527130127, 3.0571913719177246, 7.7914533615112305, 19.88775062561035, 1.794066309928894, 1.4895658493041992, 22200, 0.0002950903094797999]
+2023-09-03 09:23:48,037	44k	INFO	Saving model and optimizer state at iteration 125 to /content/drive/MyDrive/VITS2/44k/G_22200.pth
+2023-09-03 09:25:04,821	44k	INFO	Saving model and optimizer state at iteration 125 to /content/drive/MyDrive/VITS2/44k/D_22200.pth
+2023-09-03 09:26:19,962	44k	INFO	Saving model and optimizer state at iteration 125 to /content/drive/MyDrive/VITS2/44k/DUR_22200.pth
+2023-09-03 09:30:16,082	44k	INFO	====> Epoch: 125
+2023-09-03 09:30:51,438	44k	INFO	Train Epoch: 126 [14%]
+2023-09-03 09:30:51,440	44k	INFO	[2.4407989978790283, 2.4064509868621826, 9.470721244812012, 21.727445602416992, 1.9484279155731201, 1.920589804649353, 22400, 0.0002950534231911149]
+2023-09-03 09:32:53,349	44k	INFO	Saving model and optimizer state at iteration 126 to /content/drive/MyDrive/VITS2/44k/G_22400.pth
+2023-09-03 09:34:39,733	44k	INFO	Saving model and optimizer state at iteration 126 to /content/drive/MyDrive/VITS2/44k/D_22400.pth
+2023-09-03 09:36:18,699	44k	INFO	Saving model and optimizer state at iteration 126 to /content/drive/MyDrive/VITS2/44k/DUR_22400.pth
+2023-09-03 09:36:20,350	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_22000.pth
+2023-09-03 09:39:48,334	44k	INFO	====> Epoch: 126
+2023-09-03 09:40:51,909	44k	INFO	Train Epoch: 127 [26%]
+2023-09-03 09:40:51,911	44k	INFO	[2.205734968185425, 2.6430397033691406, 8.299616813659668, 21.376468658447266, 2.0306766033172607, 1.7043923139572144, 22600, 0.000295016541513216]
+2023-09-03 09:43:13,166	44k	INFO	Saving model and optimizer state at iteration 127 to /content/drive/MyDrive/VITS2/44k/G_22600.pth
+2023-09-03 09:46:20,472	44k	INFO	Saving model and optimizer state at iteration 127 to /content/drive/MyDrive/VITS2/44k/D_22600.pth
+2023-09-03 09:49:55,130	44k	INFO	Saving model and optimizer state at iteration 127 to /content/drive/MyDrive/VITS2/44k/DUR_22600.pth
+2023-09-03 09:53:00,995	44k	INFO	====> Epoch: 127
+2023-09-03 09:54:31,943	44k	INFO	Train Epoch: 128 [37%]
+2023-09-03 09:54:31,945	44k	INFO	[2.6709189414978027, 2.2215991020202637, 7.5039262771606445, 19.5642147064209, 2.131283760070801, 2.1492621898651123, 22800, 0.0002949796644455268]
+2023-09-03 09:57:12,157	44k	INFO	Saving model and optimizer state at iteration 128 to /content/drive/MyDrive/VITS2/44k/G_22800.pth
+2023-09-03 10:09:35,495	44k	INFO	Saving model and optimizer state at iteration 128 to /content/drive/MyDrive/VITS2/44k/D_22800.pth
+2023-09-03 10:28:37,992	44k	INFO	Saving model and optimizer state at iteration 128 to /content/drive/MyDrive/VITS2/44k/DUR_22800.pth
+2023-09-03 10:33:17,728	44k	INFO	{'train': {'log_interval': 200, 'eval_interval': 200, 'seed': 52, 'epochs': 10000, 'learning_rate': 0.0003, 'betas': [0.8, 0.99], 'eps': 1e-09, 'batch_size': 8, 'fp16_run': False, 'lr_decay': 0.999875, 'segment_size': 16384, 'init_lr_ratio': 1, 'warmup_epochs': 0, 'c_mel': 45, 'c_kl': 1.0}, 'data': {'use_mel_posterior_encoder': False, 'training_files': 'annotations/train.list', 'validation_files': 'annotations/val.list', 'max_wav_value': 32768.0, 'sampling_rate': 44100, 'filter_length': 2048, 'hop_length': 512, 'win_length': 2048, 'n_mel_channels': 128, 'mel_fmin': 0.0, 'mel_fmax': None, 'add_blank': True, 'n_speakers': 256, 'cleaned_text': True, 'spk2id': {'one': 0, 'bannite': 1}}, 'model': {'use_spk_conditioned_encoder': True, 'use_noise_scaled_mas': True, 'use_mel_posterior_encoder': False, 'use_duration_discriminator': True, 'inter_channels': 192, 'hidden_channels': 192, 'filter_channels': 768, 'n_heads': 2, 'n_layers': 6, 'kernel_size': 3, 'p_dropout': 0.1, 'resblock': '1', 'resblock_kernel_sizes': [3, 7, 11], 'resblock_dilation_sizes': [[1, 3, 5], [1, 3, 5], [1, 3, 5]], 'upsample_rates': [8, 8, 2, 2, 2], 'upsample_initial_channel': 512, 'upsample_kernel_sizes': [16, 16, 8, 2, 2], 'n_layers_q': 3, 'use_spectral_norm': False, 'gin_channels': 256}, 'model_dir': '/content/drive/MyDrive/VITS2/44k'}
+2023-09-03 10:33:17,730	44k	WARNING	/content/Bert-VITS2/modules is not a git repository, therefore hash value comparison will be ignored.
+2023-09-03 10:33:27,874	44k	INFO	Loaded checkpoint '/content/drive/MyDrive/VITS2/44k/DUR_22800.pth' (iteration 128)
+2023-09-03 10:33:32,893	44k	INFO	Loaded checkpoint '/content/drive/MyDrive/VITS2/44k/G_22800.pth' (iteration 128)
+2023-09-03 10:33:36,203	44k	INFO	Loaded checkpoint '/content/drive/MyDrive/VITS2/44k/D_22800.pth' (iteration 128)
+2023-09-03 10:36:27,699	44k	INFO	Train Epoch: 128 [37%]
+2023-09-03 10:36:27,700	44k	INFO	[2.5362114906311035, 2.2581276893615723, 8.371559143066406, 21.023136138916016, 2.1156821250915527, 2.397735834121704, 22800, 0.0002949427919874711]
+2023-09-03 23:16:38,297	44k	INFO	{'train': {'log_interval': 200, 'eval_interval': 200, 'seed': 52, 'epochs': 10000, 'learning_rate': 0.0003, 'betas': [0.8, 0.99], 'eps': 1e-09, 'batch_size': 8, 'fp16_run': False, 'lr_decay': 0.999875, 'segment_size': 16384, 'init_lr_ratio': 1, 'warmup_epochs': 0, 'c_mel': 45, 'c_kl': 1.0}, 'data': {'use_mel_posterior_encoder': False, 'training_files': 'annotations/train.list', 'validation_files': 'annotations/val.list', 'max_wav_value': 32768.0, 'sampling_rate': 44100, 'filter_length': 2048, 'hop_length': 512, 'win_length': 2048, 'n_mel_channels': 128, 'mel_fmin': 0.0, 'mel_fmax': None, 'add_blank': True, 'n_speakers': 256, 'cleaned_text': True, 'spk2id': {'one': 0, 'bannite': 1}}, 'model': {'use_spk_conditioned_encoder': True, 'use_noise_scaled_mas': True, 'use_mel_posterior_encoder': False, 'use_duration_discriminator': True, 'inter_channels': 192, 'hidden_channels': 192, 'filter_channels': 768, 'n_heads': 2, 'n_layers': 6, 'kernel_size': 3, 'p_dropout': 0.1, 'resblock': '1', 'resblock_kernel_sizes': [3, 7, 11], 'resblock_dilation_sizes': [[1, 3, 5], [1, 3, 5], [1, 3, 5]], 'upsample_rates': [8, 8, 2, 2, 2], 'upsample_initial_channel': 512, 'upsample_kernel_sizes': [16, 16, 8, 2, 2], 'n_layers_q': 3, 'use_spectral_norm': False, 'gin_channels': 256}, 'model_dir': '/content/drive/MyDrive/VITS2/44k'}
+2023-09-03 23:16:38,677	44k	WARNING	/content/Bert-VITS2/modules is not a git repository, therefore hash value comparison will be ignored.
+2023-09-03 23:16:49,249	44k	INFO	Loaded checkpoint '/content/drive/MyDrive/VITS2/44k/DUR_22800.pth' (iteration 128)
+2023-09-03 23:17:04,477	44k	INFO	Loaded checkpoint '/content/drive/MyDrive/VITS2/44k/G_22800.pth' (iteration 128)
+2023-09-03 23:17:17,268	44k	INFO	Loaded checkpoint '/content/drive/MyDrive/VITS2/44k/D_22800.pth' (iteration 128)
+2023-09-03 23:20:17,975	44k	INFO	Train Epoch: 128 [37%]
+2023-09-03 23:20:17,977	44k	INFO	[2.4967498779296875, 2.1624362468719482, 8.141525268554688, 21.298097610473633, 2.1287078857421875, 2.4222023487091064, 22800, 0.0002949427919874711]
+2023-09-03 23:25:07,543	44k	INFO	Saving model and optimizer state at iteration 128 to /content/drive/MyDrive/VITS2/44k/G_22800.pth
+2023-09-03 23:25:14,140	44k	INFO	Saving model and optimizer state at iteration 128 to /content/drive/MyDrive/VITS2/44k/D_22800.pth
+2023-09-03 23:25:16,693	44k	INFO	Saving model and optimizer state at iteration 128 to /content/drive/MyDrive/VITS2/44k/DUR_22800.pth
+2023-09-03 23:28:50,735	44k	INFO	====> Epoch: 128
+2023-09-03 23:31:10,969	44k	INFO	Train Epoch: 129 [49%]
+2023-09-03 23:31:10,970	44k	INFO	[2.2484378814697266, 2.571774482727051, 6.850022315979004, 19.64061164855957, 1.861046314239502, 1.8158334493637085, 23000, 0.00029490592413847265]
+2023-09-03 23:35:17,704	44k	INFO	Saving model and optimizer state at iteration 129 to /content/drive/MyDrive/VITS2/44k/G_23000.pth
+2023-09-03 23:35:28,957	44k	INFO	Saving model and optimizer state at iteration 129 to /content/drive/MyDrive/VITS2/44k/D_23000.pth
+2023-09-03 23:35:36,284	44k	INFO	Saving model and optimizer state at iteration 129 to /content/drive/MyDrive/VITS2/44k/DUR_23000.pth
+2023-09-03 23:37:59,422	44k	INFO	====> Epoch: 129
+2023-09-03 23:40:44,886	44k	INFO	Train Epoch: 130 [61%]
+2023-09-03 23:40:44,888	44k	INFO	[2.691903591156006, 2.443927764892578, 9.31816291809082, 21.53238296508789, 2.0109963417053223, 1.7513859272003174, 23200, 0.0002948690608979553]
+2023-09-03 23:44:30,783	44k	INFO	Saving model and optimizer state at iteration 130 to /content/drive/MyDrive/VITS2/44k/G_23200.pth
+2023-09-03 23:44:38,076	44k	INFO	Saving model and optimizer state at iteration 130 to /content/drive/MyDrive/VITS2/44k/D_23200.pth
+2023-09-03 23:44:48,140	44k	INFO	Saving model and optimizer state at iteration 130 to /content/drive/MyDrive/VITS2/44k/DUR_23200.pth
+2023-09-03 23:46:35,386	44k	INFO	====> Epoch: 130
+2023-09-03 23:49:49,771	44k	INFO	Train Epoch: 131 [73%]
+2023-09-03 23:49:49,772	44k	INFO	[2.379323959350586, 2.495135545730591, 7.284514904022217, 19.88163948059082, 1.9964747428894043, 2.113776683807373, 23400, 0.00029483220226534306]
+2023-09-03 23:52:52,560	44k	INFO	Saving model and optimizer state at iteration 131 to /content/drive/MyDrive/VITS2/44k/G_23400.pth
+2023-09-03 23:53:06,651	44k	INFO	Saving model and optimizer state at iteration 131 to /content/drive/MyDrive/VITS2/44k/D_23400.pth
+2023-09-03 23:53:17,606	44k	INFO	Saving model and optimizer state at iteration 131 to /content/drive/MyDrive/VITS2/44k/DUR_23400.pth
+2023-09-03 23:53:17,789	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_23000.pth
+2023-09-03 23:54:33,107	44k	INFO	====> Epoch: 131
+2023-09-03 23:58:16,228	44k	INFO	Train Epoch: 132 [84%]
+2023-09-03 23:58:16,230	44k	INFO	[2.087958335876465, 3.1870243549346924, 9.374255180358887, 20.81548500061035, 1.8113572597503662, 2.0650389194488525, 23600, 0.0002947953482400599]
+2023-09-04 00:01:22,141	44k	INFO	Saving model and optimizer state at iteration 132 to /content/drive/MyDrive/VITS2/44k/G_23600.pth
+2023-09-04 00:01:36,403	44k	INFO	Saving model and optimizer state at iteration 132 to /content/drive/MyDrive/VITS2/44k/D_23600.pth
+2023-09-04 00:01:47,928	44k	INFO	Saving model and optimizer state at iteration 132 to /content/drive/MyDrive/VITS2/44k/DUR_23600.pth
+2023-09-04 00:02:29,187	44k	INFO	====> Epoch: 132
+2023-09-04 00:06:42,913	44k	INFO	Train Epoch: 133 [96%]
+2023-09-04 00:06:42,915	44k	INFO	[2.209623336791992, 2.642848014831543, 7.5418548583984375, 19.849912643432617, 1.916082739830017, 2.0274477005004883, 23800, 0.00029475849882152987]
+2023-09-04 00:09:48,243	44k	INFO	Saving model and optimizer state at iteration 133 to /content/drive/MyDrive/VITS2/44k/G_23800.pth
+2023-09-04 00:10:06,831	44k	INFO	Saving model and optimizer state at iteration 133 to /content/drive/MyDrive/VITS2/44k/D_23800.pth
+2023-09-04 00:10:28,276	44k	INFO	Saving model and optimizer state at iteration 133 to /content/drive/MyDrive/VITS2/44k/DUR_23800.pth
+2023-09-04 00:10:40,539	44k	INFO	====> Epoch: 133
+2023-09-04 00:15:04,241	44k	INFO	====> Epoch: 134
+2023-09-04 00:15:25,728	44k	INFO	Train Epoch: 135 [8%]
+2023-09-04 00:15:25,730	44k	INFO	[2.573788642883301, 2.350093126296997, 8.0321626663208, 20.415117263793945, 1.9219826459884644, 2.121908664703369, 24000, 0.00029468481380242603]
+2023-09-04 00:18:09,208	44k	INFO	Saving model and optimizer state at iteration 135 to /content/drive/MyDrive/VITS2/44k/G_24000.pth
+2023-09-04 00:18:35,913	44k	INFO	Saving model and optimizer state at iteration 135 to /content/drive/MyDrive/VITS2/44k/D_24000.pth
+2023-09-04 00:19:05,800	44k	INFO	Saving model and optimizer state at iteration 135 to /content/drive/MyDrive/VITS2/44k/DUR_24000.pth
+2023-09-04 00:19:06,033	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_23600.pth
+2023-09-04 00:23:11,922	44k	INFO	====> Epoch: 135
+2023-09-04 00:24:05,247	44k	INFO	Train Epoch: 136 [20%]
+2023-09-04 00:24:05,249	44k	INFO	[2.4932632446289062, 2.6052281856536865, 6.993650913238525, 19.852569580078125, 2.223618268966675, 1.9156631231307983, 24200, 0.0002946479782007007]
+2023-09-04 00:26:43,452	44k	INFO	Saving model and optimizer state at iteration 136 to /content/drive/MyDrive/VITS2/44k/G_24200.pth
+2023-09-04 00:27:24,057	44k	INFO	Saving model and optimizer state at iteration 136 to /content/drive/MyDrive/VITS2/44k/D_24200.pth
+2023-09-04 00:27:59,679	44k	INFO	Saving model and optimizer state at iteration 136 to /content/drive/MyDrive/VITS2/44k/DUR_24200.pth
+2023-09-04 00:28:02,475	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/DUR_23600.pth
+2023-09-04 00:28:02,479	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_23800.pth
+2023-09-04 00:31:36,292	44k	INFO	====> Epoch: 136
+2023-09-04 00:32:58,099	44k	INFO	Train Epoch: 137 [31%]
+2023-09-04 00:32:58,100	44k	INFO	[2.42639422416687, 2.9250967502593994, 10.250128746032715, 22.37303924560547, 1.9627116918563843, 1.9729081392288208, 24400, 0.0002946111472034256]
+2023-09-04 00:35:11,999	44k	INFO	Saving model and optimizer state at iteration 137 to /content/drive/MyDrive/VITS2/44k/G_24400.pth
+2023-09-04 00:36:02,351	44k	INFO	Saving model and optimizer state at iteration 137 to /content/drive/MyDrive/VITS2/44k/D_24400.pth
+2023-09-04 00:36:57,558	44k	INFO	Saving model and optimizer state at iteration 137 to /content/drive/MyDrive/VITS2/44k/DUR_24400.pth
+2023-09-04 00:39:56,996	44k	INFO	====> Epoch: 137
+2023-09-04 00:41:51,011	44k	INFO	Train Epoch: 138 [43%]
+2023-09-04 00:41:51,013	44k	INFO	[2.1732778549194336, 2.8810417652130127, 9.821317672729492, 20.440689086914062, 1.7388231754302979, 1.934178352355957, 24600, 0.00029457432081002517]
+2023-09-04 00:44:00,875	44k	INFO	Saving model and optimizer state at iteration 138 to /content/drive/MyDrive/VITS2/44k/G_24600.pth
+2023-09-04 00:45:16,238	44k	INFO	Saving model and optimizer state at iteration 138 to /content/drive/MyDrive/VITS2/44k/D_24600.pth
+2023-09-04 00:46:26,110	44k	INFO	Saving model and optimizer state at iteration 138 to /content/drive/MyDrive/VITS2/44k/DUR_24600.pth
+2023-09-04 00:46:26,287	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_24200.pth
+2023-09-04 00:48:57,930	44k	INFO	====> Epoch: 138
+2023-09-04 00:51:23,216	44k	INFO	Train Epoch: 139 [55%]
+2023-09-04 00:51:23,218	44k	INFO	[2.3570244312286377, 2.412830352783203, 7.3377790451049805, 21.018369674682617, 1.9443669319152832, 1.8099664449691772, 24800, 0.0002945374990199239]
+2023-09-04 00:53:54,329	44k	INFO	Saving model and optimizer state at iteration 139 to /content/drive/MyDrive/VITS2/44k/G_24800.pth
+2023-09-04 00:55:34,477	44k	INFO	Saving model and optimizer state at iteration 139 to /content/drive/MyDrive/VITS2/44k/D_24800.pth
+2023-09-04 00:57:07,137	44k	INFO	Saving model and optimizer state at iteration 139 to /content/drive/MyDrive/VITS2/44k/DUR_24800.pth
+2023-09-04 00:59:03,101	44k	INFO	====> Epoch: 139
+2023-09-04 01:01:56,628	44k	INFO	Train Epoch: 140 [66%]
+2023-09-04 01:01:56,630	44k	INFO	[2.1278138160705566, 2.740927219390869, 10.058989524841309, 20.846248626708984, 1.7617179155349731, 1.8318034410476685, 25000, 0.00029450068183254637]
+2023-09-04 01:04:06,995	44k	INFO	Saving model and optimizer state at iteration 140 to /content/drive/MyDrive/VITS2/44k/G_25000.pth
+2023-09-04 01:06:30,129	44k	INFO	Saving model and optimizer state at iteration 140 to /content/drive/MyDrive/VITS2/44k/D_25000.pth
+2023-09-04 01:09:06,291	44k	INFO	Saving model and optimizer state at iteration 140 to /content/drive/MyDrive/VITS2/44k/DUR_25000.pth
+2023-09-04 01:09:08,969	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_24600.pth
+2023-09-04 01:10:36,562	44k	INFO	====> Epoch: 140
+2023-09-04 01:14:04,016	44k	INFO	Train Epoch: 141 [78%]
+2023-09-04 01:14:04,018	44k	INFO	[2.551879405975342, 2.6625514030456543, 8.022555351257324, 20.745466232299805, 2.189371347427368, 2.0234506130218506, 25200, 0.0002944638692473173]
+2023-09-04 01:16:28,624	44k	INFO	Saving model and optimizer state at iteration 141 to /content/drive/MyDrive/VITS2/44k/G_25200.pth
+2023-09-04 01:21:47,289	44k	INFO	Saving model and optimizer state at iteration 141 to /content/drive/MyDrive/VITS2/44k/D_25200.pth
+2023-09-04 01:27:53,710	44k	INFO	Saving model and optimizer state at iteration 141 to /content/drive/MyDrive/VITS2/44k/DUR_25200.pth
+2023-09-04 01:28:54,217	44k	INFO	====> Epoch: 141
+2023-09-04 01:32:49,883	44k	INFO	Train Epoch: 142 [90%]
+2023-09-04 01:32:49,889	44k	INFO	[2.483614921569824, 2.5194056034088135, 8.89025592803955, 20.777767181396484, 2.187922954559326, 2.069535970687866, 25400, 0.0002944270612636614]
+2023-09-04 01:49:15,617	44k	INFO	Saving model and optimizer state at iteration 142 to /content/drive/MyDrive/VITS2/44k/G_25400.pth
+2023-09-04 07:24:02,770	44k	INFO	{'train': {'log_interval': 200, 'eval_interval': 200, 'seed': 52, 'epochs': 10000, 'learning_rate': 0.0003, 'betas': [0.8, 0.99], 'eps': 1e-09, 'batch_size': 8, 'fp16_run': False, 'lr_decay': 0.999875, 'segment_size': 16384, 'init_lr_ratio': 1, 'warmup_epochs': 0, 'c_mel': 45, 'c_kl': 1.0}, 'data': {'use_mel_posterior_encoder': False, 'training_files': 'annotations/train.list', 'validation_files': 'annotations/val.list', 'max_wav_value': 32768.0, 'sampling_rate': 44100, 'filter_length': 2048, 'hop_length': 512, 'win_length': 2048, 'n_mel_channels': 128, 'mel_fmin': 0.0, 'mel_fmax': None, 'add_blank': True, 'n_speakers': 256, 'cleaned_text': True, 'spk2id': {'one': 0, 'bannite': 1}}, 'model': {'use_spk_conditioned_encoder': True, 'use_noise_scaled_mas': True, 'use_mel_posterior_encoder': False, 'use_duration_discriminator': True, 'inter_channels': 192, 'hidden_channels': 192, 'filter_channels': 768, 'n_heads': 2, 'n_layers': 6, 'kernel_size': 3, 'p_dropout': 0.1, 'resblock': '1', 'resblock_kernel_sizes': [3, 7, 11], 'resblock_dilation_sizes': [[1, 3, 5], [1, 3, 5], [1, 3, 5]], 'upsample_rates': [8, 8, 2, 2, 2], 'upsample_initial_channel': 512, 'upsample_kernel_sizes': [16, 16, 8, 2, 2], 'n_layers_q': 3, 'use_spectral_norm': False, 'gin_channels': 256}, 'model_dir': '/content/drive/MyDrive/VITS2/44k'}
+2023-09-04 07:24:03,075	44k	WARNING	/content/Bert-VITS2/modules is not a git repository, therefore hash value comparison will be ignored.
+2023-09-04 07:24:13,074	44k	INFO	Loaded checkpoint '/content/drive/MyDrive/VITS2/44k/DUR_25200.pth' (iteration 141)
+2023-09-04 07:24:18,781	44k	INFO	Loaded checkpoint '/content/drive/MyDrive/VITS2/44k/G_25200.pth' (iteration 141)
+2023-09-04 07:24:25,566	44k	INFO	Loaded checkpoint '/content/drive/MyDrive/VITS2/44k/D_25200.pth' (iteration 141)
+2023-09-04 07:29:25,446	44k	INFO	Train Epoch: 141 [78%]
+2023-09-04 07:29:25,448	44k	INFO	[2.553046464920044, 2.3103721141815186, 9.48946762084961, 20.289281845092773, 2.2400081157684326, 2.388735294342041, 25200, 0.0002944270612636614]
+2023-09-04 07:34:08,021	44k	INFO	Saving model and optimizer state at iteration 141 to /content/drive/MyDrive/VITS2/44k/G_25200.pth
+2023-09-04 07:34:10,660	44k	INFO	Saving model and optimizer state at iteration 141 to /content/drive/MyDrive/VITS2/44k/D_25200.pth
+2023-09-04 07:34:12,401	44k	INFO	Saving model and optimizer state at iteration 141 to /content/drive/MyDrive/VITS2/44k/DUR_25200.pth
+2023-09-04 07:35:11,983	44k	INFO	====> Epoch: 141
+2023-09-04 07:39:01,716	44k	INFO	Train Epoch: 142 [90%]
+2023-09-04 07:39:01,718	44k	INFO	[2.670517921447754, 2.387521266937256, 9.10590934753418, 21.580968856811523, 2.2292988300323486, 2.138517379760742, 25400, 0.00029439025788100345]
+2023-09-04 07:42:42,627	44k	INFO	Saving model and optimizer state at iteration 142 to /content/drive/MyDrive/VITS2/44k/G_25400.pth
+2023-09-04 07:42:45,971	44k	INFO	Saving model and optimizer state at iteration 142 to /content/drive/MyDrive/VITS2/44k/D_25400.pth
+2023-09-04 07:42:56,975	44k	INFO	Saving model and optimizer state at iteration 142 to /content/drive/MyDrive/VITS2/44k/DUR_25400.pth
+2023-09-04 07:43:21,143	44k	INFO	====> Epoch: 142
+2023-09-04 07:47:23,205	44k	INFO	====> Epoch: 143
+2023-09-04 07:47:28,344	44k	INFO	Train Epoch: 144 [2%]
+2023-09-04 07:47:28,345	44k	INFO	[2.3946781158447266, 3.3992161750793457, 8.199111938476562, 20.91508674621582, 1.91780686378479, 1.734372854232788, 25600, 0.00029431666491638094]
+2023-09-04 07:51:13,435	44k	INFO	Saving model and optimizer state at iteration 144 to /content/drive/MyDrive/VITS2/44k/G_25600.pth
+2023-09-04 07:51:26,079	44k	INFO	Saving model and optimizer state at iteration 144 to /content/drive/MyDrive/VITS2/44k/D_25600.pth
+2023-09-04 07:51:28,252	44k	INFO	Saving model and optimizer state at iteration 144 to /content/drive/MyDrive/VITS2/44k/DUR_25600.pth
+2023-09-04 07:51:28,683	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_25200.pth
+2023-09-04 07:55:25,454	44k	INFO	====> Epoch: 144
+2023-09-04 07:55:59,781	44k	INFO	Train Epoch: 145 [13%]
+2023-09-04 07:55:59,783	44k	INFO	[2.3497934341430664, 2.6035759449005127, 7.437193870544434, 20.316640853881836, 1.8565833568572998, 2.0053863525390625, 25800, 0.00029427987533326637]
+2023-09-04 07:58:59,680	44k	INFO	Saving model and optimizer state at iteration 145 to /content/drive/MyDrive/VITS2/44k/G_25800.pth
+2023-09-04 07:59:08,293	44k	INFO	Saving model and optimizer state at iteration 145 to /content/drive/MyDrive/VITS2/44k/D_25800.pth
+2023-09-04 07:59:13,193	44k	INFO	Saving model and optimizer state at iteration 145 to /content/drive/MyDrive/VITS2/44k/DUR_25800.pth
+2023-09-04 07:59:13,297	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/DUR_25200.pth
+2023-09-04 07:59:13,299	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_25400.pth
+2023-09-04 08:02:42,348	44k	INFO	====> Epoch: 145
+2023-09-04 08:03:41,303	44k	INFO	Train Epoch: 146 [25%]
+2023-09-04 08:03:41,305	44k	INFO	[2.4852967262268066, 2.3891754150390625, 7.589591979980469, 19.446430206298828, 1.9803946018218994, 1.678206205368042, 26000, 0.0002942430903488497]
+2023-09-04 08:06:31,545	44k	INFO	Saving model and optimizer state at iteration 146 to /content/drive/MyDrive/VITS2/44k/G_26000.pth
+2023-09-04 08:06:42,944	44k	INFO	Saving model and optimizer state at iteration 146 to /content/drive/MyDrive/VITS2/44k/D_26000.pth
+2023-09-04 08:07:03,271	44k	INFO	Saving model and optimizer state at iteration 146 to /content/drive/MyDrive/VITS2/44k/DUR_26000.pth
+2023-09-04 08:10:01,098	44k	INFO	====> Epoch: 146
+2023-09-04 08:11:30,647	44k	INFO	Train Epoch: 147 [37%]
+2023-09-04 08:11:30,649	44k	INFO	[2.3630177974700928, 2.3685240745544434, 11.41762638092041, 22.040569305419922, 2.064847946166992, 2.2168848514556885, 26200, 0.00029420630996255604]
+2023-09-04 08:14:22,403	44k	INFO	Saving model and optimizer state at iteration 147 to /content/drive/MyDrive/VITS2/44k/G_26200.pth
+2023-09-04 08:14:54,454	44k	INFO	Saving model and optimizer state at iteration 147 to /content/drive/MyDrive/VITS2/44k/D_26200.pth
+2023-09-04 08:15:16,625	44k	INFO	Saving model and optimizer state at iteration 147 to /content/drive/MyDrive/VITS2/44k/DUR_26200.pth
+2023-09-04 08:15:20,086	44k	INFO	.. Free up space by deleting ckpt /content/drive/MyDrive/VITS2/44k/D_25800.pth
+2023-09-04 08:17:49,414	44k	INFO	====> Epoch: 147
+2023-09-04 08:19:44,283	44k	INFO	Train Epoch: 148 [49%]
+2023-09-04 08:19:44,284	44k	INFO	[2.304558753967285, 2.6027443408966064, 14.481352806091309, 23.502111434936523, 2.1040356159210205, 1.998482584953308, 26400, 0.0002941695341738107]
+2023-09-04 08:22:14,197	44k	INFO	Saving model and optimizer state at iteration 148 to /content/drive/MyDrive/VITS2/44k/G_26400.pth
+2023-09-04 08:22:46,413	44k	INFO	Saving model and optimizer state at iteration 148 to /content/drive/MyDrive/VITS2/44k/D_26400.pth
+2023-09-04 08:23:16,707	44k	INFO	Saving model and optimizer state at iteration 148 to /content/drive/MyDrive/VITS2/44k/DUR_26400.pth
+2023-09-04 08:25:19,719	44k	INFO	====> Epoch: 148
+2023-09-04 08:27:44,076	44k	INFO	Train Epoch: 149 [60%]
+2023-09-04 08:27:44,078	44k	INFO	[2.3198330402374268, 2.6744229793548584, 7.977146148681641, 20.523868560791016, 1.928351640701294, 2.1132431030273438, 26600, 0.00029413276298203894]
+2023-09-04 08:30:19,364	44k	INFO	Saving model and optimizer state at iteration 149 to /content/drive/MyDrive/VITS2/44k/G_26600.pth
+2023-09-04 08:31:01,031	44k	INFO	Saving model and optimizer state at iteration 149 to /content/drive/MyDrive/VITS2/44k/D_26600.pth
+2023-09-04 08:31:41,001	44k	INFO	Saving model and optimizer state at iteration 149 to /content/drive/MyDrive/VITS2/44k/DUR_26600.pth
+2023-09-04 08:33:19,232	44k	INFO	====> Epoch: 149
+2023-09-04 08:36:09,075	44k	INFO	Train Epoch: 150 [72%]
+2023-09-04 08:36:09,076	44k	INFO	[2.3845930099487305, 2.5050315856933594, 7.163986682891846, 19.6138916015625, 2.026806592941284, 1.9910022020339966, 26800, 0.0002940959963866662]
+2023-09-04 08:38:40,279	44k	INFO	Saving model and optimizer state at iteration 150 to /content/drive/MyDrive/VITS2/44k/G_26800.pth
+2023-09-04 08:39:38,349	44k	INFO	Saving model and optimizer state at iteration 150 to /content/drive/MyDrive/VITS2/44k/D_26800.pth
+2023-09-04 08:40:30,875	44k	INFO	Saving model and optimizer state at iteration 150 to /content/drive/MyDrive/VITS2/44k/DUR_26800.pth
+2023-09-04 08:41:38,265	44k	INFO	====> Epoch: 150
+2023-09-04 08:44:56,417	44k	INFO	Train Epoch: 151 [84%]
+2023-09-04 08:44:56,419	44k	INFO	[2.2364137172698975, 2.7397055625915527, 8.245647430419922, 20.13323974609375, 1.8721448183059692, 2.411893844604492, 27000, 0.00029405923438711784]
+2023-09-04 08:47:16,099	44k	INFO	Saving model and optimizer state at iteration 151 to /content/drive/MyDrive/VITS2/44k/G_27000.pth
+2023-09-04 08:48:26,994	44k	INFO	Saving model and optimizer state at iteration 151 to /content/drive/MyDrive/VITS2/44k/D_27000.pth
+2023-09-04 08:49:32,010	44k	INFO	Saving model and optimizer state at iteration 151 to /content/drive/MyDrive/VITS2/44k/DUR_27000.pth
+2023-09-04 08:50:11,913	44k	INFO	====> Epoch: 151
+2023-09-04 08:53:59,430	44k	INFO	Train Epoch: 152 [96%]
+2023-09-04 08:53:59,432	44k	INFO	[2.356987953186035, 2.964341878890991, 7.933073997497559, 19.703123092651367, 1.8616284132003784, 2.0793280601501465, 27200, 0.00029402247698281946]
+2023-09-04 08:56:13,495	44k	INFO	Saving model and optimizer state at iteration 152 to /content/drive/MyDrive/VITS2/44k/G_27200.pth
+2023-09-04 08:58:11,591	44k	INFO	Saving model and optimizer state at iteration 152 to /content/drive/MyDrive/VITS2/44k/D_27200.pth
+2023-09-04 09:00:23,449	44k	INFO	Saving model and optimizer state at iteration 152 to /content/drive/MyDrive/VITS2/44k/DUR_27200.pth
+2023-09-04 09:00:38,000	44k	INFO	====> Epoch: 152
+2023-09-04 09:04:32,423	44k	INFO	====> Epoch: 153
+2023-09-04 09:04:52,250	44k	INFO	Train Epoch: 154 [7%]
+2023-09-04 09:04:52,251	44k	INFO	[2.273108720779419, 2.502533435821533, 9.123769760131836, 22.003204345703125, 1.9643580913543701, 2.1583690643310547, 27400, 0.0002939489759576749]
+2023-09-04 09:07:12,210	44k	INFO	Saving model and optimizer state at iteration 154 to /content/drive/MyDrive/VITS2/44k/G_27400.pth
+2023-09-04 09:14:08,450	44k	INFO	Saving model and optimizer state at iteration 154 to /content/drive/MyDrive/VITS2/44k/D_27400.pth
+2023-09-04 09:23:16,011	44k	INFO	Saving model and optimizer state at iteration 154 to /content/drive/MyDrive/VITS2/44k/DUR_27400.pth
+2023-09-04 09:27:08,707	44k	INFO	====> Epoch: 154
+2023-09-04 09:27:54,170	44k	INFO	Train Epoch: 155 [19%]
+2023-09-04 09:27:54,176	44k	INFO	[2.047987937927246, 2.789231777191162, 8.084284782409668, 21.612518310546875, 1.7658991813659668, 1.9708976745605469, 27600, 0.00029391223233568017]
+2023-09-04 09:53:26,168	44k	INFO	Saving model and optimizer state at iteration 155 to /content/drive/MyDrive/VITS2/44k/G_27600.pth
+2023-09-04 10:13:28,269	44k	INFO	Saving model and optimizer state at iteration 155 to /content/drive/MyDrive/VITS2/44k/D_27600.pth
