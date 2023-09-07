@@ -225,11 +225,11 @@ def clean_checkpoints(path_to_models='OUTPUT_MODEL/44k/', n_ckpts_to_keep=2, sor
 
      # Modify the x_sorted lambda function to exclude files in the specified list
     exclude_files = [
-        'G_10000.pth', 'G_20000.pth', 'G_30000.pth', 'G_40000.pth', 'G_50000.pth', 'G_60000.pth',
-        'G_70000.pth', 'G_80000.pth', 'G_90000.pth', 'G_100000.pth', 'G_110000.pth', 'G_120000.pth',
-        'G_130000.pth', 'G_140000.pth', 'G_160000.pth', 'G_170000.pth', 'G_180000.pth', 'G_190000.pth',
-        'G_200000.pth', 'G_210000.pth', 'G_220000.pth'
-    ]
+        'G_10000.pth', 'G_15000.pth','G_20000.pth', 'G_25000.pth','G_30000.pth','G_35000.pth', 'G_40000.pth', 'G_45000.pth' ,'G_50000.pth','G_55000.pth','G_60000.pth','G_65000.pth',
+        'G_70000.pth','G_75000.pth', 'G_80000.pth', 'G_85000.pth','G_90000.pth','G_95000.pth', 'G_100000.pth', 'G_105000.pth', 'G_110000.pth', 'G_115000.pth' ,'G_120000.pth','G_125000.pth',
+        'G_130000.pth', 'G_135000.pth','G_140000.pth','G_145000.pth', 'G_160000.pth', 'G_165000.pth', 'G_170000.pth', 'G_175000.pth','G_180000.pth', 'G_185000.pth','G_190000.pth','G_195000.pth',
+        'G_200000.pth','G_205000.pth', 'G_210000.pth', 'G_215000.pth', 'G_220000.pth', 'G_225000.pth'
+]
 
     #x_sorted = lambda _x: sorted([f for f in ckpts_files if f.startswith(_x) and not f.endswith('_0.pth')],
                                 # key=sort_key)
