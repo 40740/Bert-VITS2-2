@@ -340,7 +340,7 @@ def train_and_evaluate(rank, epoch, hps, nets, optims, schedulers, scaler, loade
                                       os.path.join(hps.model_dir, "D_{}.pth".format(global_step)))
                 if net_dur_disc is not None:
                     utils.save_checkpoint(net_dur_disc, optim_dur_disc, hps.train.learning_rate, epoch, os.path.join(hps.model_dir, "DUR_{}.pth".format(global_step)))    
-                keep_ckpts = getattr(hps.train, 'keep_ckpts', 5)
+                keep_ckpts = getattr(hps.train, 'keep_ckpts', 2)
                 if keep_ckpts > 0:
                     utils.clean_checkpoints(path_to_models=hps.model_dir, n_ckpts_to_keep=keep_ckpts, sort_by_time=True)
 
