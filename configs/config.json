@@ -35,8 +35,7 @@
     "n_speakers": 256,
     "cleaned_text": true,
     "spk2id": {
-      "one": 0,
-      "bannite": 1
+      "momo": 0
     }
   },
   "model": {
