@@ -186,7 +186,7 @@ def get_hparams(init=True):
     return hparams
 
 '''
-def clean_checkpoints(path_to_models='OUTPUT_MODEL/44k/', n_ckpts_to_keep=2, sort_by_time=True):
+def clean_checkpoints(path_to_models='OUTPUT_MODEL/44k/', n_ckpts_to_keep=8, sort_by_time=True):
     """Freeing up space by deleting saved ckpts
 
   Arguments:
