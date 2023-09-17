@@ -52,7 +52,6 @@ wanziwavs/51.wav|wanzi|ZH|在天津儿童医院等三甲医院的门口
 wanziwavs/52.wav|wanzi|ZH|竟然出现了一群
 wanziwavs/53.wav|wanzi|ZH|光明正大都售儿童退烧药的黄牛
 wanziwavs/54.wav|wanzi|ZH|引得监管爸爸火速出击把黄牛抓了
-wanziwavs/55.wav|wanzi|ZH|但是
 wanziwavs/56.wav|wanzi|ZH|像这样卖天价药的群体不在少数啊
 wanziwavs/57.wav|wanzi|ZH|按业内人士说法
 wanziwavs/58.wav|wanzi|ZH|布洛芬这种药
@@ -150,7 +149,6 @@ wanziwavs/149.wav|wanzi|ZH|拿回国内市场就够了吗
 wanziwavs/150.wav|wanzi|ZH|想要真正的超越日韩
 wanziwavs/151.wav|wanzi|ZH|我们必须在海外市场也战胜他们
 wanziwavs/152.wav|wanzi|ZH|做到出口逆袭
-wanziwavs/153.wav|wanzi|ZH|面前
 wanziwavs/154.wav|wanzi|ZH|冲到全球第二了
 wanziwavs/155.wav|wanzi|ZH|而长城汽车
 wanziwavs/156.wav|wanzi|ZH|就是我国出海的主力军之一
@@ -176,7 +174,6 @@ wanziwavs/175.wav|wanzi|ZH|拍着胸脯说要推出不限速产品啊
 wanziwavs/176.wav|wanzi|ZH|但是到了今天一年时间过去了
 wanziwavs/177.wav|wanzi|ZH|还是有人在使用网盘的时候会感叹
 wanziwavs/178.wav|wanzi|ZH|你认真的吗
-wanziwavs/179.wav|wanzi|ZH|为啥
 wanziwavs/180.wav|wanzi|ZH|限速卖会员的这个模式难以动摇呢
 wanziwavs/181.wav|wanzi|ZH|要追溯到十年前的网盘大战啊
 wanziwavs/182.wav|wanzi|ZH|金山百度等多个巨头加入到战场
@@ -205,7 +202,6 @@ wanziwavs/204.wav|wanzi|ZH|自带的微盘免费
 wanziwavs/205.wav|wanzi|ZH|上传和下载都不限速
 wanziwavs/206.wav|wanzi|ZH|在安全问题上
 wanziwavs/207.wav|wanzi|ZH|单独的文件和文件架都可以设置权
-wanziwavs/208.wav|wanzi|ZH|限啊
 wanziwavs/209.wav|wanzi|ZH|给外部客户发资料的时候可以直接
 wanziwavs/210.wav|wanzi|ZH|发到对方微信
 wanziwavs/211.wav|wanzi|ZH|文件被下载了还有通知提醒
@@ -259,7 +255,6 @@ wanziwavs/258.wav|wanzi|ZH|完善搞球的支付方法等等
 wanziwavs/259.wav|wanzi|ZH|这些要是真的能够做到
 wanziwavs/260.wav|wanzi|ZH|那织网躺着赚钱的时代
 wanziwavs/261.wav|wanzi|ZH|恐怕是一去不复返了
-wanziwavs/262.wav|wanzi|ZH|喂
 wanziwavs/263.wav|wanzi|ZH|日本的养老圣地居然是监狱
 wanziwavs/264.wav|wanzi|ZH|你没有听错啊
 wanziwavs/265.wav|wanzi|ZH|只要从超市顺走一块价值十几的三明
@@ -803,7 +798,6 @@ wanziwavs/802.wav|wanzi|ZH|把北京的五棵松卓展
 wanziwavs/803.wav|wanzi|ZH|长沙的奥克斯广场等知名商圈
 wanziwavs/804.wav|wanzi|ZH|全部变成了万达广场
 wanziwavs/805.wav|wanzi|ZH|就一个有钱任性
-wanziwavs/806.wav|wanzi|ZH|啊
 wanziwavs/807.wav|wanzi|ZH|按照前几天万达商馆秀出的成绩单
 wanziwavs/808.wav|wanzi|ZH|这让王健林来了一波大翻身啊
 wanziwavs/809.wav|wanzi|ZH|重新回到内地的地产首富
@@ -932,7 +926,6 @@ wanziwavs/931.wav|wanzi|ZH|特斯拉也开始慌了最
 wanziwavs/932.wav|wanzi|ZH|近开启了大降价
 wanziwavs/933.wav|wanzi|ZH|牺牲利润也要保住销量
 wanziwavs/934.wav|wanzi|ZH|你觉得今年的销量之王会花落谁家
-wanziwavs/935.wav|wanzi|ZH|喂
 wanziwavs/936.wav|wanzi|ZH|今年的春节档有多猛啊
 wanziwavs/937.wav|wanzi|ZH|居然连看电影都能买到无座票
 wanziwavs/938.wav|wanzi|ZH|因为一座难求
@@ -964,7 +957,6 @@ wanziwavs/963.wav|wanzi|ZH|很多从业者呢也不得不转行
 wanziwavs/964.wav|wanzi|ZH|只希望今年春节档开了个好头啊
 wanziwavs/965.wav|wanzi|ZH|影院们能够回到正轨
 wanziwavs/966.wav|wanzi|ZH|别再被迫提高票价来活下去了
-wanziwavs/967.wav|wanzi|ZH|喂
 wanziwavs/968.wav|wanzi|ZH|都说春晚是产业发展的风向标
 wanziwavs/969.wav|wanzi|ZH|那前两年的风呢
 wanziwavs/970.wav|wanzi|ZH|是互联网大厂的红包雨吹来的
@@ -1081,7 +1073,6 @@ wanziwavs/1080.wav|wanzi|ZH|美国工厂毛利率
 wanziwavs/1081.wav|wanzi|ZH|也达不到现在公司的一半
 wanziwavs/1082.wav|wanzi|ZH|那成本大幅上升芯片会不会涨价
 wanziwavs/1083.wav|wanzi|ZH|多花的冤枉钱谁来买单呢
-wanziwavs/1084.wav|wanzi|ZH|喂
 wanziwavs/1085.wav|wanzi|ZH|三桶油的利润突破历史记录
 wanziwavs/1086.wav|wanzi|ZH|而隔壁的中海油涨得更猛啊
 wanziwavs/1087.wav|wanzi|ZH|净利润直接翻倍了
@@ -1110,7 +1101,6 @@ wanziwavs/1109.wav|wanzi|ZH|今年大概率是不会再出现
 wanziwavs/1110.wav|wanzi|ZH|油价过山车的情况了
 wanziwavs/1111.wav|wanzi|ZH|涨的话呢会比较温和的涨
 wanziwavs/1112.wav|wanzi|ZH|大幅下跌也很难出现
-wanziwavs/1113.wav|wanzi|ZH|喂
 wanziwavs/1114.wav|wanzi|ZH|曾经一位员工炫富
 wanziwavs/1115.wav|wanzi|ZH|今天又火了
 wanziwavs/1116.wav|wanzi|ZH|因为他作为金融大佬
@@ -1155,7 +1145,6 @@ wanziwavs/1154.wav|wanzi|ZH|终于要被制止了吗
 wanziwavs/1155.wav|wanzi|ZH|最近北京市
 wanziwavs/1156.wav|wanzi|ZH|互联网法院就因为限制投屏的问题
 wanziwavs/1157.wav|wanzi|ZH|对于爱奇艺进行了立案
-wanziwavs/1158.wav|wanzi|ZH|其呢
 wanziwavs/1159.wav|wanzi|ZH|是广东一名用户发现自己当了冤大头
 wanziwavs/1160.wav|wanzi|ZH|用爱奇艺投屏
 wanziwavs/1161.wav|wanzi|ZH|却不能自由的选择这个视频清晰度
@@ -1567,7 +1556,6 @@ wanziwavs/1566.wav|wanzi|ZH|全球范围的去美元化就可能会发生
 wanziwavs/1567.wav|wanzi|ZH|过去一年
 wanziwavs/1568.wav|wanzi|ZH|全球央行说白了就在干两件事
 wanziwavs/1569.wav|wanzi|ZH|一个是买黄金一个是抛美元
-wanziwavs/1570.wav|wanzi|ZH|去年
 wanziwavs/1571.wav|wanzi|ZH|而且除了保持汇率之外
 wanziwavs/1572.wav|wanzi|ZH|也意味着美元遭遇到了信任危机
 wanziwavs/1573.wav|wanzi|ZH|毕竟老额的美元都能随便被冻结
@@ -1575,7 +1563,6 @@ wanziwavs/1574.wav|wanzi|ZH|谁不害怕这个事发生在自己身上啊
 wanziwavs/1575.wav|wanzi|ZH|但是呢黄金它冻结不了
 wanziwavs/1576.wav|wanzi|ZH|所以疯狂买黄金
 wanziwavs/1577.wav|wanzi|ZH|其实就是远离美元的象征
-wanziwavs/1578.wav|wanzi|ZH|去年
 wanziwavs/1579.wav|wanzi|ZH|全球央行已经从美债的最大买家
 wanziwavs/1580.wav|wanzi|ZH|变成了最大卖家
 wanziwavs/1581.wav|wanzi|ZH|美元占到全球外汇的比重
@@ -1633,7 +1620,6 @@ wanziwavs/1632.wav|wanzi|ZH|在最近苹果官网上
 wanziwavs/1633.wav|wanzi|ZH|赫然出现了个家居板块
 wanziwavs/1634.wav|wanzi|ZH|卖的都是智能音箱和灯泡这样的家电
 wanziwavs/1635.wav|wanzi|ZH|这意味着
-wanziwavs/1636.wav|wanzi|ZH|苹果
 wanziwavs/1637.wav|wanzi|ZH|正式杀入到中国的智能家居市场啊
 wanziwavs/1638.wav|wanzi|ZH|想从人们的手里走到人们家里
 wanziwavs/1639.wav|wanzi|ZH|为啥要卖这些呢
@@ -1766,7 +1752,6 @@ wanziwavs/1765.wav|wanzi|ZH|不得不依赖外部书写
 wanziwavs/1766.wav|wanzi|ZH|所以呢想要人才不流失
 wanziwavs/1767.wav|wanzi|ZH|归根结底还是要涨工资啊喂
 wanziwavs/1768.wav|wanzi|ZH|华为跌倒到底谁吃饱了
-wanziwavs/1769.wav|wanzi|ZH|最近
 wanziwavs/1770.wav|wanzi|ZH|小米的芦苇冰就公布了一个数据啊
 wanziwavs/1771.wav|wanzi|ZH|说过去三年时间
 wanziwavs/1772.wav|wanzi|ZH|简单说就是三家分进这里面
@@ -1880,10 +1865,8 @@ wanziwavs/1879.wav|wanzi|ZH|有没有发展的前景
 wanziwavs/1880.wav|wanzi|ZH|很多网友的回复是
 wanziwavs/1881.wav|wanzi|ZH|你建议我不在意工资
 wanziwavs/1882.wav|wanzi|ZH|那我就建议你不要在意我的工作能力
-wanziwavs/1883.wav|wanzi|ZH|哦
 wanziwavs/1884.wav|wanzi|ZH|还有人说又让我们别在意这工资低
 wanziwavs/1885.wav|wanzi|ZH|又让我们买房结婚生娃
-wanziwavs/1886.wav|wanzi|ZH|建议
 wanziwavs/1887.wav|wanzi|ZH|专家们考虑考虑他们之间的联系哦
 wanziwavs/1888.wav|wanzi|ZH|总之今年关于年轻人工资低的事
 wanziwavs/1889.wav|wanzi|ZH|已经有很多专家发表过经典言论
@@ -1906,13 +1889,11 @@ wanziwavs/1905.wav|wanzi|ZH|也是因为不缺人
 wanziwavs/1906.wav|wanzi|ZH|所以很多岗位的薪资
 wanziwavs/1907.wav|wanzi|ZH|这些年并没有什么增长
 wanziwavs/1908.wav|wanzi|ZH|按智联的数据啊
-wanziwavs/1909.wav|wanzi|ZH|去年
 wanziwavs/1910.wav|wanzi|ZH|只能说如果真的不想让他在意
 wanziwavs/1911.wav|wanzi|ZH|刚入职时的工资
 wanziwavs/1912.wav|wanzi|ZH|那至少工资要涨得上去吧
 wanziwavs/1913.wav|wanzi|ZH|不然不谈当下只谈未来的话
 wanziwavs/1914.wav|wanzi|ZH|年轻人根本就消化不了老板们的饼啊
-wanziwavs/1915.wav|wanzi|ZH|喂
 wanziwavs/1916.wav|wanzi|ZH|短视频为什么让美国和欧洲都害怕了
 wanziwavs/1917.wav|wanzi|ZH|最近美国白宫就传出了一个要求
 wanziwavs/1918.wav|wanzi|ZH|让所有的联邦设备和系统
@@ -2045,7 +2026,6 @@ wanziwavs/2043.wav|wanzi|ZH|所以对个股类研究更加深入
 wanziwavs/2044.wav|wanzi|ZH|还善于把握主线
 wanziwavs/2045.wav|wanzi|ZH|他都有不错的表现
 wanziwavs/2046.wav|wanzi|ZH|个税颤抖了
-wanziwavs/2047.wav|wanzi|ZH|今天
 wanziwavs/2048.wav|wanzi|ZH|成功冲上了热搜
 wanziwavs/2049.wav|wanzi|ZH|因为个税战神董明珠
 wanziwavs/2050.wav|wanzi|ZH|再次以全国人大代表的身份
@@ -2077,7 +2057,6 @@ wanziwavs/2075.wav|wanzi|ZH|都还没有做到
 wanziwavs/2076.wav|wanzi|ZH|这不是言而无信吗
 wanziwavs/2077.wav|wanzi|ZH|对这个事董明珠今天也回应了
 wanziwavs/2078.wav|wanzi|ZH|说集团员工一人一套房的承诺不会变
-wanziwavs/2079.wav|wanzi|ZH|其实
 wanziwavs/2080.wav|wanzi|ZH|主要是给珠海中山已婚无房的员工
 wanziwavs/2081.wav|wanzi|ZH|但是这几年环境不好
 wanziwavs/2082.wav|wanzi|ZH|影响了格力电器很多计划
@@ -2470,7 +2449,6 @@ wanziwavs/2468.wav|wanzi|ZH|但是在高端算例上我们还差距很大
 wanziwavs/2469.wav|wanzi|ZH|想要跨过鸿沟呢
 wanziwavs/2470.wav|wanzi|ZH|需要更多的科技巨头真金白银的投入
 wanziwavs/2471.wav|wanzi|ZH|而不是盯着外卖和电商内
-wanziwavs/2472.wav|wanzi|ZH|卷呢喂
 wanziwavs/2473.wav|wanzi|ZH|湖北武汉都蒙了
 wanziwavs/2474.wav|wanzi|ZH|给汽车降价居然还能挨骂
 wanziwavs/2475.wav|wanzi|ZH|只给本地的车企搞补贴有错吗
@@ -2609,7 +2587,6 @@ wanziwavs/2607.wav|wanzi|ZH|这场地震的余波还没有消散啊
 wanziwavs/2608.wav|wanzi|ZH|巴菲特老爷子可以说是提前避险了
 wanziwavs/2609.wav|wanzi|ZH|而更加离谱的是比亚迪
 wanziwavs/2610.wav|wanzi|ZH|持仓降低了四成左
-wanziwavs/2611.wav|wanzi|ZH|右啊
 wanziwavs/2612.wav|wanzi|ZH|登顶全球第一
 wanziwavs/2613.wav|wanzi|ZH|有人笑话巴菲特是看走眼了
 wanziwavs/2614.wav|wanzi|ZH|股神的老搭档芒格也说
@@ -2626,7 +2603,6 @@ wanziwavs/2624.wav|wanzi|ZH|也有人说
 wanziwavs/2625.wav|wanzi|ZH|股神已经廉颇蝼矣
 wanziwavs/2626.wav|wanzi|ZH|到底是运气还是预判
 wanziwavs/2627.wav|wanzi|ZH|你怎么看
-wanziwavs/2628.wav|wanzi|ZH|哪位
 wanziwavs/2629.wav|wanzi|ZH|越南都蒙了
 wanziwavs/2630.wav|wanzi|ZH|耐克阿迪在中国市场挨吹
 wanziwavs/2631.wav|wanzi|ZH|倒霉的却是越南
@@ -2638,7 +2614,6 @@ wanziwavs/2636.wav|wanzi|ZH|四季度更是腰斩啊
 wanziwavs/2637.wav|wanzi|ZH|而隔壁耐克的日子也不好过
 wanziwavs/2638.wav|wanzi|ZH|这下就轮到越南傻眼了
 wanziwavs/2639.wav|wanzi|ZH|因为他现在是耐克和阿迪的主要制造
-wanziwavs/2640.wav|wanzi|ZH|基地
 wanziwavs/2641.wav|wanzi|ZH|按全球最大的运动鞋代工企业宝
 wanziwavs/2642.wav|wanzi|ZH|成集团计划
 wanziwavs/2643.wav|wanzi|ZH|越南制造算是背了锅啊
@@ -2673,7 +2648,6 @@ wanziwavs/2671.wav|wanzi|ZH|次革命性的技术变革
 wanziwavs/2672.wav|wanzi|ZH|就是第二次
 wanziwavs/2673.wav|wanzi|ZH|它的重要性甚至不亚于电脑
 wanziwavs/2674.wav|wanzi|ZH|互联网和手机的出现
-wanziwavs/2675.wav|wanzi|ZH|将会
 wanziwavs/2676.wav|wanzi|ZH|改变人们学习工作交流的所有方式
 wanziwavs/2677.wav|wanzi|ZH|而在电脑时代我们是全面落后
 wanziwavs/2678.wav|wanzi|ZH|美国出现了微软英特尔等巨头
@@ -2697,7 +2671,6 @@ wanziwavs/2695.wav|wanzi|ZH|所以文心妍是百度多年沉淀的积累
 wanziwavs/2696.wav|wanzi|ZH|虽然还不完美
 wanziwavs/2697.wav|wanzi|ZH|能够接近百度
 wanziwavs/2698.wav|wanzi|ZH|才能够在人工智能时代不落后太多
-wanziwavs/2699.wav|wanzi|ZH|呀
 wanziwavs/2700.wav|wanzi|ZH|马云回国了
 wanziwavs/2701.wav|wanzi|ZH|互联网行业的哀垂要告一段落了吗
 wanziwavs/2702.wav|wanzi|ZH|过去很长时间马老师要么在日本泡温
@@ -2756,7 +2729,6 @@ wanziwavs/2754.wav|wanzi|ZH|主要就是因为工资降了
 wanziwavs/2755.wav|wanzi|ZH|连打工皇帝库克都没能幸免
 wanziwavs/2756.wav|wanzi|ZH|最近库克宣布
 wanziwavs/2757.wav|wanzi|ZH|这听起来高的离谱啊
-wanziwavs/2758.wav|wanzi|ZH|但是
 wanziwavs/2759.wav|wanzi|ZH|所以对比起来今年至少是薪资砍半
 wanziwavs/2760.wav|wanzi|ZH|那为啥库克和苹果高管们会降薪呢
 wanziwavs/2761.wav|wanzi|ZH|主要就因为苹果的股价下跌
@@ -2821,7 +2793,6 @@ wanziwavs/2819.wav|wanzi|ZH|为什么互联网巨头成了贬义词
 wanziwavs/2820.wav|wanzi|ZH|就是因为没了创新还大赚特赚
 wanziwavs/2821.wav|wanzi|ZH|你觉得张勇这一枪
 wanziwavs/2822.wav|wanzi|ZH|能不能打醒阿里和整个互联网行业啊
-wanziwavs/2823.wav|wanzi|ZH|喂
 wanziwavs/2824.wav|wanzi|ZH|什么叫阿里看了会流泪
 wanziwavs/2825.wav|wanzi|ZH|腾讯看了会羞愧
 wanziwavs/2826.wav|wanzi|ZH|但是他的研发投入创下历史新高啊
@@ -2846,7 +2817,6 @@ wanziwavs/2844.wav|wanzi|ZH|头多在过去的十年时间
 wanziwavs/2845.wav|wanzi|ZH|在全球都是相当炸裂的
 wanziwavs/2846.wav|wanzi|ZH|那也有人说了
 wanziwavs/2847.wav|wanzi|ZH|为什么只看到砸钱没有看到产出呢
-wanziwavs/2848.wav|wanzi|ZH|其实
 wanziwavs/2849.wav|wanzi|ZH|很多产出都是在大家看不到的地方
 wanziwavs/2850.wav|wanzi|ZH|比如说前任的华为
 wanziwavs/2851.wav|wanzi|ZH|这可是芯片领域的重大突破
@@ -3015,7 +2985,6 @@ wanziwavs/3013.wav|wanzi|ZH|管理费更低
 wanziwavs/3014.wav|wanzi|ZH|存取款更加方便的地方呢
 wanziwavs/3015.wav|wanzi|ZH|信任的崩塌只需要一瞬间
 wanziwavs/3016.wav|wanzi|ZH|而信任的重建或许需要新的几百年
-wanziwavs/3017.wav|wanzi|ZH|呐喂
 wanziwavs/3018.wav|wanzi|ZH|全国人口被暴
 wanziwavs/3019.wav|wanzi|ZH|击的最狠的地方在哪里啊
 wanziwavs/3020.wav|wanzi|ZH|在东北啊
@@ -3108,7 +3077,6 @@ wanziwavs/3106.wav|wanzi|ZH|手机加车机
 wanziwavs/3107.wav|wanzi|ZH|魅族这次已经是占得先机
 wanziwavs/3108.wav|wanzi|ZH|这个话不是我说的
 wanziwavs/3109.wav|wanzi|ZH|是最近北大教授林逸夫说的
-wanziwavs/3110.wav|wanzi|ZH|他说
 wanziwavs/3111.wav|wanzi|ZH|人们以后可能每周只用工作一天
 wanziwavs/3112.wav|wanzi|ZH|而网友的评论都是
 wanziwavs/3113.wav|wanzi|ZH|我只担心
@@ -3133,7 +3101,6 @@ wanziwavs/3131.wav|wanzi|ZH|不再需要一张纸
 wanziwavs/3132.wav|wanzi|ZH|在医疗领域呢
 wanziwavs/3133.wav|wanzi|ZH|平安好医生实现了线上问诊送药上门
 wanziwavs/3134.wav|wanzi|ZH|由此可见
-wanziwavs/3135.wav|wanzi|ZH|科
 wanziwavs/3136.wav|wanzi|ZH|技在不断提升金融服务的品质和效率
 wanziwavs/3137.wav|wanzi|ZH|为客户提供了省时
 wanziwavs/3138.wav|wanzi|ZH|省钱又省心的服务体验
@@ -3228,7 +3195,6 @@ wanziwavs/3226.wav|wanzi|ZH|曾经胡志明市的房
 wanziwavs/3227.wav|wanzi|ZH|流动性触底
 wanziwavs/3228.wav|wanzi|ZH|要知道
 wanziwavs/3229.wav|wanzi|ZH|不知道接下来三个季度能不能弥补啊
-wanziwavs/3230.wav|wanzi|ZH|喂
 wanziwavs/3231.wav|wanzi|ZH|买得起的在涨价买不起的在降价
 wanziwavs/3232.wav|wanzi|ZH|最近关于通缩都炒翻天了
 wanziwavs/3233.wav|wanzi|ZH|为什么印钞机哐哐的印钱
@@ -3369,7 +3335,6 @@ wanziwavs/3367.wav|wanzi|ZH|流量难收
 wanziwavs/3368.wav|wanzi|ZH|早晚会盯上存量
 wanziwavs/3369.wav|wanzi|ZH|通过房地产税的方式来增加地方收入
 wanziwavs/3370.wav|wanzi|ZH|你觉得房产税距离我们还有多远呢
-wanziwavs/3371.wav|wanzi|ZH|喂
 wanziwavs/3372.wav|wanzi|ZH|澳门那边最新数据啊
 wanziwavs/3373.wav|wanzi|ZH|人民币在中国跨境交易当中
 wanziwavs/3374.wav|wanzi|ZH|使用量首次超过了美元
@@ -3631,7 +3596,6 @@ wanziwavs/3629.wav|wanzi|ZH|那我会从你的利润里把补贴给扣走
 wanziwavs/3630.wav|wanzi|ZH|你看啊钱没捞多少还惹一身骚
 wanziwavs/3631.wav|wanzi|ZH|赴美建厂的芯片巨头们
 wanziwavs/3632.wav|wanzi|ZH|正在被老美玩弄于鼓掌之中
-wanziwavs/3633.wav|wanzi|ZH|啊喂
 wanziwavs/3634.wav|wanzi|ZH|不能让中国应用这么嚣张下去啦
 wanziwavs/3635.wav|wanzi|ZH|美国现在已经开始反思了
 wanziwavs/3636.wav|wanzi|ZH|为什么美国年轻人最喜欢的
@@ -3698,7 +3662,6 @@ wanziwavs/3696.wav|wanzi|ZH|你呼吁大家给发放冰激凌的小
 wanziwavs/3697.wav|wanzi|ZH|姐姐多些宽容
 wanziwavs/3698.wav|wanzi|ZH|他们刚踏入社会
 wanziwavs/3699.wav|wanzi|ZH|但是大家质疑的是你们公司的形象
-wanziwavs/3700.wav|wanzi|ZH|哪位
 wanziwavs/3701.wav|wanzi|ZH|中国只有一家公司拿下过全球第一
 wanziwavs/3702.wav|wanzi|ZH|华为被针对之后
 wanziwavs/3703.wav|wanzi|ZH|谁能扛起下一面大旗啊
@@ -3796,13 +3759,11 @@ wanziwavs/3794.wav|wanzi|ZH|也难怪有网友说
 wanziwavs/3795.wav|wanzi|ZH|你以为人家牛的是烧烤啊
 wanziwavs/3796.wav|wanzi|ZH|其实强的是公民素质
 wanziwavs/3797.wav|wanzi|ZH|行政能力还有营商环境
-wanziwavs/3798.wav|wanzi|ZH|哪位
 wanziwavs/3799.wav|wanzi|ZH|曾经的房价堪比北上广
 wanziwavs/3800.wav|wanzi|ZH|这两年暴跌了八九成
 wanziwavs/3801.wav|wanzi|ZH|哪怕是靠海别墅都无人问津
 wanziwavs/3802.wav|wanzi|ZH|你问这个地方是哪啊
 wanziwavs/3803.wav|wanzi|ZH|他就是曾经风靡全球的元宇宙
-wanziwavs/3804.wav|wanzi|ZH|最近
 wanziwavs/3805.wav|wanzi|ZH|元宇宙这三个字又刷了一波存在感啊
 wanziwavs/3806.wav|wanzi|ZH|秦氏知名歌手林某某
 wanziwavs/3807.wav|wanzi|ZH|当年是豪掷千金在元宇宙上卖房
@@ -3811,7 +3772,6 @@ wanziwavs/3809.wav|wanzi|ZH|一年半之前
 wanziwavs/3810.wav|wanzi|ZH|元宇宙房价暴跌的背后呢
 wanziwavs/3811.wav|wanzi|ZH|其实整个元宇宙概念的玉龙
 wanziwavs/3812.wav|wanzi|ZH|从小甜甜变成牛夫人
-wanziwavs/3813.wav|wanzi|ZH|之前
 wanziwavs/3814.wav|wanzi|ZH|为了梭哈原宇宙不惜改名的脸书啊
 wanziwavs/3815.wav|wanzi|ZH|去年一年
 wanziwavs/3816.wav|wanzi|ZH|在原宇宙业务上亏损了近千亿
@@ -3986,7 +3946,6 @@ wanziwavs/3984.wav|wanzi|ZH|那你觉得
 wanziwavs/3985.wav|wanzi|ZH|到底是比亚迪在智能驾驶方面不给力
 wanziwavs/3986.wav|wanzi|ZH|贬低行业
 wanziwavs/3987.wav|wanzi|ZH|还是华为汽车业务要靠自动驾驶赚钱
-wanziwavs/3988.wav|wanzi|ZH|抬高自己呀喂
 wanziwavs/3989.wav|wanzi|ZH|汽车保险大变革啊
 wanziwavs/3990.wav|wanzi|ZH|保费刺客新能源汽车还能嚣张下去吗
 wanziwavs/3991.wav|wanzi|ZH|全国汽车保险将会迎来新一轮的变革
@@ -4029,7 +3988,6 @@ wanziwavs/4026.wav|wanzi|ZH|监管驾驶员是否分心或者疲劳
 wanziwavs/4026.wav|wanzi|ZH|防止事故发生并且不会存储用户数据
 wanziwavs/4027.wav|wanzi|ZH|越厚积焚
 wanziwavs/4028.wav|wanzi|ZH|如果这些称之为汽车的感知五官的话
-wanziwavs/4029.wav|wanzi|ZH|那指
 wanziwavs/4030.wav|wanzi|ZH|挥五官就需要一颗足够聪明的大脑
 wanziwavs/4031.wav|wanzi|ZH|比如是中央集中电子电器架构
 wanziwavs/4032.wav|wanzi|ZH|不仅可以融合调度车内的软硬件
@@ -4200,7 +4158,6 @@ wanziwavs/4181.wav|wanzi|ZH|不过大家对这种高额的亏损
 wanziwavs/4182.wav|wanzi|ZH|已经是见怪不怪了
 wanziwavs/4183.wav|wanzi|ZH|毕竟什么离谱的事发生在恒
 wanziwavs/4184.wav|wanzi|ZH|大身上都不算
-wanziwavs/4185.wav|wanzi|ZH|奇怪
 wanziwavs/4186.wav|wanzi|ZH|甚至许老板最近还上演了播我签字
 wanziwavs/4187.wav|wanzi|ZH|但是我当时瞎了的神奇操作
 wanziwavs/4188.wav|wanzi|ZH|如果说恒大现在是死马当活马移
@@ -4457,7 +4414,6 @@ wanziwavs/4438.wav|wanzi|ZH|印度就威胁特斯拉说
 wanziwavs/4439.wav|wanzi|ZH|你要是在印度建厂可以啊
 wanziwavs/4440.wav|wanzi|ZH|但是呢你要学苹果
 wanziwavs/4441.wav|wanzi|ZH|把你的中国供应链搬到印度
-wanziwavs/4442.wav|wanzi|ZH|让
 wanziwavs/4443.wav|wanzi|ZH|中国供应商跟印度公司成立合资企业
 wanziwavs/4444.wav|wanzi|ZH|以前很多特斯拉都是中国制造
 wanziwavs/4445.wav|wanzi|ZH|以后呢印度想把它变成中印合造
@@ -4470,7 +4426,6 @@ wanziwavs/4451.wav|wanzi|ZH|特斯拉上海工厂产量占到特斯拉全
 wanziwavs/4452.wav|wanzi|ZH|球总产量一半以上
 wanziwavs/4453.wav|wanzi|ZH|你觉得印度咄咄逼人之下
 wanziwavs/4454.wav|wanzi|ZH|咱们新能源行业蛋糕会不会被抢走啊
-wanziwavs/4455.wav|wanzi|ZH|喂
 wanziwavs/4456.wav|wanzi|ZH|德国要对华为动手
 wanziwavs/4457.wav|wanzi|ZH|结果吓哭了中兴
 wanziwavs/4458.wav|wanzi|ZH|因为消息说德国正在摩拳擦掌
@@ -4643,7 +4598,6 @@ wanziwavs/4624.wav|wanzi|ZH|还没有死心呢
 wanziwavs/4625.wav|wanzi|ZH|你觉得
 wanziwavs/4626.wav|wanzi|ZH|到底还靠不靠创新赚钱
 wanziwavs/4627.wav|wanzi|ZH|屠龙少年有没有变成收保护费的恶龙
-wanziwavs/4628.wav|wanzi|ZH|那位
 wanziwavs/4629.wav|wanzi|ZH|华为手机要重返全球市场了
 wanziwavs/4630.wav|wanzi|ZH|要把失去的东西都拿回来
 wanziwavs/4631.wav|wanzi|ZH|甚至连华尔街都被影响了
@@ -4816,7 +4770,6 @@ wanziwavs/4797.wav|wanzi|ZH|通过反复的涨价降价拉扯对手
 wanziwavs/4798.wav|wanzi|ZH|创造关注度
 wanziwavs/4799.wav|wanzi|ZH|实现利润和销量的动态平衡
 wanziwavs/4800.wav|wanzi|ZH|只能说特斯拉已经把价格战玩明白了
-wanziwavs/4801.wav|wanzi|ZH|喂
 wanziwavs/4802.wav|wanzi|ZH|中东土豪们最近真的是人在家中坐
 wanziwavs/4803.wav|wanzi|ZH|锅从天上来
 wanziwavs/4804.wav|wanzi|ZH|不让咱们在人工证实在跑太快啊
@@ -4825,7 +4778,6 @@ wanziwavs/4806.wav|wanzi|ZH|扭头再卖给中国
 wanziwavs/4807.wav|wanzi|ZH|这个事还是芯片巨头英伟达爆出来的
 wanziwavs/4808.wav|wanzi|ZH|他在一份文件里面写到
 wanziwavs/4809.wav|wanzi|ZH|华盛顿通知他们对运往某些地区
-wanziwavs/4810.wav|wanzi|ZH|括弧
 wanziwavs/4811.wav|wanzi|ZH|提出了额外的许可要求
 wanziwavs/4812.wav|wanzi|ZH|也是人工智能算力建设的核心武器
 wanziwavs/4813.wav|wanzi|ZH|老美就不让
@@ -4835,7 +4787,6 @@ wanziwavs/4816.wav|wanzi|ZH|有专家分析说
 wanziwavs/4817.wav|wanzi|ZH|这就是为了防
 wanziwavs/4818.wav|wanzi|ZH|止中国从这中东国家手里
 wanziwavs/4819.wav|wanzi|ZH|购买被限制的芯片
-wanziwavs/4820.wav|wanzi|ZH|所以
 wanziwavs/4821.wav|wanzi|ZH|老美回应说
 wanziwavs/4822.wav|wanzi|ZH|他们没有阻止向中东地区销售芯片啊
 wanziwavs/4823.wav|wanzi|ZH|是怎么回事呢
@@ -4924,7 +4875,6 @@ wanziwavs/4905.wav|wanzi|ZH|实际的意思就是寻找光明和知识的人
 wanziwavs/4906.wav|wanzi|ZH|多么高大上啊
 wanziwavs/4907.wav|wanzi|ZH|而且长期来
 wanziwavs/4908.wav|wanzi|ZH|印度人自己都是把这个当成国家的称
-wanziwavs/4909.wav|wanzi|ZH|呼
 wanziwavs/4910.wav|wanzi|ZH|比如说之前是印度和巴拉特混用的
 wanziwavs/4911.wav|wanzi|ZH|现在他们想在国际
 wanziwavs/4912.wav|wanzi|ZH|上把印度这个名字彻底抛弃
@@ -5060,7 +5010,6 @@ wanziwavs/5041.wav|wanzi|ZH|而咱们的服装出口却被抢了饭碗啊
 wanziwavs/5042.wav|wanzi|ZH|主要就是棉质服装被暴击
 wanziwavs/5043.wav|wanzi|ZH|不过呢
 wanziwavs/5044.wav|wanzi|ZH|这场棉花之战谁能笑到最后不一定
-wanziwavs/5045.wav|wanzi|ZH|因为在中国市场
 wanziwavs/5046.wav|wanzi|ZH|已经有一大批国产品牌崛起
 wanziwavs/5047.wav|wanzi|ZH|咱们自己的棉花自己用
 wanziwavs/5048.wav|wanzi|ZH|像中国衬衫品牌实入室
@@ -5081,7 +5030,6 @@ wanziwavs/5062.wav|wanzi|ZH|实如室的衬衫
 wanziwavs/5063.wav|wanzi|ZH|让他们家衬衫可以更加符合亚
 wanziwavs/5064.wav|wanzi|ZH|洲人的版型
 wanziwavs/5065.wav|wanzi|ZH|就算是不同的身材
-wanziwavs/5066.wav|wanzi|ZH|也可以在实如室当中找到合适的衬衫
 wanziwavs/5067.wav|wanzi|ZH|这样看来
 wanziwavs/5068.wav|wanzi|ZH|未来国产品牌的崛起
 wanziwavs/5069.wav|wanzi|ZH|将会成为棉花之战后半场的关键呢
@@ -5094,7 +5042,6 @@ wanziwavs/5075.wav|wanzi|ZH|在这个事的影响下呢
 wanziwavs/5076.wav|wanzi|ZH|越来越多的官媒开始呼吁
 wanziwavs/5077.wav|wanzi|ZH|房价限跌令该打破了
 wanziwavs/5078.wav|wanzi|ZH|要允许房企降价自救
-wanziwavs/5079.wav|wanzi|ZH|不过短期降价一时爽长期发展很迷茫
 wanziwavs/5080.wav|wanzi|ZH|降价
 wanziwavs/5081.wav|wanzi|ZH|顶多解决房企短期手头没有钱的问题
 wanziwavs/5082.wav|wanzi|ZH|但长期怎么发展才是关键
@@ -5185,12 +5132,10 @@ wanziwavs/5150.wav|wanzi|ZH|该节目暂停播出
 wanziwavs/5151.wav|wanzi|ZH|所以呢随着李文录音的发酵
 wanziwavs/5152.wav|wanzi|ZH|浙江卫视终于是顶不住压力了
 wanziwavs/5153.wav|wanzi|ZH|有网友吐槽说儿子多年来作恶多端
-wanziwavs/5154.wav|wanzi|ZH|但赚了钱不是还往家里送吗
 wanziwavs/5155.wav|wanzi|ZH|父亲现在说要好好管教你细品
 wanziwavs/5156.wav|wanzi|ZH|但甭管浙江卫视这个当爹的
 wanziwavs/5157.wav|wanzi|ZH|拿的多不多啊
 wanziwavs/5158.wav|wanzi|ZH|中国好声音背后的公司星空华文
-wanziwavs/5159.wav|wanzi|ZH|最近都跌麻了
 wanziwavs/5160.wav|wanzi|ZH|而之所以被资本上暴击
 wanziwavs/5161.wav|wanzi|ZH|也是因为这家公司高
 wanziwavs/5162.wav|wanzi|ZH|度依赖中国好声音这一档节目
@@ -5460,7 +5405,6 @@ wanziwavs/5395.wav|wanzi|ZH|说团结才是力量
 wanziwavs/5396.wav|wanzi|ZH|后脚他们就团结的打了起来
 wanziwavs/5397.wav|wanzi|ZH|纷纷打起了价格战
 wanziwavs/5398.wav|wanzi|ZH|把在一起变成了揍一起
-wanziwavs/5399.wav|wanzi|ZH|已经是巅峰了
 wanziwavs/5400.wav|wanzi|ZH|这才过去了十几天
 wanziwavs/5401.wav|wanzi|ZH|已经未来领跑哪吒等十多家车企
 wanziwavs/5402.wav|wanzi|ZH|通过各种方式降价促销
@@ -5878,7 +5822,6 @@ wanziwavs/5811.wav|wanzi|ZH|舰并称为造船业三明珠的存在
 wanziwavs/5812.wav|wanzi|ZH|难度可想而知
 wanziwavs/5813.wav|wanzi|ZH|咱们中国
 wanziwavs/5814.wav|wanzi|ZH|难题才把它拿下了
-wanziwavs/5815.wav|wanzi|ZH|成为了全球唯一
 wanziwavs/5816.wav|wanzi|ZH|集齐航空母舰液化天然气船
 wanziwavs/5817.wav|wanzi|ZH|还有大型邮轮三明珠的国家
 wanziwavs/5818.wav|wanzi|ZH|而这种制造崛起不仅体现在造船上
@@ -5939,8 +5882,6 @@ wanziwavs/5872.wav|wanzi|ZH|他也敢对万达电影大开刀弃阻保帅
 wanziwavs/5873.wav|wanzi|ZH|但真正的考验是万达商馆今天能
 wanziwavs/5874.wav|wanzi|ZH|不能上市
 wanziwavs/5875.wav|wanzi|ZH|王健林这是背水一战呐喂
-wanziwavs/5876.wav|wanzi|ZH|前脚
-wanziwavs/5877.wav|wanzi|ZH|刚
 wanziwavs/5878.wav|wanzi|ZH|传出特斯拉要在印度大力投资汽车工
 wanziwavs/5879.wav|wanzi|ZH|厂后脚
 wanziwavs/5880.wav|wanzi|ZH|印度就拒绝了比亚
@@ -5985,9 +5926,7 @@ wanziwavs/5918.wav|wanzi|ZH|但是比亚迪不相信印度啊
 wanziwavs/5919.wav|wanzi|ZH|坚持要求印度付全款付清了才能发货
 wanziwavs/5920.wav|wanzi|ZH|这直接惹恼了印度高官
 wanziwavs/5921.wav|wanzi|ZH|他们怒喷比亚迪违反商业惯例
-wanziwavs/5922.wav|wanzi|ZH|损害印度信誉
 wanziwavs/5923.wav|wanzi|ZH|这可能也是这次
-wanziwavs/5924.wav|wanzi|ZH|印度拒绝比亚迪建厂的导火索
 wanziwavs/5925.wav|wanzi|ZH|只能说印度这个营商环境
 wanziwavs/5926.wav|wanzi|ZH|谁去了不得提心吊胆呐喂
 wanziwavs/5927.wav|wanzi|ZH|广州首富和上海首富在美国打起来了
@@ -5999,11 +5938,9 @@ wanziwavs/5932.wav|wanzi|ZH|开心的享受退军幕后的生活
 wanziwavs/5933.wav|wanzi|ZH|却突然发现
 wanziwavs/5934.wav|wanzi|ZH|自己的亲儿子海外版拼多多
 wanziwavs/5935.wav|wanzi|ZH|在美国被人给揍了
-wanziwavs/5936.wav|wanzi|ZH|揍
 wanziwavs/5937.wav|wanzi|ZH|徐仰天创办了电商平台适应
 wanziwavs/5938.wav|wanzi|ZH|这部垄断是什么呢
 wanziwavs/5939.wav|wanzi|ZH|于是起诉了新婴
-wanziwavs/5940.wav|wanzi|ZH|而新婴的回复是我没有别瞎说
 wanziwavs/5941.wav|wanzi|ZH|告我你得讲证据啊
 wanziwavs/5942.wav|wanzi|ZH|实际上去年以来他就开始了互殴
 wanziwavs/5943.wav|wanzi|ZH|都在疯狂起诉对方
@@ -6028,21 +5965,13 @@ wanziwavs/5961.wav|wanzi|ZH|当年在中国天猫和京东在我面前打架
 wanziwavs/5962.wav|wanzi|ZH|最后是我被踹出了中国市场
 wanziwavs/5963.wav|wanzi|ZH|回美国又看到中国电商平台在打架
 wanziwavs/5964.wav|wanzi|ZH|你们能不能消停点啊喂
-wanziwavs/5965.wav|wanzi|ZH|银行已经蒙了降低了存款利率
-wanziwavs/5966.wav|wanzi|ZH|但是大家为了存钱却更拼了
 wanziwavs/5967.wav|wanzi|ZH|就在上个月
-wanziwavs/5968.wav|wanzi|ZH|国有六大行集体甩除了王炸
-wanziwavs/5969.wav|wanzi|ZH|对存款利率再砍一刀
-wanziwavs/5970.wav|wanzi|ZH|谁曾想啊
 wanziwavs/5971.wav|wanzi|ZH|这都没有拦住大家的存款热情
 wanziwavs/5972.wav|wanzi|ZH|有些人呢
 wanziwavs/5973.wav|wanzi|ZH|甚至是扛着现金坐火车跨省去存钱
-wanziwavs/5974.wav|wanzi|ZH|只有很多中小银行的反应会慢一拍
 wanziwavs/5975.wav|wanzi|ZH|像贵州广西四川一些地方
 wanziwavs/5976.wav|wanzi|ZH|中小银行
-wanziwavs/5977.wav|wanzi|ZH|所以哪怕有些银行不能异地展业
 wanziwavs/5978.wav|wanzi|ZH|都拦不住大家跨省去存钱
-wanziwavs/5979.wav|wanzi|ZH|六大行看完估计也是懵的
 wanziwavs/5980.wav|wanzi|ZH|我降利率是为了让你们多消费啊
 wanziwavs/5981.wav|wanzi|ZH|再看楼市
 wanziwavs/5982.wav|wanzi|ZH|看手机一记录
@@ -6055,17 +5984,12 @@ wanziwavs/5987.wav|wanzi|ZH|体现了大家对于健康越发重视
 wanziwavs/5988.wav|wanzi|ZH|各大电商平台不敢放这个总销售额
 wanziwavs/5988.wav|wanzi|ZH|某东也敢秀出健康产品的成绩
 wanziwavs/5989.wav|wanzi|ZH|血糖仪等医疗器械成了热门
-wanziwavs/5990.wav|wanzi|ZH|而在医疗器械赛道
-wanziwavs/5990.wav|wanzi|ZH|逾越医疗就是妥妥的领跑者
 wanziwavs/5991.wav|wanzi|ZH|它的动态血糖监测系统鱼跃安耐糖
 wanziwavs/5992.wav|wanzi|ZH|方便子女和父母
 wanziwavs/5993.wav|wanzi|ZH|随时随地了解健康数据
 wanziwavs/5994.wav|wanzi|ZH|除了血糖仪
-wanziwavs/5995.wav|wanzi|ZH|呢约医疗还有制氧机呼吸机
 wanziwavs/5996.wav|wanzi|ZH|血压剂等产品
 wanziwavs/5997.wav|wanzi|ZH|在健康管理上做到全覆盖
-wanziwavs/5998.wav|wanzi|ZH|总之一场消费寒冬
-wanziwavs/5999.wav|wanzi|ZH|反而见证了健康消费的坚挺啊
 wanziwavs/6000.wav|wanzi|ZH|消费可以省但是健康不能丢
 wanziwavs/6001.wav|wanzi|ZH|万达开始渡劫了
 wanziwavs/6002.wav|wanzi|ZH|千亿资产被冻结
@@ -6119,7 +6043,6 @@ wanziwavs/6043.wav|wanzi|ZH|哪怕放弃价值千亿的项目
 wanziwavs/6043.wav|wanzi|ZH|都要退出印度的半导体计划呢
 wanziwavs/6044.wav|wanzi|ZH|就在昨天
 wanziwavs/6045.wav|wanzi|ZH|富士康发的公告说他不跟印度玩了
-wanziwavs/6046.wav|wanzi|ZH|要退
 wanziwavs/6047.wav|wanzi|ZH|出他跟印度金属石油巨头韦丹塔集团
 wanziwavs/6048.wav|wanzi|ZH|牵手共建的
 wanziwavs/6049.wav|wanzi|ZH|半导体合资企业
@@ -6196,7 +6119,6 @@ wanziwavs/6119.wav|wanzi|ZH|发动机合资公司
 wanziwavs/6120.wav|wanzi|ZH|给中国自主品牌送来了发动机
 wanziwavs/6121.wav|wanzi|ZH|而新能源时代他已经是悄然落后了
 wanziwavs/6122.wav|wanzi|ZH|你觉得下一个剖盖的日系车会是谁
-wanziwavs/6123.wav|wanzi|ZH|啊喂
 wanziwavs/6124.wav|wanzi|ZH|曾经被视作最稳房企的万达
 wanziwavs/6125.wav|wanzi|ZH|最近竟然也出现了债务危机啊
 wanziwavs/6126.wav|wanzi|ZH|王健林从买买买开启了卖卖卖模式
@@ -6205,7 +6127,6 @@ wanziwavs/6128.wav|wanzi|ZH|就在今天
 wanziwavs/6129.wav|wanzi|ZH|价格出现了暴跌
 wanziwavs/6130.wav|wanzi|ZH|简单说就是市场对万达的还
 wanziwavs/6131.wav|wanzi|ZH|债能力提出了质疑
-wanziwavs/6132.wav|wanzi|ZH|不
 wanziwavs/6133.wav|wanzi|ZH|相信他能够在这个月把到期的美元
 wanziwavs/6134.wav|wanzi|ZH|债给还上
 wanziwavs/6135.wav|wanzi|ZH|也是这周日
@@ -6240,7 +6161,6 @@ wanziwavs/6163.wav|wanzi|ZH|甚至还可以出手抄底啊
 wanziwavs/6164.wav|wanzi|ZH|而今年呢已经到了要还钱的时候了
 wanziwavs/6165.wav|wanzi|ZH|还多还少能不能还得起
 wanziwavs/6166.wav|wanzi|ZH|就要看万达商馆能不能上市了
-wanziwavs/6167.wav|wanzi|ZH|喂
 wanziwavs/6168.wav|wanzi|ZH|小米在印度开启了大裁员
 wanziwavs/6169.wav|wanzi|ZH|外企坟场是待不下去了
 wanziwavs/6170.wav|wanzi|ZH|最近就有消息说
@@ -6520,7 +6440,6 @@ wanziwavs/6441.wav|wanzi|ZH|消费不景气
 wanziwavs/6442.wav|wanzi|ZH|让电商行业持续多年的消费
 wanziwavs/6443.wav|wanzi|ZH|升级时代彻底结束了
 wanziwavs/6444.wav|wanzi|ZH|一场卷价格的行业巨变正在拉开序幕
-wanziwavs/6445.wav|wanzi|ZH|啊喂
 wanziwavs/6446.wav|wanzi|ZH|曾经收割全球的钻石如今价格暴跌
 wanziwavs/6447.wav|wanzi|ZH|营销神话玩不动了
 wanziwavs/6448.wav|wanzi|ZH|在最近
@@ -6549,7 +6468,6 @@ wanziwavs/6469.wav|wanzi|ZH|随着市场风格上升
 wanziwavs/6470.wav|wanzi|ZH|未来这个钻石价格可能还会跳水
 wanziwavs/6471.wav|wanzi|ZH|而论保值钻石又被黄金完爆
 wanziwavs/6472.wav|wanzi|ZH|黄金是金钻石只是碳
-wanziwavs/6473.wav|wanzi|ZH|黄金
 wanziwavs/6474.wav|wanzi|ZH|是制造很多高科技产品不可替代的原
 wanziwavs/6475.wav|wanzi|ZH|材料而钻石呢似乎只能拿来看看
 wanziwavs/6476.wav|wanzi|ZH|一年前五个月
@@ -6610,7 +6528,6 @@ wanziwavs/6529.wav|wanzi|ZH|只能说杠杆一时爽割肉火葬场
 wanziwavs/6530.wav|wanzi|ZH|你觉得抄底内地楼市的香港巨头
 wanziwavs/6531.wav|wanzi|ZH|会不会成为内地房企
 wanziwavs/6532.wav|wanzi|ZH|债务危机的最大赢家
-wanziwavs/6533.wav|wanzi|ZH|啊喂
 wanziwavs/6534.wav|wanzi|ZH|你没有爱啊
 wanziwavs/6535.wav|wanzi|ZH|谁能想到
 wanziwavs/6536.wav|wanzi|ZH|人工智能的最大副作用居然是离婚呢
@@ -6643,7 +6560,6 @@ wanziwavs/6562.wav|wanzi|ZH|已经成了拆家狂魔了
 wanziwavs/6563.wav|wanzi|ZH|那只能说
 wanziwavs/6564.wav|wanzi|ZH|按股价一涨就离婚的定律
 wanziwavs/6565.wav|wanzi|ZH|做了多少贡献呢
-wanziwavs/6566.wav|wanzi|ZH|为
 wanziwavs/6567.wav|wanzi|ZH|随便来趟中国身家暴涨千亿
 wanziwavs/6568.wav|wanzi|ZH|重夺世界首富
 wanziwavs/6569.wav|wanzi|ZH|小说都不敢这么写
@@ -7465,7 +7381,6 @@ wanziwavs/7384.wav|wanzi|ZH|劳动人口严重不足只能引发老将上阵
 wanziwavs/7385.wav|wanzi|ZH|目前日本老年人就业人数
 wanziwavs/7386.wav|wanzi|ZH|所以咱们老龄化加深
 wanziwavs/7387.wav|wanzi|ZH|你觉得会不会像日本那样永不下班呢
-wanziwavs/7388.wav|wanzi|ZH|喂
 wanziwavs/7389.wav|wanzi|ZH|外国车企今年都被中国市场给干蒙了
 wanziwavs/7390.wav|wanzi|ZH|纷纷搞起了大裁员
 wanziwavs/7391.wav|wanzi|ZH|福特中国最近大手一挥
@@ -7758,20 +7673,14 @@ wanziwavs/7677.wav|wanzi|ZH|大家来深圳都是为了搞钱嘛
 wanziwavs/7678.wav|wanzi|ZH|但是去年因为这个特殊原因
 wanziwavs/7679.wav|wanzi|ZH|工作不好找
 wanziwavs/7680.wav|wanzi|ZH|薪资不给力
-wanziwavs/7681.wav|wanzi|ZH|很多企业还在向社会输送人才
 wanziwavs/7682.wav|wanzi|ZH|一些人就回老家等待机会
 wanziwavs/7683.wav|wanzi|ZH|收入的不景气呢
 wanziwavs/7684.wav|wanzi|ZH|也让深圳的高房价更加可怕
-wanziwavs/7685.wav|wanzi|ZH|别说均价五六万去买房
 wanziwavs/7686.wav|wanzi|ZH|就连租房一个月都得大几千
 wanziwavs/7687.wav|wanzi|ZH|吃得苦中苦房东开路虎
-wanziwavs/7688.wav|wanzi|ZH|而且连企业都顶不住了
 wanziwavs/7689.wav|wanzi|ZH|制造业就因为用地成本纷纷逃离深圳
 wanziwavs/7690.wav|wanzi|ZH|这五六年
-wanziwavs/7691.wav|wanzi|ZH|这些都影响了深圳的人口啊
-wanziwavs/7692.wav|wanzi|ZH|所以说今年的深圳能不能满血复活啊
 wanziwavs/7693.wav|wanzi|ZH|就看打工人在深圳好不好搞钱
-wanziwavs/7694.wav|wanzi|ZH|毕竟整个广东的搞钱文化都很浓
 wanziwavs/7695.wav|wanzi|ZH|各路拜神呢主要也是求发财
 wanziwavs/7696.wav|wanzi|ZH|趣味理财报告里
 wanziwavs/7697.wav|wanzi|ZH|广东人就是遥遥领先的
@@ -7779,14 +7688,11 @@ wanziwavs/7698.wav|wanzi|ZH|过去三年时间
 wanziwavs/7699.wav|wanzi|ZH|要比没到的年均收益
 wanziwavs/7700.wav|wanzi|ZH|而广东年轻人凭借会选机会配置
 wanziwavs/7701.wav|wanzi|ZH|坚持定投三大优势
-wanziwavs/7702.wav|wanzi|ZH|强势领先
 wanziwavs/7703.wav|wanzi|ZH|让广东成为理财强省
 wanziwavs/7703.wav|wanzi|ZH|那你的理财能力如何呢
 wanziwavs/7704.wav|wanzi|ZH|上支付宝搜理财分
 wanziwavs/7704.wav|wanzi|ZH|就可以查看到完整的报告
 wanziwavs/7705.wav|wanzi|ZH|还可以代表你的家乡
-wanziwavs/7706.wav|wanzi|ZH|前脚兄弟砍我后脚理财暴雷
-wanziwavs/7707.wav|wanzi|ZH|明星代言的种种乱象
 wanziwavs/7708.wav|wanzi|ZH|终于要被治治了吗
 wanziwavs/7708.wav|wanzi|ZH|今年北京出了一个新规啊
 wanziwavs/7708.wav|wanzi|ZH|要求明星代言产品的时候
@@ -7842,8 +7748,6 @@ wanziwavs/7752.wav|wanzi|ZH|程序员们就离失业更近一步
 wanziwavs/7753.wav|wanzi|ZH|而更主要的原因
 wanziwavs/7754.wav|wanzi|ZH|是全球互联网寒冬来了
 wanziwavs/7755.wav|wanzi|ZH|以前咱们说这个韩东说的国内啊
-wanziwavs/7756.wav|wanzi|ZH|主要是监管爸爸在整治巨头
-wanziwavs/7756.wav|wanzi|ZH|而现在是全球性的
 wanziwavs/7757.wav|wanzi|ZH|像亚马逊
 wanziwavs/7758.wav|wanzi|ZH|去年出现了近十年来首次亏损
 wanziwavs/7759.wav|wanzi|ZH|究其原因呢
@@ -7853,7 +7757,6 @@ wanziwavs/7762.wav|wanzi|ZH|还有经济增速的放缓
 wanziwavs/7763.wav|wanzi|ZH|所有人说
 wanziwavs/7764.wav|wanzi|ZH|程序员的高薪还真是不好挣啊
 wanziwavs/7765.wav|wanzi|ZH|实际上更加重要是健康危机啊
-wanziwavs/7766.wav|wanzi|ZH|很多人久坐敲代码
 wanziwavs/7767.wav|wanzi|ZH|腰酸背痛的问题越积越多
 wanziwavs/7768.wav|wanzi|ZH|就很适合程序员中久坐的职业
 wanziwavs/7769.wav|wanzi|ZH|它独特的多米诺腰靠设计
@@ -7921,7 +7824,6 @@ wanziwavs/7830.wav|wanzi|ZH|步步高创始人段永平也回应了这件事
 wanziwavs/7831.wav|wanzi|ZH|说改正错误要尽早
 wanziwavs/7832.wav|wanzi|ZH|多大的代价都是最小的代价
 wanziwavs/7833.wav|wanzi|ZH|那你觉得放弃是遗憾还是及时止损呢
-wanziwavs/7834.wav|wanzi|ZH|喂
 wanziwavs/7835.wav|wanzi|ZH|降价挨骂涨价被夸
 wanziwavs/7836.wav|wanzi|ZH|特斯拉这波都懵了
 wanziwavs/7837.wav|wanzi|ZH|中国市场真会玩
@@ -8030,7 +7932,6 @@ wanziwavs/7939.wav|wanzi|ZH|同时呢
 wanziwavs/7940.wav|wanzi|ZH|结束就是连股神都开始减少股票投入
 wanziwavs/7941.wav|wanzi|ZH|跑去买风险更低的国库券了
 wanziwavs/7942.wav|wanzi|ZH|足以说明很多问题啊而
-wanziwavs/7943.wav|wanzi|ZH|前阵子马斯克也发出了预警
 wanziwavs/7944.wav|wanzi|ZH|说现在经济已经是处在轻微衰退了
 wanziwavs/7945.wav|wanzi|ZH|要是美联储继续加薪
 wanziwavs/7945.wav|wanzi|ZH|那就会走向严重衰退
@@ -8193,7 +8094,6 @@ wanziwavs/8100.wav|wanzi|ZH|后来就有人建议说
 wanziwavs/8101.wav|wanzi|ZH|干脆设立一个静娃区
 wanziwavs/8102.wav|wanzi|ZH|把熊孩子赶出一些饭店和咖啡馆
 wanziwavs/8103.wav|wanzi|ZH|本来也只是各立的
-wanziwavs/8104.wav|wanzi|ZH|但是架不住韩国生育率一路下滑
 wanziwavs/8105.wav|wanzi|ZH|越来越多人不生娃的时候
 wanziwavs/8106.wav|wanzi|ZH|静娃区就越来越普及了
 wanziwavs/8107.wav|wanzi|ZH|按韩国统计厅最新报告
@@ -8204,8 +8104,6 @@ wanziwavs/8111.wav|wanzi|ZH|为什么还要忍受孩子的吵闹
 wanziwavs/8112.wav|wanzi|ZH|禁止儿童入内
 wanziwavs/8113.wav|wanzi|ZH|是为了保护他享受安静的权利
 wanziwavs/8113.wav|wanzi|ZH|他们甚至还觉得
-wanziwavs/8114.wav|wanzi|ZH|要在电影院图书馆
-wanziwavs/8115.wav|wanzi|ZH|甚至火车飞机上都搞禁娃区
 wanziwavs/8116.wav|wanzi|ZH|但是也有人说了这是在搞歧视
 wanziwavs/8117.wav|wanzi|ZH|侵犯儿童的权益啊
 wanziwavs/8117.wav|wanzi|ZH|带娃出门的宝妈宝爸
