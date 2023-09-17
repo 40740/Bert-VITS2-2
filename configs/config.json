@@ -1,9 +1,9 @@
 {
   "train": {
     "log_interval": 200,
-    "eval_interval": 1000,
+    "eval_interval": 200,
     "seed": 52,
-    "epochs": 1000000,
+    "epochs": 10000,
     "learning_rate": 0.0003,
     "betas": [
       0.8,
@@ -35,7 +35,11 @@
     "n_speakers": 256,
     "cleaned_text": true,
     "spk2id": {
-      "momo": 0
+      "aoao": 0,
+      "bannite": 1,
+      "momo": 2,
+      "one": 3,
+      "wanzi": 4
     }
   },
   "model": {
