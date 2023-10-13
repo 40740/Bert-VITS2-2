@@ -1,7 +1,7 @@
 {
   "train": {
     "log_interval": 200,
-    "eval_interval": 1000,
+    "eval_interval": 200,
     "seed": 52,
     "epochs": 10000,
     "learning_rate": 0.0003,
@@ -10,7 +10,7 @@
       0.99
     ],
     "eps": 1e-09,
-    "batch_size": 8,
+    "batch_size": 12,
     "fp16_run": false,
     "lr_decay": 0.999875,
     "segment_size": 16384,
@@ -35,11 +35,7 @@
     "n_speakers": 256,
     "cleaned_text": true,
     "spk2id": {
-      "aoao": 0,
-      "bannite": 1,
-      "momo": 2,
-      "one": 3,
-      "wanzi": 4
+      "qiang": 0
     }
   },
   "model": {
