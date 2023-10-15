@@ -35,7 +35,8 @@
     "n_speakers": 256,
     "cleaned_text": true,
     "spk2id": {
-      "qiang": 0
+      "qiang": 0,
+      "bannite": 1
     }
   },
   "model": {
